@@ -1,0 +1,19 @@
+{
+  "project": "RA XOTT - идеи, которые работают",
+  "sites_project_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7",
+  "sites_url": "https://ra-xott-showcase.imberdnyk.chatgpt.site",
+  "recovery_date": "2026-10-03",
+  "source_file": "RA-XOTT-preview-v2.html (preserved in separate RA-XOTT-v2-backup.zip)",
+  "source_library_file_id": "libfile_b3d40f9478788191bf5a86b1693a569c",
+  "source_modified_at": "2026-10-02T15:46:35.809296Z",
+  "source_sha256": "1cb7811acd55928643a18e122c59efbf81d9a081f33f6f919548b646f6dd6628",
+  "sites_latest_saved_version": 2,
+  "sites_latest_reported_commit": "667d2c1b86306a4b805d18cc1b1f85b6eb9c700b",
+  "verified_against_sites_git": false,
+  "status": "Recovered standalone v2 preview; not an export of Sites Git history. No new edits deployed.",
+  "asset_extraction_round_trip": "passed",
+  "local_assets": 6,
+  "github_repository": "serzhberdnyk/ra-xott",
+  "github_visibility": "private",
+  "portable_history": "ra-xott-v2.bundle (preserved in separate RA-XOTT-v2-backup.zip)"
+}
