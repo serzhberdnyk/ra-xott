@@ -1,10 +1,10 @@
 {
   "project": "RA XOTT",
   "sites_project_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7",
-  "snapshot_source_commit": "364147b173644c21e5bd419d622f63c798cc8b8f",
-  "latest_saved_version": 31,
-  "saved_versions_mapped": 31,
-  "original_commits_listed": 34,
+  "snapshot_source_commit": "e4305504c53959b656d6ce481a86ff9717c4f60e",
+  "latest_saved_version": 32,
+  "saved_versions_mapped": 32,
+  "original_commits_listed": 35,
   "original_commits_in_companion_bundle": 33,
   "history_type": "Separate GitHub snapshots with original Sites source SHA mapping; original Sites commits through v30 remain in the companion git bundle.",
   "bundle": {
@@ -358,6 +358,17 @@
       "saved_archive_file_count": 52,
       "has_deployment_attempt": true,
       "source_tree": "2cbc67d07119cdab508b9cbf124949ebd861514c",
+      "in_history_bundle": false
+    },
+    {
+      "version_number": 32,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_6061f6621dd88191b8efbefb92fb1530",
+      "source_commit": "e4305504c53959b656d6ce481a86ff9717c4f60e",
+      "archive_sha256": "sha256:ac164f90dce428b47d7992316cbd43806154fa99cc9b1dc75adb63429cbb7caf",
+      "archive_bytes": 47063040,
+      "saved_archive_file_count": 53,
+      "has_deployment_attempt": true,
+      "source_tree": "43fac307eacd2979ffe475f26557c4cdd4cc7955",
       "in_history_bundle": false
     }
   ],
@@ -795,6 +806,19 @@
         31
       ],
       "source_original_hash_preserved_in_bundle": false
+    },
+    {
+      "source_commit": "e4305504c53959b656d6ce481a86ff9717c4f60e",
+      "source_tree": "43fac307eacd2979ffe475f26557c4cdd4cc7955",
+      "source_parents": [
+        "364147b173644c21e5bd419d622f63c798cc8b8f"
+      ],
+      "source_subject": "Expand media catalogue and add supplied holographic example",
+      "source_committed_at_epoch": 1791242457,
+      "sites_saved_version_numbers": [
+        32
+      ],
+      "source_original_hash_preserved_in_bundle": false
     }
   ],
   "snapshot_files": [
@@ -812,10 +836,10 @@
       "path": "dist/app.js",
       "mode": "100644",
       "type": "blob",
-      "source_sha": "ee5efde5ddf921720fa44ce86dc4c557c72284d9",
-      "sha": "ee5efde5ddf921720fa44ce86dc4c557c72284d9",
-      "bytes": 32363,
-      "sha256": "c8f8f3f6b9ac4d7d23ff63909c86f3a03a76deec5e53cd68add1ed65698a17ca",
+      "source_sha": "968bb5ac4022c73e6ab63eb7d055f0678194c04d",
+      "sha": "968bb5ac4022c73e6ab63eb7d055f0678194c04d",
+      "bytes": 56006,
+      "sha256": "625c72086e695de7efdfc4b889f5902c742e76529eb495f1dce5c35025ced653",
       "inline_text": true
     },
     {
@@ -916,6 +940,16 @@
       "sha": "b6b886ba817fce5ea80ef56cd7a9034f394e6ce0",
       "bytes": 2365157,
       "sha256": "b81a07053983412a0dcd24e71a2e39f626b2e4159fba2702b1e9cd9e9bad6f5a",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/holographic-projection-user.png",
+      "mode": "100644",
+      "type": "blob",
+      "source_sha": "20f9e870b11ee58068d38eff049bfdf7d8faa04f",
+      "sha": "20f9e870b11ee58068d38eff049bfdf7d8faa04f",
+      "bytes": 1211932,
+      "sha256": "ab2282e99b4f822d7da7b7679d4ab19abe880578328ef219fcd27844576c0c71",
       "inline_text": false
     },
     {
@@ -1312,10 +1346,10 @@
       "path": "dist/style.css",
       "mode": "100644",
       "type": "blob",
-      "source_sha": "7a1865e72d4097ded0223f05c6c1b6bedf1de358",
-      "sha": "7a1865e72d4097ded0223f05c6c1b6bedf1de358",
-      "bytes": 29611,
-      "sha256": "3a737cbd2259d46331c403ad30b1d3e55ce28e623722767a08f27f04d8ccb367",
+      "source_sha": "18ae63630ce1caf46bc47873b6816756c0437670",
+      "sha": "18ae63630ce1caf46bc47873b6816756c0437670",
+      "bytes": 34649,
+      "sha256": "089c1ccc79b51fcf20fb9d9e324b81d67f3675f284cf2d66c6a7de09e388b43f",
       "inline_text": true
     },
     {
@@ -1326,6 +1360,26 @@
       "sha": "92aae216a43a49026ff48ade25258821ab1d9fff",
       "bytes": 1577,
       "sha256": "acae413dbf8a5219ecc2339cf056664346cc0e76fdd9610f3fb1d463097b66e4",
+      "inline_text": true
+    },
+    {
+      "path": "sources/holographic-projection-source.json",
+      "mode": "100644",
+      "type": "blob",
+      "source_sha": "9f2bb8e654b22a3b576aca0105067acdf1a037ce",
+      "sha": "e7a604412e56311102f5210c37ec3ab737b7c5ce",
+      "bytes": 1376,
+      "sha256": "843e34f1a90d771dab6e5aef0e2e38811b51fa38b86c78cd6d90f77d8a46ff0a",
+      "inline_text": true
+    },
+    {
+      "path": "sources/media-service-sources.json",
+      "mode": "100644",
+      "type": "blob",
+      "source_sha": "57fc29d29b2c104c0eb6c77545c7727c6c518362",
+      "sha": "688c383e554ef256f8f18599d295a56e07815938",
+      "bytes": 7007,
+      "sha256": "8206cbc60b3a2a025d67dce4242c2f986530eba3385df28736f0926a71c08748",
       "inline_text": true
     },
     {
@@ -1347,6 +1401,26 @@
       "bytes": 1183,
       "sha256": "a98e32d0adc5b91f5e573a84abe99f4cbcf76f1fbbba03ff0765a0052f584170",
       "inline_text": true
+    },
+    {
+      "path": "tests/media-detail-dom.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "source_sha": "c200de924ac1b4b2f73f0455096d2345f5fa194c",
+      "sha": "f11c044696ac7713ad4b4b4d060036d44b8f252f",
+      "bytes": 12352,
+      "sha256": "c5cbafd4e672fce50befe7f2edb47eca056ed90eecd5a3fc476660df8cd63500",
+      "inline_text": true
+    },
+    {
+      "path": "tests/media-detail.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "source_sha": "67119b1d5881828c323462202c5c6e57ef331425",
+      "sha": "67119b1d5881828c323462202c5c6e57ef331425",
+      "bytes": 5875,
+      "sha256": "4c4667a9258cecd23805fbf5ac1b55247b50b835872d1745da37f36c489721d8",
+      "inline_text": true
     }
   ],
   "public_snapshot_content_exceptions": [
@@ -1357,6 +1431,19 @@
     {
       "path": "sources/service-photo-sources.json",
       "change": "Removed internal conversation or private Library identifier; substantive source facts preserved."
+    },
+    {
+      "path": "sources/holographic-projection-source.json",
+      "change": "Removed internal conversation or private Library identifier; substantive source facts preserved."
+    },
+    {
+      "path": "sources/media-service-sources.json",
+      "change": "Removed internal conversation or private Library identifier; substantive source facts preserved."
+    },
+    {
+      "path": "tests/media-detail-dom.mjs",
+      "change": "Adapted baseline to the corresponding GitHub v31 snapshot, with MEDIA_BASELINE_REF override; exclude added mirror documentation from site-source regression comparison. Website runtime unchanged."
     }
-  ]
+  ],
+  "github_v31_snapshot_commit": "69c1c1d5391d5cfac131dd1ebbcafa9c26055dcd"
 }

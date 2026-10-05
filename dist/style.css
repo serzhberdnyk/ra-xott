@@ -162,6 +162,68 @@
 @media(max-width:700px){.campaign-channel-badges{right:8px;bottom:8px;gap:8px}.campaign-channel-logo{width:44px;height:18px}.campaign-case h3{font-size:18px}#detail-content .campaign-result{font-size:20px}}
 .footer-main>.pill{margin-left:auto}
 
+/* A click-open media catalogue adds depth without hover text or address walls. */
+.service-detail-media{max-width:900px;padding:38px 40px 32px;overscroll-behavior:contain}
+.service-detail-media .close{position:sticky;top:0;right:auto;float:right;margin:-18px -20px 0 0;z-index:3;background:var(--paper);border:1px solid #d7d8d2;border-radius:50%;line-height:1}
+.service-detail-media h2{max-width:720px;font-size:32px;line-height:1.15}
+.service-detail-media #detail-content{min-width:0}
+.service-detail-media #detail-content p,.service-detail-media #detail-content ul{font-size:15px;line-height:1.65}
+.service-detail-media #media-detail-intro{max-width:720px;margin:0 0 22px}
+.media-format-overview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0 28px}
+.media-format-overview>section{min-width:0;border-top:2px solid #79aab0;padding-top:13px}
+.media-format-overview h3,.media-catalog-heading,.media-selection-note h3{font-size:20px;font-weight:500;line-height:1.35;margin:0 0 9px}
+.service-detail-media #detail-content .media-format-overview p{margin:0}
+.service-detail-media #detail-content .media-catalog-note{font-size:13px;line-height:1.6;color:#64635f;margin:0 0 18px}
+.media-publication-list{display:grid;gap:10px}
+.media-publication{min-width:0;border:1px solid #d7d8d2;border-radius:8px;background:#fff9}
+.media-publication summary{position:relative;display:grid;grid-template-columns:minmax(0,1fr);gap:4px;cursor:pointer;list-style:none;padding:16px 46px 16px 18px;min-height:44px}
+.media-publication summary::-webkit-details-marker{display:none}
+.media-publication summary::marker{content:''}
+.media-publication summary::after{content:'+';position:absolute;right:18px;top:16px;display:grid;place-items:center;width:24px;height:24px;font-size:24px;font-weight:400;color:#397f89;line-height:1}
+.media-publication[open] summary::after{content:'−'}
+.media-publication summary:focus-visible{outline:2px solid #397f89;outline-offset:3px;border-radius:7px}
+.media-publication-name{font-size:20px;line-height:1.35;font-weight:500;overflow-wrap:anywhere}
+.media-publication-meta{font-size:12px;line-height:1.5;color:#64635f}
+.media-publication-teaser{font-size:14px;line-height:1.45;margin-top:3px}
+.media-publication-status{font-size:11px;line-height:1.5;color:#64635f;margin-top:4px}
+.media-publication[open] summary{border-bottom:1px solid #d7d8d2}
+.media-publication-body{padding:20px 18px 18px;overflow-wrap:anywhere}
+.media-publication-body>section+section{margin-top:20px}
+.media-publication-body h4{font-size:15px;line-height:1.45;font-weight:600;margin:0 0 7px}
+.service-detail-media #detail-content .media-publication-body p{margin:0}
+.service-detail-media #detail-content .media-publication-body ul{margin:0;padding-left:21px}
+.media-publication-body li+li{margin-top:5px}
+.media-publication-metrics{background:#f0f2ed;border-radius:5px;padding:16px}
+.media-publication-metrics dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 22px;margin:16px 0}
+.media-publication-metrics dl>div{display:flex;flex-direction:column;min-width:0;gap:4px}
+.media-publication-metrics dt{font-size:12px;line-height:1.5;color:#64635f}
+.media-publication-metrics dd{font-size:23px;line-height:1.25;font-weight:500;order:-1;margin:0}
+.service-detail-media #detail-content p.media-source-note{font-size:12px;line-height:1.6;color:#64635f;margin-top:16px}
+.media-publication-links{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:15px}
+.media-publication-links a{display:inline-flex;align-items:center;min-height:44px;font-size:13px;line-height:1.5;color:#397f89;text-decoration:underline;text-underline-offset:3px}
+.media-selection-note{border-top:1px solid #d7d8d2;margin-top:26px;padding-top:22px}
+.service-detail-media #detail-content .media-selection-note p{margin:0}
+.service-detail-media #detail-cta{margin-top:22px}
+@media(max-width:700px){
+ .service-detail-media{padding:42px 20px 24px;max-height:92svh}
+ .service-detail-media h2{font-size:27px}
+ .media-format-overview{grid-template-columns:minmax(0,1fr);gap:18px;margin:20px 0 24px}
+ .media-format-overview h3,.media-catalog-heading,.media-selection-note h3{font-size:19px}
+ .media-publication summary{padding:15px 40px 15px 14px}
+ .media-publication summary::after{right:11px;top:15px}
+ .media-publication-name{font-size:19px}
+ .media-publication-body{padding:18px 14px}
+ .media-publication-metrics{padding:13px}
+ .media-publication-metrics dl{gap:14px 16px}
+}
+@media(max-width:380px){.media-publication-metrics dl{grid-template-columns:minmax(0,1fr)}}
+
+/* CSS-only crop preserves both stage figures and the supplied image bytes. */
+.service-hologram-example{margin:20px auto 0;max-width:560px}
+.service-hologram-photo{position:relative;overflow:hidden;aspect-ratio:820/795;background:#111;border-radius:5px}
+.service-hologram-photo img{position:absolute;display:block;width:155.243902%;height:auto;max-width:none;left:0;top:0}
+.service-hologram-example figcaption{font-size:12px;line-height:1.55;color:#64635f;margin-top:10px}
+
 
 /* A single static first screen keeps the supplied image and the agency's full service scope. */
 .hero{position:relative;min-height:600px;height:auto;color:#fff;background:url('assets/hero.png') center/cover;overflow:hidden}

@@ -1,0 +1,160 @@
+{
+  "scope": "Only the click-open detail for Размещение рекламы в журналах и онлайн-медиа",
+  "checked_at": "2026-10-05",
+  "source_status": {
+    "archive": "ra-xott-zhurnaly.pdf: 9 pages, PDF creation metadata 2022-04-19. Some embedded media data is older. The creation date is not a demographic-research date.",
+    "registry": "Реестр журналов RA-XOTT.xlsx. Read-only extraction reused.",
+    "hotabych": "User's Yandex HOTABYCH link was unavailable. Identity with the RA-XOTT archive has not been established. Public copy does not claim that the supplied HOTABYCH file was read.",
+    "commercial": "Official publisher information does not establish RA XOTT partnership, exclusivity, inventory or guaranteed placement. Historical prices, discounts and bonuses are not displayed as current terms. No raw archive PDF is published."
+  },
+  "publications": [
+    {
+      "name": "Дорогое удовольствие",
+      "archive_pages": [
+        2,
+        3
+      ],
+      "registry_ranges": [
+        "Реестр!A8:G8",
+        "Исторические форматы!A8:N20",
+        "Аудитория и охват!A8:K12"
+      ],
+      "source_facts": [
+        "print formats and articles",
+        "83% affluent",
+        "73% business owners/top managers/civil servants",
+        "57% women/43% men",
+        "87% active lifestyle",
+        "Sochi and Krasnaya Polyana distribution categories on page 3"
+      ],
+      "current_status": "Current Sochi issue and placement availability not confirmed. Federal brand operation alone does not confirm local availability."
+    },
+    {
+      "name": "Собака.ru",
+      "archive_pages": [
+        4
+      ],
+      "registry_ranges": [
+        "Реестр!A9:G9",
+        "Исторические форматы!A21:N44",
+        "Аудитория и охват!A44:K45",
+        "Актуальные источники!A12:G14"
+      ],
+      "source_facts": [
+        "archive print/digital formats",
+        "Sochi and Krasnodar print geography",
+        "publisher 2026 circulation: Sochi 6000 and Krasnodar 5000, separate regional editions",
+        "publisher changed June 2026"
+      ],
+      "current_sources": [
+        "https://static.sobaka.ru/uploads/pdf/MEDIA-KIT_Sobaka_RU_2026.pdf",
+        "https://www.sobaka.ru/sochi/magazine/archive",
+        "https://www.sobaka.ru/sochi/marketing"
+      ],
+      "current_status": "2026 issues and regional circulation confirmed in publisher sources. Archive formats are not claimed as current inventory. No federal network traffic is presented as Sochi reach."
+    },
+    {
+      "name": "SCAPP",
+      "archive_pages": [
+        5
+      ],
+      "registry_ranges": [
+        "Реестр!A10:G10",
+        "Исторические форматы!A45:N65",
+        "Аудитория и охват!A41:K43",
+        "Актуальные источники!A8:G11"
+      ],
+      "source_facts": [
+        "publisher currently lists print, site, Telegram, offline, special projects",
+        "publisher page claims 5000 print copies, 90000 monthly unique site users, 5000 Telegram subscribers",
+        "measurement date not given",
+        "historic banner sizes and editorial production limits on archive page 5, including mediakit 2017"
+      ],
+      "current_sources": [
+        "https://sochi.scapp.ru/reklamodatelyam/",
+        "https://sochi.scapp.ru/tochki-rasprostraneniya-zhurnala-scapp/"
+      ],
+      "current_status": "Official current channels and publisher metrics separately labeled. Historic views and age/income figures are not mixed with current unique users."
+    },
+    {
+      "name": "Стиль Жизни Sochi",
+      "archive_pages": [
+        6
+      ],
+      "registry_ranges": [
+        "Реестр!A11:G11",
+        "Исторические форматы!A66:N83",
+        "Аудитория и охват!A20:K26",
+        "Актуальные источники!A20:G20"
+      ],
+      "source_facts": [
+        "editorial rubrics",
+        "print placements, photo project, special inserts",
+        "more than 350 historical distribution points",
+        "41% age 28–37, 21% age 20–27, 19% age 38–48"
+      ],
+      "current_status": "Historical offer only. Current issue and placement availability not confirmed. No precise addresses invented."
+    },
+    {
+      "name": "ТЕМА",
+      "archive_pages": [
+        6
+      ],
+      "registry_ranges": [
+        "Реестр!A12:G12",
+        "Исторические форматы!A84:N90"
+      ],
+      "source_facts": [
+        "newspaper, historically called glossy",
+        "rubrics rather than unsupported demographic profile",
+        "quarter-page, half-page, page, spread, first spread, third/fourth cover"
+      ],
+      "current_status": "Historical offer only. Separate circulation and distribution addresses absent in source."
+    },
+    {
+      "name": "F/B magazine",
+      "archive_pages": [
+        7,
+        8
+      ],
+      "registry_ranges": [
+        "Реестр!A13:G13",
+        "Исторические форматы!A91:N134",
+        "Аудитория и охват!A27:K34",
+        "Актуальные источники!A21:G21"
+      ],
+      "source_facts": [
+        "historical circulation 5000, 12 annual issues, more than 120 permanent points excluding seasonal",
+        "mean reader age 32 without methodology",
+        "print positions, covers, inserts, 6/8-page photo stories",
+        "Sochi/Krasnaya Polyana categories on page 8"
+      ],
+      "current_status": "Historical offer only. Current commercial terms not confirmed."
+    },
+    {
+      "name": "The Village Юг",
+      "archive_pages": [
+        9
+      ],
+      "registry_ranges": [
+        "Реестр!A14:G14",
+        "Исторические форматы!A135:N145",
+        "Аудитория и охват!A35:K40"
+      ],
+      "source_facts": [
+        "digital only in source",
+        "promonews, chef feature, digest, photo post, business case, special project",
+        "historic banner sizes 990×250, 300×500, 620×500",
+        "regional audience unspecified"
+      ],
+      "current_status": "Current placement availability not confirmed. Look At Media network 2015–2017 traffic is not presented as The Village Юг regional reach."
+    }
+  ],
+  "ux": {
+    "entry": "Existing service card button opens the existing native dialog",
+    "progressive_disclosure": "Seven native details/summary sections, initially closed, keyboard operable",
+    "mobile": "Single-column overview, wrapping text, local dialog scroll, no address list",
+    "contacts": "Existing Обсудить задачу CTA still opens the existing Telegram/WhatsApp contact dialog",
+    "unchanged": "All service cards, main photographs, project data, TNT/STS logos and Rospatent image are preserved. A separately authorized holographic illustration was added only inside the multimedia detail."
+  }
+}

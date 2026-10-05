@@ -1,0 +1,16 @@
+{
+  "source": "User-supplied screenshot image(20261005-231704).png",
+  "original_dimensions": [
+    1273,
+    868
+  ],
+  "sha256": "ab2282e99b4f822d7da7b7679d4ab19abe880578328ef219fcd27844576c0c71",
+  "asset": "dist/assets/holographic-projection-user.png",
+  "image_processing": "Original image bytes copied unchanged. CSS-only crop from x=0, y=0 to width=820, height=795. The scene's two figures are retained; the right Instagram panel, carousel arrow and lower carousel dots are excluded. The image's aspect ratio is preserved.",
+  "visible_source_context": "Screenshot of a ra_xott Instagram post dated 5 December 2018 discussing Musion. A geotag does not establish the photographed performance's location or agency involvement.",
+  "public_use": "Only as an illustrative holographic-projection example inside Мультимедиа и интерактив. Existing main service-card photograph preserved. No new portfolio case, ownership, location, technical-specification or implementation claim. Existing holograms list entry retained without duplication.",
+  "public_copy": [
+    "Голографические проекции для сцен, презентаций и мероприятий",
+    "Пример голографической проекции · иллюстрация формата из предоставленных материалов"
+  ]
+}

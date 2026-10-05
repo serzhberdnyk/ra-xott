@@ -1,5 +1,190 @@
 const mediaServiceTitle='Размещение рекламы в журналах и онлайн-медиа';
 const mediaServiceDescription='Рекламные полосы, развороты, имиджевые статьи и спецпроекты в журналах и онлайн-медиа. Подбираем издание и формат под вашу аудиторию и задачу';
+// Publication formats are a curated catalogue, not a promise of current inventory.
+// Provenance and archive/current distinctions are recorded in sources/media-service-sources.json.
+const mediaPublications=[
+  {
+    name:'Дорогое удовольствие',type:'Печатный журнал',geography:'Сочи и Красная Поляна',
+    teaser:'Обеспеченная аудитория, бизнес, мода и стиль жизни',status:'Архивный каталог',
+    audience:'В архивной презентации издание ориентировано на обеспеченных читателей, собственников бизнеса, топ-менеджеров и госслужащих. Подходит для знакомства с брендом, продуктом или услугой в lifestyle-контексте.',
+    distribution:'В архиве перечислены бутики и магазины одежды, ювелирные и интерьерные салоны, рестораны, отели, SPA и фитнес-центры, автосалоны и бизнес-точки Сочи и Красной Поляны.',
+    groups:[{title:'Печатные форматы из архива',items:[
+      'Рекламный макет на одну полосу или разворот',
+      'Рекламная статья на 1, 2 или 3 полосы',
+      'Первый разворот, 2–6-й субразвороты и 1–4-я субполосы',
+      '3-я и 4-я обложки, гейтфолдер — раскрывающаяся вкладка',
+      'Твёрдая вкладка на бумаге 250 г'
+    ]}],
+    metrics:{label:'Аудитория в архивной презентации (дата файла 19.04.2022)',items:[
+      ['83%','обеспеченные и высокообеспеченные читатели'],
+      ['73%','собственники бизнеса, топ-менеджеры и госслужащие'],
+      ['57% / 43%','женщины / мужчины'],
+      ['87%','ведут активный образ жизни и следят за внешностью']
+    ],note:'Стр. 2–3 архива. Дата исследования, выборка и методика не указаны. Текущий сочинский выпуск и возможность размещения уточняются у издателя.'}
+  },
+  {
+    name:'Собака.ru',type:'Печатный журнал и онлайн-медиа',geography:'Сочи и Краснодар',
+    teaser:'Городское lifestyle- и fashion-издание: люди, еда, стиль',status:'Есть данные 2026',
+    audience:'Городская аудитория, интересующаяся модой, культурой, ресторанами и героями города. Печатное размещение можно рассматривать отдельно от материалов на сайте.',
+    distribution:'В архиве указано бесплатное распространение в городских заведениях Сочи и Краснодара. Конкретные актуальные точки, выпуск и географию кампании согласовываем при подборе.',
+    groups:[{title:'Печатные форматы из архива',items:[
+      '1/2 полосы, целая полоса и разворот',
+      'Лицевая, 3-я и 4-я обложки; разворот в начале журнала',
+      'Гейтфолд, плотная двусторонняя страница, вкладка продукции в тираж',
+      'Рубрика «Портреты»: съёмка и создание образа с фотографом и стилистами',
+      'Заметки и публикации в тематических рубриках: еда, интервью, светская хроника'
+    ]},{title:'Онлайн-форматы из архива',items:[
+      'Промопроект или фотопост: статья с фотографиями и активными ссылками',
+      'Лонгрид или спецпроект с видео, интервью, графиками и исследованиями',
+      'Сквозной баннер и брендирование сайта'
+    ]}],
+    metrics:{label:'Региональный тираж по медиакиту издателя 2026',items:[
+      ['6 000 экз.','Сочи'],['5 000 экз.','Краснодар']
+    ],note:'Это тиражи двух региональных изданий, а не охват читателей. Печатные выпуски 2026 подтверждены. С июня 2026 у сочинского издания новый издатель; текущие рекламные условия согласовываются заново.'},
+    links:[['Медиакит 2026','https://static.sobaka.ru/uploads/pdf/MEDIA-KIT_Sobaka_RU_2026.pdf'],['Выпуски Сочи','https://www.sobaka.ru/sochi/magazine/archive'],['Рекламодателям','https://www.sobaka.ru/sochi/marketing']]
+  },
+  {
+    name:'SCAPP',type:'Печатный журнал, сайт и Telegram',geography:'Сочи',
+    teaser:'Гастрономия, городская жизнь, бизнес и архитектура',status:'Есть данные издателя',
+    audience:'Городское медиа о Сочи: гастрономия, городская жизнь, бизнес и архитектура. Позволяет выбрать имиджевое присутствие в печати, подробный материал на сайте или отдельный цифровой формат.',
+    distribution:'В официальном списке распространения журнала указаны рестораны, отели и санатории, магазины, салоны, автоцентры и private banking. Печатную географию и цифровую аудиторию рассматриваем отдельно.',
+    groups:[{title:'Печатные форматы на странице издателя',items:[
+      'Имиджевые размещения и развороты',
+      'Публикации, спецпроекты и тематические номера'
+    ]},{title:'Онлайн и дополнительные площадки',items:[
+      'Большие материалы, новости, гиды и партнёрские публикации на сайте',
+      'Спецпроекты, Telegram и офлайн-события — по индивидуальному запросу'
+    ]},{title:'Дополнительные digital-форматы из архива',items:[
+      'Статья до 3 000 знаков из материалов клиента или с работой журналиста и фотографа',
+      'Рекламная новость и публикация в тематическом обзоре',
+      'Баннеры 1050 × 150 и 300 × 500 px, слайдер',
+      'Брендирование страниц и рубрик, спонсорство рубрик, product placement'
+    ]}],
+    metrics:{label:'Показатели на официальной странице издателя, проверка 05.10.2026',items:[
+      ['5 000 экз.','тираж печатного журнала'],
+      ['90 000','уникальных пользователей сайта в месяц'],
+      ['5 000','подписчиков Telegram']
+    ],note:'Показатели заявлены издателем; дата их измерения на странице не указана. Архивные digital-форматы приведены по стр. 5 PDF с датой файла 19.04.2022, где есть блок медиакита 2017. Технические требования уточняются перед размещением.'},
+    links:[['Рекламодателям SCAPP','https://sochi.scapp.ru/reklamodatelyam/'],['Распространение журнала','https://sochi.scapp.ru/tochki-rasprostraneniya-zhurnala-scapp/']]
+  },
+  {
+    name:'Стиль Жизни Sochi',type:'Печатный журнал',geography:'Сочи',
+    teaser:'Персоны, путешествия, бизнес, мода и искусство',status:'Архивный каталог',
+    audience:'В архиве журнал обращается к сочинцам и гостям курорта. Рубрики: «Персона», «Путешествия», «Бизнес», «Мода», «Авто», «Гурмэ», «Кино», «Искусство» и «Светская хроника».',
+    distribution:'В архивной презентации заявлено более 350 мест распространения в Сочи. Точного перечня адресов на странице нет; действующую сеть распространения нужно подтвердить у издателя.',
+    groups:[{title:'Печатные форматы из архива',items:[
+      'Полоса и имиджевый разворот; первый, второй и третий развороты',
+      '3-я и 4-я обложки, гейтфолдер, плотная полоса 250 г',
+      'Полоса после слова редактора, новостная заметка на 1/2 полосы',
+      'Рекламное обозрение на 3 или 5 полос, участие в рубрике',
+      'Фотопроект на 6 полос и разворот в «Светской хронике»',
+      'Вклейки, специальные вложения и тематические приложения'
+    ]}],
+    metrics:{label:'Основные возрастные группы в архиве (дата файла 19.04.2022)',items:[
+      ['41%','читатели 28–37 лет'],['21%','читатели 20–27 лет'],['19%','читатели 38–48 лет']
+    ],note:'Стр. 6 архива. Дата исследования и методика не указаны. Текущий выпуск и рекламная доступность не подтверждены; условия уточняются перед подбором.'}
+  },
+  {
+    name:'ТЕМА',type:'Газета',geography:'Сочи',
+    teaser:'Новости, афиша, мода, интервью и гастрономия',status:'Архивный каталог',
+    audience:'В презентации издание названо «глянцевой газетой». Среди рубрик — новости, beauty, гаджеты, кино и музыка, афиша, мода, интервью и гурмэ. Демографический состав аудитории в источнике не указан.',
+    distribution:'В архивном предложении указана сочинская площадка. Отдельный тираж и адреса распространения на стр. 6 не приведены.',
+    groups:[{title:'Печатные форматы из архива',items:[
+      '1/4 полосы, 1/2 полосы или целая полоса',
+      'Разворот и первый разворот',
+      '3-я и 4-я обложки'
+    ]}],
+    note:'Форматы приведены по стр. 6 архивной презентации (дата файла 19.04.2022). Текущий выпуск и возможность размещения требуют подтверждения у издателя.'
+  },
+  {
+    name:'F/B magazine',type:'Печатный журнал',geography:'Сочи и Красная Поляна',
+    teaser:'Фотоистории, имиджевые публикации и светская хроника',status:'Архивный каталог',
+    audience:'В архиве заявлен средний возраст читателя 32 года. В рекламном предложении представлены большие фотоистории, фотопроекты и светская хроника.',
+    distribution:'Архивный перечень охватывает рестораны и кафе, отели и горные курорты, бутики, интерьерные и ювелирные салоны, SPA, фитнес и клиники, автосалоны, жилые комплексы и агентства недвижимости. География — Сочи и Красная Поляна.',
+    groups:[{title:'Печатные форматы из архива',items:[
+      'Полоса в первой трети издания или без фиксированной позиции',
+      'Первый, второй и обычный развороты',
+      'Плотная двусторонняя вставка; 3-я и 4-я обложки; 3-я обложка вместе с полосой',
+      'Фальш-обложка — дополнительная рекламная обложка',
+      'Обложка с фотопроектом на 8 полос; фотоистории на 6 или 8 полос',
+      'Публикация в «Светской хронике»'
+    ]}],
+    metrics:{label:'Распространение в архивной презентации (дата файла 19.04.2022)',items:[
+      ['5 000 экз.','заявленный тираж'],['12','выпусков в год'],['Более 120','постоянных точек, без сезонных']
+    ],note:'Стр. 7–8 архива. Тираж, периодичность и точки не актуализированы; выборка для среднего возраста не указана. Текущие условия и доступность размещения уточняются у издателя.'}
+  },
+  {
+    name:'The Village Юг',type:'Онлайн-медиа',geography:'Региональная площадка «Юг»',
+    teaser:'Нативные материалы, бизнес-кейсы, спецпроекты и баннеры',status:'Архивный каталог',
+    audience:'В архиве представлены рубрики о городе, людях, бизнесе, развлечениях, еде и стиле. Региональный охват и состав аудитории именно The Village Юг в источнике не указаны.',
+    distribution:'Размещение на сайте: главная страница, рубрики, страницы материалов и обсуждений. Это цифровая площадка; печатного распространения в источнике нет.',
+    groups:[{title:'Материалы и спецпроекты из архива',items:[
+      'Промоновость «Коротко» с фотографией, контактным блоком и ссылками',
+      '«Слово шефа»: концепция ресторана, сезонные блюда, завтраки и бизнес-ланчи',
+      'Дайджест из 5–10 продуктов с описаниями и ссылками',
+      'Фотопост из 10 тематических фотографий с интеграцией бренда',
+      'Бизнес-кейс с цифрами и комментариями экспертов',
+      'Спецпроект с индивидуальной вёрсткой; нативные форматы «Процесс», «Тест», «Детали», «Цифры»'
+    ]},{title:'Баннеры и брендирование из архива',items:[
+      'Баннер 990 × 250 px над обсуждениями или внизу материалов',
+      'Брендирование страницы: фон и баннер 300 × 500 px на компьютере',
+      'Мобильный halfscreen-баннер 620 × 500 px'
+    ]}],
+    note:'Стр. 9 архивной презентации (дата файла 19.04.2022). Текущая возможность размещения The Village Юг не подтверждена. Исторический график трафика сайтов Look At Media за 2015–2017 не используется как региональный охват этой площадки.'
+  }
+];
+function mediaCopy(text,className=''){
+  const p=document.createElement('p');p.textContent=text;if(className)p.className=className;return p;
+}
+function appendMediaServiceDetail(box){
+  const overview=document.createElement('section');overview.className='media-format-overview';overview.setAttribute('aria-label','Форматы размещения');
+  [
+    ['В печати','Полосы и развороты, обложки, имиджевые статьи, интервью, фотоистории и специальные вложения. Выбор зависит от издания и номера.'],
+    ['В онлайн-медиа','Баннеры, промоновости, фотопосты, лонгриды, бизнес-кейсы, спецпроекты и брендирование страниц. Формат подбирается под задачу и аудиторию.']
+  ].forEach(([title,text])=>{
+    const section=document.createElement('section');const h=document.createElement('h3');h.textContent=title;section.append(h,mediaCopy(text));overview.append(section);
+  });
+  box.append(overview);
+  const heading=document.createElement('h3');heading.className='media-catalog-heading';heading.textContent='Издания и площадки';box.append(heading);
+  box.append(mediaCopy('Откройте издание, чтобы посмотреть аудиторию, географию и конкретные форматы. Каталог включает архивные предложения из презентации RA XOTT (дата файла 19.04.2022); свежие сведения издателей отмечены отдельно. Стоимость, выпуск и доступность согласовываются перед размещением.','media-catalog-note'));
+  const catalog=document.createElement('div');catalog.className='media-publication-list';
+  mediaPublications.forEach(publication=>{
+    const item=document.createElement('details');item.className='media-publication';
+    const summary=document.createElement('summary');
+    const title=document.createElement('span');title.className='media-publication-name';title.textContent=publication.name;
+    const meta=document.createElement('span');meta.className='media-publication-meta';meta.textContent=publication.type+' · '+publication.geography;
+    const teaser=document.createElement('span');teaser.className='media-publication-teaser';teaser.textContent=publication.teaser;
+    const status=document.createElement('span');status.className='media-publication-status';status.textContent=publication.status;
+    summary.append(title,meta,teaser,status);item.append(summary);
+    const body=document.createElement('div');body.className='media-publication-body';
+    [['Аудитория и тематика',publication.audience],['География и распространение',publication.distribution]].forEach(([label,text])=>{
+      const section=document.createElement('section');const h=document.createElement('h4');h.textContent=label;section.append(h,mediaCopy(text));body.append(section);
+    });
+    publication.groups.forEach(group=>{
+      const section=document.createElement('section');const h=document.createElement('h4');h.textContent=group.title;
+      const list=document.createElement('ul');group.items.forEach(text=>{const li=document.createElement('li');li.textContent=text;list.append(li)});section.append(h,list);body.append(section);
+    });
+    if(publication.metrics){
+      const section=document.createElement('section');section.className='media-publication-metrics';
+      const h=document.createElement('h4');h.textContent=publication.metrics.label;
+      const metrics=document.createElement('dl');
+      publication.metrics.items.forEach(([value,label])=>{
+        const group=document.createElement('div');const dt=document.createElement('dt');dt.textContent=label;const dd=document.createElement('dd');dd.textContent=value;group.append(dt,dd);metrics.append(group);
+      });
+      section.append(h,metrics,mediaCopy(publication.metrics.note,'media-source-note'));body.append(section);
+    }
+    if(publication.note)body.append(mediaCopy(publication.note,'media-source-note'));
+    if(publication.links){
+      const links=document.createElement('div');links.className='media-publication-links';links.setAttribute('aria-label','Официальные источники '+publication.name);
+      publication.links.forEach(([title,url])=>{const a=document.createElement('a');a.textContent=title;a.href=url;a.target='_blank';a.rel='noopener noreferrer';links.append(a)});body.append(links);
+    }
+    item.append(body);catalog.append(item);
+  });
+  box.append(catalog);
+  const next=document.createElement('section');next.className='media-selection-note';const h=document.createElement('h3');h.textContent='Подберём размещение под вашу задачу';
+  next.append(h,mediaCopy('Расскажите, что продвигаете, в каком городе и к какой дате. Для подбора пригодятся описание аудитории, ориентир по бюджету, фотографии и материалы бренда. Сравним площадки и форматы, уточним действующие условия у издателя.'));
+  box.append(next);
+}
 const websiteServiceTitle='Разработка сайтов для среднего и крупного бизнеса';
 const websiteServiceDescription='Для среднего и крупного бизнеса разных направлений, включая промышленные предприятия';
 const industryServiceTitle='Цифровая оптимизация промышленных предприятий';
@@ -61,14 +246,25 @@ const detail=document.querySelector('#detail');
 function showDetail(title,text,items=[],kind='Направление'){
   document.querySelector('#detail-title').textContent=title;
   detail.classList.toggle('service-detail-compact',compactServiceTitles.includes(title));
+  detail.classList.toggle('service-detail-media',title===mediaServiceTitle);
+  detail.setAttribute('aria-describedby',title===mediaServiceTitle?'media-detail-intro':'detail-content');
   const box=document.querySelector('#detail-content');
   const p=document.createElement('p');
   p.textContent=title===marketplaceServiceTitle?'Создаём инфографику и коммерческие коллажи, обрабатываем товарные фотографии: цветокоррекция, замена фона, тексты, дополнительные изображения и значки. Стоимость рассчитывается индивидуально. Для начала нужны подробное ТЗ, качественные фотографии и обратная связь':text;
   box.replaceChildren(p);
+  if(title===mediaServiceTitle){p.id='media-detail-intro';appendMediaServiceDetail(box)}
   if(items.length){
     const ul=document.createElement('ul');
     items.forEach(t=>{const li=document.createElement('li');li.textContent=t;ul.append(li)});
     box.append(ul);
+  }
+  if(title==='Мультимедиа и интерактив'){
+    const intro=document.createElement('p');intro.textContent='Голографические проекции для сцен, презентаций и мероприятий';
+    const figure=document.createElement('figure');figure.className='service-hologram-example';
+    const crop=document.createElement('div');crop.className='service-hologram-photo';
+    const image=document.createElement('img');image.src='assets/holographic-projection-user.png';image.alt='Сценическое выступление: пример голографической проекции';image.width=1273;image.height=868;image.loading='lazy';
+    const caption=document.createElement('figcaption');caption.textContent='Пример голографической проекции · иллюстрация формата из предоставленных материалов';
+    crop.append(image);figure.append(crop,caption);box.append(intro,figure);
   }
   if(title===promotionSolutionTitle||title===eventServiceTitle||title===summitCaseTitle){
     const campaign=document.createElement('section');campaign.className='campaign-case';
@@ -158,6 +354,7 @@ function showDetail(title,text,items=[],kind='Направление'){
     box.append(note);
   }
   detail.showModal();
+  if(title===mediaServiceTitle)detail.scrollTop=0;
 }
 // Cards expose details only through explicit button activation.
 function labelDialogCard(button,heading,id){
