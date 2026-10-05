@@ -1,0 +1,1239 @@
+{
+  "project": "RA XOTT",
+  "sites_project_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7",
+  "snapshot_source_commit": "68d19306e49e6bdc93fcbdc7e12a5e1d76b173cf",
+  "latest_saved_version": 30,
+  "saved_versions_covered": 30,
+  "original_commits_covered": 33,
+  "history_type": "Original Sites commits stored in a companion git bundle; GitHub main is a verified content snapshot with separate GitHub commit hashes.",
+  "bundle": {
+    "filename": "ra-xott-sites-through-live-v30.bundle",
+    "size_bytes": 38284864,
+    "sha256": "4f55585edb1f50b3cd93f0d1c80a61c7090dddacf7b8f4722ac15109819b103a",
+    "standalone_restore_verified": true,
+    "git_fsck_passed": true,
+    "all_saved_version_commits_present": true
+  },
+  "versions": [
+    {
+      "version_number": 1,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_118db75e03fc8191b494fee25c5f07f0",
+      "source_commit": "a65c86809f18e40f17ed57d9fffa94f2a3d47cf0",
+      "archive_sha256": "sha256:4d26d855c2a5b12281300aa3244fe42a730ebb5c48e583e34b81087383313c36",
+      "archive_bytes": 10813440,
+      "saved_archive_file_count": 10,
+      "has_deployment_attempt": true,
+      "source_tree": "016b18626e4f6b215e799d2f55770c14911684d5",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 2,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_90a8513d075881919848c062fa0a1d88",
+      "source_commit": "667d2c1b86306a4b805d18cc1b1f85b6eb9c700b",
+      "archive_sha256": "sha256:7b440bcf7ddfd8f21fc9addf3f9373c460dfb2a9dc3542108afe0bb02a0248dd",
+      "archive_bytes": 10823680,
+      "saved_archive_file_count": 10,
+      "has_deployment_attempt": false,
+      "source_tree": "4fdfa891660e1808c3413099555c5fcf9a81fd72",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 3,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_94c4e4588460819197f731e8193bac65",
+      "source_commit": "83e36afe5ca1e20160178ffe46506405c5920eac",
+      "archive_sha256": "sha256:a9eb30d874a134695fb881461bfd8d9944fbe6be5ebfe06b209a7fc3724f072a",
+      "archive_bytes": 10823680,
+      "saved_archive_file_count": 10,
+      "has_deployment_attempt": true,
+      "source_tree": "0636383ef715b043e898fdb6ef2ff443ccf9b9f8",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 4,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_95e2a011e1048191a04a0794a1bf01c8",
+      "source_commit": "2f7a50345ed760164359e8fc1ab4d3ed54974713",
+      "archive_sha256": "sha256:ac5efcab8fe0e8c839bf105770e4fa8d6f4a58db11c081dd13293d83f6d83cee",
+      "archive_bytes": 10823680,
+      "saved_archive_file_count": 10,
+      "has_deployment_attempt": false,
+      "source_tree": "097911613081479ef8b0242c4de90a027c919949",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 5,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_6e86963daa8881918f2a9abe80e480a1",
+      "source_commit": "a13a2c927101236304229f6923cce1780c988179",
+      "archive_sha256": "sha256:bfa1736dfbd1c594dff31e15bc99bc9a4cdb8c464a13f628b6dffe7f335e23e5",
+      "archive_bytes": 12636160,
+      "saved_archive_file_count": 11,
+      "has_deployment_attempt": true,
+      "source_tree": "2bdc5c9c464c254db4922eeaa2e6829d7129d79a",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 6,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_68db53e21bd081919245fdcf9b1cac68",
+      "source_commit": "11570bc19fa7924cda9c4e9fc1e4faedde2f20ff",
+      "archive_sha256": "sha256:233c3b2c27220e4ab69eaa82e416abd51b9e9e927e0e63a0a724d5eb899014b3",
+      "archive_bytes": 18595840,
+      "saved_archive_file_count": 18,
+      "has_deployment_attempt": true,
+      "source_tree": "e8a34560a6f4e724f4779aa9f7434fc9df114b13",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 7,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_2980dcbb589c8191b7ef36f29a710110",
+      "source_commit": "5985f4ddbd7bc23e4e802546d1b7c12e1e664b5a",
+      "archive_sha256": "sha256:48aca579116ef80a092221a5f3c20410b6baa98245aff6833255a9fad22d2a86",
+      "archive_bytes": 18595840,
+      "saved_archive_file_count": 18,
+      "has_deployment_attempt": true,
+      "source_tree": "728e63b5f3f5e4d9a4e4869672e19372cd9c320c",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 8,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_0a4a0d69fb848191aba077ff4ea33d1a",
+      "source_commit": "181001def3f7b4fd83c7ec048d397ad2bf4089a5",
+      "archive_sha256": "sha256:288f2cac286524f6b49ee52bedb2b3241fa3a4f75c2a7ba3f01cb15c8ecf7549",
+      "archive_bytes": 18595840,
+      "saved_archive_file_count": 18,
+      "has_deployment_attempt": false,
+      "source_tree": "c385a9233998e9f5b4f85a342295ca8b57145978",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 9,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_8225ecfa397081918b2fb0987458d82d",
+      "source_commit": "e30440b305990e8d3b1b958f1a4818f4ced3ab44",
+      "archive_sha256": "sha256:ac21e51797aeea08338832967d692ca9b6f8108b877482169cf4472133907998",
+      "archive_bytes": 18595840,
+      "saved_archive_file_count": 18,
+      "has_deployment_attempt": true,
+      "source_tree": "9442907a3c8bb3c26190fbc4abc5d08fb49c0d89",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 10,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_37701f0da85c8191ab6aa4d64da7a02c",
+      "source_commit": "961a970bdc63b308137df556993263946e0a84b1",
+      "archive_sha256": "sha256:4499a3573a91d64f10884e890d11e4afd1f86caf7dba6bd6b991614f50502ca8",
+      "archive_bytes": 18595840,
+      "saved_archive_file_count": 18,
+      "has_deployment_attempt": true,
+      "source_tree": "d19005281f2f97d711be8b1ecc5e5cfa0c7c37a5",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 11,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_cef2d9ffe8008191a1cbf33188b5c505",
+      "source_commit": "c03f5856420e3932e09966be29062acf07b5af0d",
+      "archive_sha256": "sha256:97dc77efec286ec183f5d4081cb8a0f46cd1edacfd614320d89c9a9955d14f47",
+      "archive_bytes": 18595840,
+      "saved_archive_file_count": 18,
+      "has_deployment_attempt": true,
+      "source_tree": "915a04676024561e95689ae3cececf80fc4a73db",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 12,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_14f3b973bc808191904ce220fffda14a",
+      "source_commit": "d71010458e5bfd0af581275c2904f07d62a357be",
+      "archive_sha256": "sha256:e5647a38976a6765016c8bfaaf857858cbad87fc275a0b46aea9ae98149a287b",
+      "archive_bytes": 18595840,
+      "saved_archive_file_count": 18,
+      "has_deployment_attempt": true,
+      "source_tree": "43fe688cab19e767d1a1ee14d17e5efc16d85813",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 13,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_70455479ced48191ba6a3f7c5dc7bc61",
+      "source_commit": "e9f4fe42a0cb34b589fb1505cd344e39e9c38ea2",
+      "archive_sha256": "sha256:c73902b6637b51325bb4fa254b3e3471b628c71c8ac812f76673a05a50b071ba",
+      "archive_bytes": 18595840,
+      "saved_archive_file_count": 18,
+      "has_deployment_attempt": true,
+      "source_tree": "b111e6cff929f3cfd132e0dcdc9385e850409e09",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 14,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_54a14946640881918709ce92f293e4a9",
+      "source_commit": "9a8dcc6071b76c7caeaee30c25afd0499c75b155",
+      "archive_sha256": "sha256:526e06820c8937fd1c32e3b867827d15da0ba58d30b51d0027bc2b34e1c3bac2",
+      "archive_bytes": 24371200,
+      "saved_archive_file_count": 20,
+      "has_deployment_attempt": true,
+      "source_tree": "5dc2774b067a7884603585ef10cd1c9bc794027e",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 15,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_f2d202148c088191879ff72cd59029c1",
+      "source_commit": "5d240359d4aab32fa399f6ee756ea21796db9c9a",
+      "archive_sha256": "sha256:42025a9d59096bb2eacc8afb99c848f8e0dafa6d1ce44c9f178bb9ffeed0c279",
+      "archive_bytes": 24504320,
+      "saved_archive_file_count": 22,
+      "has_deployment_attempt": false,
+      "source_tree": "cf5e593fce34c7e96d170c8db2d50c99f595ec01",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 16,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_040859a7bda48191bd883232ca58fd06",
+      "source_commit": "f69a46f80e95a4ec417890ec8332ee21e9377946",
+      "archive_sha256": "sha256:ae90f72b9c9e4719a8f075a32be9ccfe15c61d620efccb21a11f2a3e595f74b3",
+      "archive_bytes": 24504320,
+      "saved_archive_file_count": 22,
+      "has_deployment_attempt": false,
+      "source_tree": "34643a8896f55d028c1f9a068af8d26ffe20e4e4",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 17,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_830ddb2575248191a7d855e737bb2409",
+      "source_commit": "b2fe176f8de1131310a6005efa3ebdb6870823b1",
+      "archive_sha256": "sha256:2ed0a999af2a79545cfb4eeb93c934ace494c2a2d4b02f10abd79edc9a4abb13",
+      "archive_bytes": 24504320,
+      "saved_archive_file_count": 22,
+      "has_deployment_attempt": false,
+      "source_tree": "d138081ac53febeff3852b88640a2cd715501dbe",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 18,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_61f24d5743288191a05a4f0bb46ea7b2",
+      "source_commit": "a8cc4002a788c3a1127036a0174a515fc07303fe",
+      "archive_sha256": "sha256:efbff805eaea7b623984710e3b846288e17a42142c46f768dfc4f1cda13ab247",
+      "archive_bytes": 24371200,
+      "saved_archive_file_count": 20,
+      "has_deployment_attempt": false,
+      "source_tree": "0db536471f7b01b289d80607eb94aabab9572e99",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 19,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_4857f21d5f6881919081e3e23de6141d",
+      "source_commit": "45ac4f429adcd2b6f605c8113d176dca9786bdd2",
+      "archive_sha256": "sha256:8cd49fc3052f39fb2c355f7b04a79e3f3ad1316b7c6f0cce1bb485ab2f0149a3",
+      "archive_bytes": 24504320,
+      "saved_archive_file_count": 22,
+      "has_deployment_attempt": true,
+      "source_tree": "ce839bcf2f8759fe818cd3db07f1bdd84bd51364",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 20,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_efcefe80e9c48191bf469dfb1b3cfa47",
+      "source_commit": "55913fd9d67ceb61fbc8a18a8369ee274e8cbc3c",
+      "archive_sha256": "sha256:6fcf605c5648691018232e3643c2c2b9bebb126ae59c21af91bdbf3aa9562f20",
+      "archive_bytes": 29849600,
+      "saved_archive_file_count": 29,
+      "has_deployment_attempt": true,
+      "source_tree": "a27bd3e6abc669f8521da87ac6253edbdf59a1c5",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 21,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_f556ea789e448191a3892944c1745c4d",
+      "source_commit": "51058f2eb9cea18d8df9b71040277883643af2d2",
+      "archive_sha256": "sha256:9f28aea792479368954b2e09ec59fd35a2c9ddaca4e2a8afe3c360b99c3dd340",
+      "archive_bytes": 29839360,
+      "saved_archive_file_count": 29,
+      "has_deployment_attempt": false,
+      "source_tree": "1d1cb523728b15d073475a0ee879dd4857e404be",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 22,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_64127a542ca08191a2b195349ec68cc8",
+      "source_commit": "402e95dc92e2aa2575c40aa2f6efa7a94a95b865",
+      "archive_sha256": "sha256:6f831ef94a2e47ec28532e26a09760f377711f935bf12fcaded5af8921da9b94",
+      "archive_bytes": 29839360,
+      "saved_archive_file_count": 29,
+      "has_deployment_attempt": false,
+      "source_tree": "2005ee1d3dc40f5b6d39dbbd38e12ddd3afd7340",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 23,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_c6c26f51277481918b60030397eadf0a",
+      "source_commit": "9cb09ae172043e71509fbd017eab4aced9b38db8",
+      "archive_sha256": "sha256:c1f832789d5d81c1683205b815973c30972a0e31262c5de0f8dcd150125c84d9",
+      "archive_bytes": 29839360,
+      "saved_archive_file_count": 29,
+      "has_deployment_attempt": false,
+      "source_tree": "5c1952e6bce0b146bc7825c0147756adb45a4761",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 24,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_f15c2188583c81918354a34bc2fe7a2e",
+      "source_commit": "43a24e82ab2a3d56fed45169810e47b3e150e17b",
+      "archive_sha256": "sha256:51ad32448cfe4f144a98ea436a67f97640d10d4252c664824f067a4fd92b9b1d",
+      "archive_bytes": 30935040,
+      "saved_archive_file_count": 30,
+      "has_deployment_attempt": false,
+      "source_tree": "ef2a272950f99c55f153c8f1712833cfb8ef9967",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 25,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_5fd66a19059c8191b280055b160a0d1d",
+      "source_commit": "e0c8ca0c639484110a9ae077b326781a0e87d856",
+      "archive_sha256": "sha256:14a70662ce771fde34b1a69b95b123935a7130457b7a32d2d637430dfd33bbaa",
+      "archive_bytes": 34723840,
+      "saved_archive_file_count": 36,
+      "has_deployment_attempt": false,
+      "source_tree": "33f7ee8a717eacb63b5a65d7354e683c3c8c2fad",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 26,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_5f98e9a7e41881919a81102ed0379fa6",
+      "source_commit": "c083dd6070ea81b260b456c90bdc7582fb85208c",
+      "archive_sha256": "sha256:102272d309659bcb6e5aae625ec0b034c30aa126d12a67ae4461793e0643c683",
+      "archive_bytes": 36638720,
+      "saved_archive_file_count": 38,
+      "has_deployment_attempt": false,
+      "source_tree": "51c92b49bdac64492ab2b91ebdcd31a91f62740f",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 27,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_0c27f345d23481918a4ea8898221c373",
+      "source_commit": "e07b775ebb1292e1801114e2ac8e8d3d227bfbbc",
+      "archive_sha256": "sha256:2ebbad5f42fa22d958e782276e573a0b91c58af96efe464f82e7a792342c69e1",
+      "archive_bytes": 36638720,
+      "saved_archive_file_count": 40,
+      "has_deployment_attempt": true,
+      "source_tree": "f0eb653731cd568967016a928533741d00a55d58",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 28,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_3fdf8c20b7608191a7fca576eae70570",
+      "source_commit": "65428231ee142386876e6403b0a2d9ed564814dd",
+      "archive_sha256": "sha256:cb7f5b8a11d0d177f178035c3b927342076fb04af2efd6319837be5cd67a7cab",
+      "archive_bytes": 36638720,
+      "saved_archive_file_count": 40,
+      "has_deployment_attempt": true,
+      "source_tree": "6992861fe7a3eb142e0c8ec121cf9207e9657335",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 29,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_92071047b2c48191a03f9373b392b390",
+      "source_commit": "3118c3123e588a3eaa32175b6519e6fc6802db6b",
+      "archive_sha256": "sha256:b5edb3092011c3417979d716ab57840e53cab45c075b6013e7898aadf1792ee1",
+      "archive_bytes": 45281280,
+      "saved_archive_file_count": 49,
+      "has_deployment_attempt": true,
+      "source_tree": "55167fdc2299c2dd6a2904f20c2d9563615513d1",
+      "in_history_bundle": true
+    },
+    {
+      "version_number": 30,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_5f095c3b17088191bd8ac9407cba2ea8",
+      "source_commit": "68d19306e49e6bdc93fcbdc7e12a5e1d76b173cf",
+      "archive_sha256": "sha256:fb39009131531ebf878a55642989b87866bb2e996a0851d0e71ad13872a1f404",
+      "archive_bytes": 45281280,
+      "saved_archive_file_count": 49,
+      "has_deployment_attempt": true,
+      "source_tree": "17a6fdbb04848e2db42175d747185f033f00f301",
+      "in_history_bundle": true
+    }
+  ],
+  "commits": [
+    {
+      "source_commit": "a65c86809f18e40f17ed57d9fffa94f2a3d47cf0",
+      "source_tree": "016b18626e4f6b215e799d2f55770c14911684d5",
+      "source_parents": [],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        1
+      ],
+      "source_committed_at_epoch": 1790808737,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "667d2c1b86306a4b805d18cc1b1f85b6eb9c700b",
+      "source_tree": "4fdfa891660e1808c3413099555c5fcf9a81fd72",
+      "source_parents": [
+        "a65c86809f18e40f17ed57d9fffa94f2a3d47cf0"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        2
+      ],
+      "source_committed_at_epoch": 1790955409,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "83e36afe5ca1e20160178ffe46506405c5920eac",
+      "source_tree": "0636383ef715b043e898fdb6ef2ff443ccf9b9f8",
+      "source_parents": [
+        "667d2c1b86306a4b805d18cc1b1f85b6eb9c700b"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        3
+      ],
+      "source_committed_at_epoch": 1791144891,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "2f7a50345ed760164359e8fc1ab4d3ed54974713",
+      "source_tree": "097911613081479ef8b0242c4de90a027c919949",
+      "source_parents": [
+        "83e36afe5ca1e20160178ffe46506405c5920eac"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        4
+      ],
+      "source_committed_at_epoch": 1791146554,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "a13a2c927101236304229f6923cce1780c988179",
+      "source_tree": "2bdc5c9c464c254db4922eeaa2e6829d7129d79a",
+      "source_parents": [
+        "2f7a50345ed760164359e8fc1ab4d3ed54974713"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        5
+      ],
+      "source_committed_at_epoch": 1791201530,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "11570bc19fa7924cda9c4e9fc1e4faedde2f20ff",
+      "source_tree": "e8a34560a6f4e724f4779aa9f7434fc9df114b13",
+      "source_parents": [
+        "a13a2c927101236304229f6923cce1780c988179"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        6
+      ],
+      "source_committed_at_epoch": 1791203830,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "5985f4ddbd7bc23e4e802546d1b7c12e1e664b5a",
+      "source_tree": "728e63b5f3f5e4d9a4e4869672e19372cd9c320c",
+      "source_parents": [
+        "11570bc19fa7924cda9c4e9fc1e4faedde2f20ff"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        7
+      ],
+      "source_committed_at_epoch": 1791203997,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "181001def3f7b4fd83c7ec048d397ad2bf4089a5",
+      "source_tree": "c385a9233998e9f5b4f85a342295ca8b57145978",
+      "source_parents": [
+        "5985f4ddbd7bc23e4e802546d1b7c12e1e664b5a"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        8
+      ],
+      "source_committed_at_epoch": 1791215499,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "e30440b305990e8d3b1b958f1a4818f4ced3ab44",
+      "source_tree": "9442907a3c8bb3c26190fbc4abc5d08fb49c0d89",
+      "source_parents": [
+        "181001def3f7b4fd83c7ec048d397ad2bf4089a5"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        9
+      ],
+      "source_committed_at_epoch": 1791215770,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "961a970bdc63b308137df556993263946e0a84b1",
+      "source_tree": "d19005281f2f97d711be8b1ecc5e5cfa0c7c37a5",
+      "source_parents": [
+        "e30440b305990e8d3b1b958f1a4818f4ced3ab44"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        10
+      ],
+      "source_committed_at_epoch": 1791218489,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "c03f5856420e3932e09966be29062acf07b5af0d",
+      "source_tree": "915a04676024561e95689ae3cececf80fc4a73db",
+      "source_parents": [
+        "961a970bdc63b308137df556993263946e0a84b1"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        11
+      ],
+      "source_committed_at_epoch": 1791222711,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "d71010458e5bfd0af581275c2904f07d62a357be",
+      "source_tree": "43fe688cab19e767d1a1ee14d17e5efc16d85813",
+      "source_parents": [
+        "c03f5856420e3932e09966be29062acf07b5af0d"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        12
+      ],
+      "source_committed_at_epoch": 1791225828,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "e9f4fe42a0cb34b589fb1505cd344e39e9c38ea2",
+      "source_tree": "b111e6cff929f3cfd132e0dcdc9385e850409e09",
+      "source_parents": [
+        "d71010458e5bfd0af581275c2904f07d62a357be"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        13
+      ],
+      "source_committed_at_epoch": 1791226302,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "9a8dcc6071b76c7caeaee30c25afd0499c75b155",
+      "source_tree": "5dc2774b067a7884603585ef10cd1c9bc794027e",
+      "source_parents": [
+        "e9f4fe42a0cb34b589fb1505cd344e39e9c38ea2"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        14
+      ],
+      "source_committed_at_epoch": 1791226928,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "5d240359d4aab32fa399f6ee756ea21796db9c9a",
+      "source_tree": "cf5e593fce34c7e96d170c8db2d50c99f595ec01",
+      "source_parents": [
+        "9a8dcc6071b76c7caeaee30c25afd0499c75b155"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        15
+      ],
+      "source_committed_at_epoch": 1791227743,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "f69a46f80e95a4ec417890ec8332ee21e9377946",
+      "source_tree": "34643a8896f55d028c1f9a068af8d26ffe20e4e4",
+      "source_parents": [
+        "5d240359d4aab32fa399f6ee756ea21796db9c9a"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        16
+      ],
+      "source_committed_at_epoch": 1791228674,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "b2fe176f8de1131310a6005efa3ebdb6870823b1",
+      "source_tree": "d138081ac53febeff3852b88640a2cd715501dbe",
+      "source_parents": [
+        "f69a46f80e95a4ec417890ec8332ee21e9377946"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        17
+      ],
+      "source_committed_at_epoch": 1791228771,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "a8cc4002a788c3a1127036a0174a515fc07303fe",
+      "source_tree": "0db536471f7b01b289d80607eb94aabab9572e99",
+      "source_parents": [
+        "b2fe176f8de1131310a6005efa3ebdb6870823b1"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        18
+      ],
+      "source_committed_at_epoch": 1791230345,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "99672a153f85a4313fa41f78205f516bc2fdd1dd",
+      "source_tree": "a51c5dde16591dde019625a8104181049815ff6a",
+      "source_parents": [
+        "a8cc4002a788c3a1127036a0174a515fc07303fe"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [],
+      "source_committed_at_epoch": 1791230437,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "e708943dc489ee582f95b472423c29e0167a811a",
+      "source_tree": "8b4964b89e886c9a42f2d3921e05e06d34715ae3",
+      "source_parents": [
+        "99672a153f85a4313fa41f78205f516bc2fdd1dd"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [],
+      "source_committed_at_epoch": 1791230437,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "45ac4f429adcd2b6f605c8113d176dca9786bdd2",
+      "source_tree": "ce839bcf2f8759fe818cd3db07f1bdd84bd51364",
+      "source_parents": [
+        "e708943dc489ee582f95b472423c29e0167a811a"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        19
+      ],
+      "source_committed_at_epoch": 1791230437,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "55913fd9d67ceb61fbc8a18a8369ee274e8cbc3c",
+      "source_tree": "a27bd3e6abc669f8521da87ac6253edbdf59a1c5",
+      "source_parents": [
+        "45ac4f429adcd2b6f605c8113d176dca9786bdd2"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        20
+      ],
+      "source_committed_at_epoch": 1791231251,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "51058f2eb9cea18d8df9b71040277883643af2d2",
+      "source_tree": "1d1cb523728b15d073475a0ee879dd4857e404be",
+      "source_parents": [
+        "55913fd9d67ceb61fbc8a18a8369ee274e8cbc3c"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        21
+      ],
+      "source_committed_at_epoch": 1791232967,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "402e95dc92e2aa2575c40aa2f6efa7a94a95b865",
+      "source_tree": "2005ee1d3dc40f5b6d39dbbd38e12ddd3afd7340",
+      "source_parents": [
+        "51058f2eb9cea18d8df9b71040277883643af2d2"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        22
+      ],
+      "source_committed_at_epoch": 1791233086,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "9cb09ae172043e71509fbd017eab4aced9b38db8",
+      "source_tree": "5c1952e6bce0b146bc7825c0147756adb45a4761",
+      "source_parents": [
+        "402e95dc92e2aa2575c40aa2f6efa7a94a95b865"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        23
+      ],
+      "source_committed_at_epoch": 1791233233,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "43a24e82ab2a3d56fed45169810e47b3e150e17b",
+      "source_tree": "ef2a272950f99c55f153c8f1712833cfb8ef9967",
+      "source_parents": [
+        "9cb09ae172043e71509fbd017eab4aced9b38db8"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        24
+      ],
+      "source_committed_at_epoch": 1791233496,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "e0c8ca0c639484110a9ae077b326781a0e87d856",
+      "source_tree": "33f7ee8a717eacb63b5a65d7354e683c3c8c2fad",
+      "source_parents": [
+        "43a24e82ab2a3d56fed45169810e47b3e150e17b"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        25
+      ],
+      "source_committed_at_epoch": 1791233810,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "c083dd6070ea81b260b456c90bdc7582fb85208c",
+      "source_tree": "51c92b49bdac64492ab2b91ebdcd31a91f62740f",
+      "source_parents": [
+        "e0c8ca0c639484110a9ae077b326781a0e87d856"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        26
+      ],
+      "source_committed_at_epoch": 1791233996,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "e07b775ebb1292e1801114e2ac8e8d3d227bfbbc",
+      "source_tree": "f0eb653731cd568967016a928533741d00a55d58",
+      "source_parents": [
+        "c083dd6070ea81b260b456c90bdc7582fb85208c"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        27
+      ],
+      "source_committed_at_epoch": 1791234262,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "65428231ee142386876e6403b0a2d9ed564814dd",
+      "source_tree": "6992861fe7a3eb142e0c8ec121cf9207e9657335",
+      "source_parents": [
+        "e07b775ebb1292e1801114e2ac8e8d3d227bfbbc"
+      ],
+      "source_subject": "Update Site source",
+      "sites_saved_version_numbers": [
+        28
+      ],
+      "source_committed_at_epoch": 1791236961,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "d8a916939e28bad334a92782aae2b35d42cc1f49",
+      "source_tree": "c08e60c93394f94c5e277e55818909022b0f2431",
+      "source_parents": [
+        "65428231ee142386876e6403b0a2d9ed564814dd"
+      ],
+      "source_subject": "Use approved service photos and soften agency descriptor",
+      "sites_saved_version_numbers": [],
+      "source_committed_at_epoch": 1791238459,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "3118c3123e588a3eaa32175b6519e6fc6802db6b",
+      "source_tree": "55167fdc2299c2dd6a2904f20c2d9563615513d1",
+      "source_parents": [
+        "d8a916939e28bad334a92782aae2b35d42cc1f49"
+      ],
+      "source_subject": "Add Russian service photos, summit campaign case and simpler navigation",
+      "sites_saved_version_numbers": [
+        29
+      ],
+      "source_committed_at_epoch": 1791239078,
+      "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "68d19306e49e6bdc93fcbdc7e12a5e1d76b173cf",
+      "source_tree": "17a6fdbb04848e2db42175d747185f033f00f301",
+      "source_parents": [
+        "3118c3123e588a3eaa32175b6519e6fc6802db6b"
+      ],
+      "source_subject": "Simplify static hero and add verified service details",
+      "sites_saved_version_numbers": [
+        30
+      ],
+      "source_committed_at_epoch": 1791240783,
+      "source_original_hash_preserved_in_bundle": true
+    }
+  ],
+  "snapshot_files": [
+    {
+      "path": ".openai/hosting.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "731effc1a985d40145fd845b300e7fc800d3c1c5",
+      "bytes": 106,
+      "sha256": "e8d3d49151bfc8ecdfe8de315a7033752378e772590a7eaeaf572ed7aa992917",
+      "inline_text": true
+    },
+    {
+      "path": "dist/app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "509738bc84597d02b69a9812053e2e03273bbe12",
+      "bytes": 33581,
+      "sha256": "48b773f4dd57cd0ec6a555ccf74872f37a6a0657f6bbd8ebb5fc6be70bb3934e",
+      "inline_text": true
+    },
+    {
+      "path": "dist/assets/bellabot-real-restaurant.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "131b7336f50537ffc5950cf2441cdcb4e37c9e1e",
+      "bytes": 258145,
+      "sha256": "e96f8d21e326afbaa0b1ac309c1fce61fc9fb9482251b4926fe3a2039b809ad0",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/bezuslove-reference.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df20e762cb1449396e8b482eb9d6bb234e133bcf",
+      "bytes": 1806954,
+      "sha256": "341c6462f29c08c4cec7f9ca996cebb79b9a799d73d40811aed4394c6d1333a9",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/brochure-beerburger-view-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ef4be08ae19501cbe29672efc9f2481def8fa7e",
+      "bytes": 776055,
+      "sha256": "8eec8c3948391a8db1399f2f6ba843dfdce88b8be0aa43eda66ec5edb681ac71",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/brochure-beerburger-view-2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4fc87b5406bf28e7ae9c298f33fe158e1948c87",
+      "bytes": 1018182,
+      "sha256": "7d872abcb1d480d938a8f0e2f5d2cff2ddc6568f33f6da8f3ba92b6d30c05e21",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/brochure-beerburger-view-3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e0d70dc50febadb04b3ddbe719d91966bfc2915",
+      "bytes": 608201,
+      "sha256": "44bb1d29f01c1f617bb906fe338e12df7de0dacec2ba1263ee8191ec8eafffa4",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/brochure-corks-source.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b85a40d383f67356fe9d4e295dfd6a2353670e4",
+      "bytes": 496839,
+      "sha256": "777bfd0d586a3ebb8e4e0e7ade98c2bc38b851349d2b103cad4e74a838cd3e73",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/hermes-source.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07539070ad57d3db66448fc1b6906f6cb73a26bc",
+      "bytes": 449314,
+      "sha256": "5c3a1b40e08b5eefbef0408db013645d090b4984c7aa04701cf658016751ae66",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/hero-owner.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e5527f0a50fdb18a7552bc0303aceb719b08e44",
+      "bytes": 5564101,
+      "sha256": "fcce9a05ef667b5a8710d0a7b85cc32dcbd9aca84e8397142c01cf7fd47ec8ef",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/hero.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6b886ba817fce5ea80ef56cd7a9034f394e6ce0",
+      "bytes": 2365157,
+      "sha256": "b81a07053983412a0dcd24e71a2e39f626b2e4159fba2702b1e9cd9e9bad6f5a",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/led-completed-source.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fabbee380befafed80cee968b7ce747b9d0f5d26",
+      "bytes": 605135,
+      "sha256": "a2921bef7c2118e97ecb17083d11ab0b85a7196c2c8ceea57e2f3603fe0d47ff",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/led-installation-source.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c09e446b78e3c6ab343cccb72440f636b978aff4",
+      "bytes": 1049696,
+      "sha256": "3c11c5df8caf082c8ea343b5808a3147b1e1247773aa8567889764bcb8b0bce2",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/maf-neutral.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7be76ea082fddb61872680d2f845f034fd6360d2",
+      "bytes": 532,
+      "sha256": "2a023d53a8f79a55244b85053b90c0e51cdb3efc323d5f8f30983d9957327f56",
+      "inline_text": true
+    },
+    {
+      "path": "dist/assets/marketplace-source.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a19d97757ffc875967edd6a5e820018b199013ce",
+      "bytes": 734229,
+      "sha256": "9e0ad6f84f0517288e9a98ab48cc1d988aa1bd5fa4dc5cd7ef0aaf5dd3ac9b72",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/outdoor-sochi-airport.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59c1444f1bd0bc1b1d8d2124d323109fab6a22df",
+      "bytes": 204893,
+      "sha256": "d7460600acf1fb8ab46b9f57c98f12aa5262523478e733c99fc7bd4329004df3",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/personal-hero.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc2de66edfae003e16edfdfe98997e23b595a12b",
+      "bytes": 1801480,
+      "sha256": "3e3a31065757f7653186d5e25d217af3353b27ecfc53dc719033f0612acd0558",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/personal-portrait.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df55092ec44329a9710638adb0b0596a547a1369",
+      "bytes": 1854470,
+      "sha256": "86af3f37eceb05ae32bd1536284cd75884cd90dc6f57552095eeb0dfef25eeec",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/post-bank-source.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d84af33bc4b5298628ef4a0e6de5eff9431fd38",
+      "bytes": 941493,
+      "sha256": "088c49aae110a3a870529fb3ef059aa8c87f3a1bfb5ba6de0c6bc769827aa35a",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/print-beerburger-source.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eee9fed90c1456518749f51196f5616ca87e367a",
+      "bytes": 1068049,
+      "sha256": "5206d655e2b9deaa0f434c80f6c90a0d6c5b53637343ead7410690cc73b74c7d",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/projects.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37ddf98f93e7a2e0bfa76e8e88145f2068c94efd",
+      "bytes": 2405854,
+      "sha256": "94ed33b96c685a7d04831652c9a48acbf9cc67bd80b25c94ba574c067573fd67",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/rasputin-source.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad6101a7c0ad7f2fe3bd6d554da58cefd38f5878",
+      "bytes": 1090824,
+      "sha256": "715224d2c530a7ef31848139499782de69cbf351c57ca219c5ef048e98e74f8c",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/service-selected-01-web.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "936caea27e8974850baaf436fcf1e3cc877fe454",
+      "bytes": 194738,
+      "sha256": "ff71194f3c97401b8332e684d7f4fc005cb85fc39f21cf944cfc99ee63cd5d6d",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/service-selected-02-industry.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ccf01c503ba99b69c2fe6b7df947d964d4fc9a7",
+      "bytes": 320679,
+      "sha256": "cbb50ed39c79aeafbfa125c29f4a1e55c46e9a2e784196843df5a070aab0f69b",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/service-selected-03-branding.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a64c9042747920d06347e2ebad1895558d1fb26",
+      "bytes": 130621,
+      "sha256": "9dfc88ab01c1f630b02011fb3575cf273e64ffeb3f9cdd66d1659b6251a71a0e",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/service-selected-04-film.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "313c8ddc06fca24fc10a1b8a21ac806793464eac",
+      "bytes": 225492,
+      "sha256": "d8d7b5a27512b5253fd49cf1cb0bc3ddfb9b800f0267b02e31fbfacde936697f",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/service-selected-05-events.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68947cade8a7e242572e5922399a4040bbc98fb0",
+      "bytes": 255434,
+      "sha256": "8a9a14751f68973717b2c98ced4531a3c47f1d05ca9c621977171f51c4ae2dc7",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/service-selected-06-multimedia.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ecd4c4575dabb960d492b1902cb52fb1a14338c",
+      "bytes": 640691,
+      "sha256": "94aaa64a3c4cd23e3863d3ad4f547aa08c7a0e52866031a04f32d770bb91a494",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/service-selected-07-maf.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b305fa7d44fbc2cb3309f53504223bb8ee3c2ce0",
+      "bytes": 6493568,
+      "sha256": "62d1e009981c5b124ef114bb5a48fa01f18e2d213967adae83d2507151c08ac5",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/service-selected-08-trademark.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6d19ff866bf7ca53bcebcba9082c6fba48f7579",
+      "bytes": 285848,
+      "sha256": "f4cf08cf940790c162683cf530aea9c6f579a7a768ee7cae9a3db3ca19316bf8",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/service-selected-09-screens.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c82f87192eeef48f5a982d6eb16ab7f1930f21be",
+      "bytes": 77654,
+      "sha256": "6ff7c9a0aa643584fba34175e2e26cc568d734e96283a5938acd13d736513a27",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/signage-source.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfe35cdad2ab99ee8b1801d102d5cc45d65d76a0",
+      "bytes": 1283776,
+      "sha256": "4dd98e57b585044dcbc695136c96c9f7d319a96c8d30d5ba205a409ded284f16",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/slim-crystal-source.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85a8e73a88b796a6940924c6b600d42d0879a6be",
+      "bytes": 519884,
+      "sha256": "dd435051bf32dee6e872007944d3e14fd23245009f6ddee36c7deaf98881c415",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/slim-frame-source.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "738e3b948691c9a27df3a596e4f0b8e643d5ccce",
+      "bytes": 356827,
+      "sha256": "6c1e72442355bea511b45d14b711f424708caca04f0d2fe1c7c47899a6f6ec4b",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/smm-beerburger-source.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86a5083ac8c6dd1112e8c132322e4f51d13c5160",
+      "bytes": 844296,
+      "sha256": "7e66ad3ce466381d67779a90bfb25d8d40b1697de327e8be264a9db31d5b8836",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/the-village-header.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12a02fc2c910501f6e8b730eb65bb5d499fcffe2",
+      "bytes": 37424,
+      "sha256": "7d13c7a9621b6ca537f7c220618a06d8b6dbcc9a25a30c5b9d99f61c824d1278",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/the-village-page-branding.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a27e6ac8f16bceb8823884f79cac4acdf9cdb498",
+      "bytes": 96371,
+      "sha256": "a70296714a843086fa1132b54a63b96f137ea23978d5fc42ece5c4925ce30e24",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/tiles.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee65c8c18d016cbe637ceb0d562f58bddb2c1a07",
+      "bytes": 2342715,
+      "sha256": "d11dc354cb46ee1a9b621898b0e0c1cb38ce09055314afcd03b47c96643056c0",
+      "inline_text": false
+    },
+    {
+      "path": "dist/assets/trademark-neutral.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f128b7a32df0353878302dca5c89fb34e33f9c0",
+      "bytes": 520,
+      "sha256": "f7c69420c1d41185695efe64ff8b3463c797ed5665f4cffcdbb5d40bdd83439b",
+      "inline_text": true
+    },
+    {
+      "path": "dist/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96308249e3ac345c70343a88de51f5179d66785d",
+      "bytes": 225,
+      "sha256": "1479e6515e02db2f6a7cdf2f5cbc79520f9d72d897c54dc0d92fbde2609485f1",
+      "inline_text": true
+    },
+    {
+      "path": "dist/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59e1bf3cb8a4581faea23508fbfe5e8d570b3ed3",
+      "bytes": 6311,
+      "sha256": "f5c9488c8c09a3296c211169e8008828359300576491a45efd5a5988b8755b9a",
+      "inline_text": true
+    },
+    {
+      "path": "dist/lyubov/app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c83c275667dacfc9d6aba7853c96eb7090938c90",
+      "bytes": 6089,
+      "sha256": "fa2b75dd2ee1d2845a3cb40552448989ffc6dca50107c785a5ed65c323051b4a",
+      "inline_text": true
+    },
+    {
+      "path": "dist/lyubov/assets/hero.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc2de66edfae003e16edfdfe98997e23b595a12b",
+      "bytes": 1801480,
+      "sha256": "3e3a31065757f7653186d5e25d217af3353b27ecfc53dc719033f0612acd0558",
+      "inline_text": false
+    },
+    {
+      "path": "dist/lyubov/assets/portrait.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df55092ec44329a9710638adb0b0596a547a1369",
+      "bytes": 1854470,
+      "sha256": "86af3f37eceb05ae32bd1536284cd75884cd90dc6f57552095eeb0dfef25eeec",
+      "inline_text": false
+    },
+    {
+      "path": "dist/lyubov/assets/practices.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74b00adfb26c6e25b50fb78079c08a4d6e472c98",
+      "bytes": 2269946,
+      "sha256": "4f625559c3e9da11b4bc192da7c01fb95c37f0669673212524d965aa4e31acc9",
+      "inline_text": false
+    },
+    {
+      "path": "dist/lyubov/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03bbbae2d576cddd1a12c0898222d10690ff5800",
+      "bytes": 206,
+      "sha256": "708b568b2f5d74b847fecce8630f7d479cd0441ce2fbd30d2caf4e32313d8992",
+      "inline_text": true
+    },
+    {
+      "path": "dist/lyubov/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8c338d38052489bb9c00ce5635534103465938e",
+      "bytes": 10093,
+      "sha256": "230ee7cdd881b698d76df89ec03a591ecf802c96eb67cc03210730c36ade9656",
+      "inline_text": true
+    },
+    {
+      "path": "dist/lyubov/style.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec9713b2cf40d9e22eae0d1b9cc62eaec325f1fe",
+      "bytes": 14695,
+      "sha256": "ece113235492b35fd7d6d9c894c6e83b9dcb114141a2f0ea263016696362ef4f",
+      "inline_text": true
+    },
+    {
+      "path": "dist/style.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9e99dbb2487836d855981abaa38ba9e74f6ee6b",
+      "bytes": 28559,
+      "sha256": "0ff92867602d05f826419193e833c7f58dc197608299108c5c570070d11ae68c",
+      "inline_text": true
+    },
+    {
+      "path": "sources/service-photo-sources.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6372b798f4a573fb4701198a3af03df16434818b",
+      "bytes": 6946,
+      "sha256": "30fe221b2c4895b53360009a8524408079010f8d52bc61843a6b878c8c89ca36",
+      "inline_text": true
+    },
+    {
+      "path": "sources/summit-case.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f686d5d5ae8e98b4c05deab14b7afdcd16761e7f",
+      "bytes": 1142,
+      "sha256": "285a934625f2fc0ff61d6a210b442012a361b58f87b527278456252155983d31",
+      "inline_text": true
+    }
+  ],
+  "public_snapshot_content_exceptions": [
+    {
+      "path": "sources/summit-case.json",
+      "change": "Removed internal conversation message identifier; case facts and attribution remain unchanged."
+    }
+  ]
+}

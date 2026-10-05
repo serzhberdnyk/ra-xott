@@ -8,3 +8,10 @@ node_modules/
 backups/
 snapshots/
 *.bundle
+*.sql
+*.sqlite
+*.db
+*.wpress
+*.pem
+*.key
+credentials*

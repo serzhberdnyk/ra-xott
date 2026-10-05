@@ -1,19 +1,29 @@
 {
-  "project": "RA XOTT - идеи, которые работают",
+  "project": "RA XOTT",
+  "snapshot_date_utc": "2026-10-05",
   "sites_project_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7",
   "sites_url": "https://ra-xott-showcase.imberdnyk.chatgpt.site",
-  "recovery_date": "2026-10-03",
-  "source_file": "RA-XOTT-preview-v2.html (preserved in separate RA-XOTT-v2-backup.zip)",
-  "source_library_file_id": "libfile_b3d40f9478788191bf5a86b1693a569c",
-  "source_modified_at": "2026-10-02T15:46:35.809296Z",
-  "source_sha256": "1cb7811acd55928643a18e122c59efbf81d9a081f33f6f919548b646f6dd6628",
-  "sites_latest_saved_version": 2,
-  "sites_latest_reported_commit": "667d2c1b86306a4b805d18cc1b1f85b6eb9c700b",
-  "verified_against_sites_git": false,
-  "status": "Recovered standalone v2 preview; not an export of Sites Git history. No new edits deployed.",
-  "asset_extraction_round_trip": "passed",
-  "local_assets": 6,
+  "sites_saved_version": 30,
+  "sites_source_commit": "68d19306e49e6bdc93fcbdc7e12a5e1d76b173cf",
   "github_repository": "serzhberdnyk/ra-xott",
-  "github_visibility": "private",
-  "portable_history": "ra-xott-v2.bundle (preserved in separate RA-XOTT-v2-backup.zip)"
+  "github_parent_commit": "57c8cc98c1149d217762e8f739a17d799115fbc2",
+  "snapshot_method": "Verified content snapshot added to existing GitHub history",
+  "source_files": 51,
+  "source_content_exceptions": [
+    {
+      "path": "sources/summit-case.json",
+      "change": "Removed internal conversation message identifier; case facts and attribution remain unchanged."
+    }
+  ],
+  "original_sites_history": {
+    "filename": "ra-xott-sites-through-live-v30.bundle",
+    "size_bytes": 38284864,
+    "sha256": "4f55585edb1f50b3cd93f0d1c80a61c7090dddacf7b8f4722ac15109819b103a",
+    "standalone_restore_verified": true,
+    "git_fsck_passed": true,
+    "all_saved_version_commits_present": true
+  },
+  "versions_manifest": "history/SITES-VERSIONS.json",
+  "source_history_manifest": "history/SITES-HISTORY.json",
+  "synchronization": "Snapshot saved separately; automatic synchronization and deployment not configured by this transfer"
 }

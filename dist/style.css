@@ -1,0 +1,193 @@
+:root{--paper:#f7f5ef;--ink:#141414;--muted:#797875;--line:#dfddd6;--cyan:#5dcfe2}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:20px}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}button{cursor:pointer;color:inherit}a,button{-webkit-tap-highlight-color:transparent}.brand{display:flex;align-items:center;gap:8px;white-space:nowrap}.xmark{font-size:43px;font-weight:900;letter-spacing:-8px;width:36px;display:inline-block;background:linear-gradient(125deg,#9ce6ec 5%,#43b8d0 45%,#153a4e 48%,#061521 76%,#4fc3d7);background-clip:text;-webkit-background-clip:text;color:transparent;line-height:1}.brand strong{font-size:25px;letter-spacing:-1px}.brand small{font-size:8px;color:var(--muted);line-height:1.4;margin-left:8px;font-weight:400}.footer-nav button{background:none;border:0;padding:0;font:inherit}.footer-nav a:hover,.footer-nav button:hover{color:#247f90}.pill{border:1px solid #161616;border-radius:28px;color:white;background:#141414;min-height:40px;padding:12px 26px;font-size:11px;text-transform:uppercase;white-space:nowrap;transition:background .2s,transform .2s}.pill:hover{background:#333;transform:translateY(-1px)}.pill.light{background:white;color:#151515;border-color:white}.pill.light:hover{background:#e7e7e2}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,#0707088c 0%,#09090944 37%,transparent 70%),linear-gradient(0deg,#06060944,transparent 50%)}.location{font-size:12px;line-height:1.5;display:flex;align-items:center;gap:10px;margin:27px 0 0;color:#e8e7e4}.location-icon{display:flex;align-items:center;justify-content:center;flex:0 0 28px;height:18px}.section{padding:29px 3.7%;border-bottom:1px solid var(--line)}.section-heading{display:flex;align-items:center;gap:35px;margin-bottom:17px}h2{font-size:39px;font-weight:400;line-height:1.08;text-transform:uppercase;letter-spacing:-1.2px;margin:0}.section-heading>p{font-size:12px;line-height:1.5;color:var(--muted);margin:0}.text-link{border:0;background:none;font-size:12px;padding:8px 0;white-space:nowrap;margin-left:auto;color:var(--muted)}.text-link:hover{text-decoration:underline}.service-grid{display:grid;grid-template-columns:repeat(8,1fr);gap:10px}.tile{min-width:0}.tile button{display:block;width:100%;text-align:left;border:0;background:none;padding:0}.tile-image{width:100%;aspect-ratio:1.05;border-radius:4px;background-image:url('assets/tiles.png');background-size:700% 200%;transition:filter .3s,transform .3s}.tile button:hover .tile-image{filter:brightness(1.1);transform:translateY(-3px)}.tile h3{font-size:12px;line-height:1.35;font-weight:500;margin:10px 0 0;min-height:35px}.solutions{display:grid;grid-template-columns:24% 1fr;gap:2%;padding-top:25px;padding-bottom:23px}.solution-intro p{font-size:13px;color:var(--muted);line-height:1.6;margin:14px 0}.solution-intro .pill{font-size:11px;padding:12px 24px}.solution-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.solution-grid .tile-image{aspect-ratio:1.08}.projects{background:#191a1a;color:white;padding-top:25px;padding-bottom:18px;border:0}.projects .section-heading{gap:30px}.projects .section-heading p{color:#d1d0cf}.projects .text-link{color:#c4c4c3}.project-nav{display:flex;gap:13px}.project-nav button{border:1px solid #656565;border-radius:50%;background:none;color:#ccc;width:40px;height:40px;font-size:25px}.project-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:25px}.project-card{border:0;background:none;color:white;padding:0;text-align:left;min-width:0}.project-picture{height:170px;background-image:url('assets/projects.png');background-size:400% 100%;border-radius:3px;transition:filter .2s}.project-card:hover .project-picture{filter:brightness(1.16)}.project-card h3{font-size:15px;font-weight:500;margin:11px 0 6px}.project-card p{font-size:11px;color:#c1c1bf;margin:0;line-height:1.4}.demo-note{font-size:10px;color:#999;margin:15px 0 0}.founder{position:relative;isolation:isolate;overflow:hidden;display:flex;align-items:center;gap:3%;padding:38px 4.7%;min-height:220px;background:#f6eae2;color:#755f56}.founder:before{content:'';position:absolute;z-index:-2;inset:0;background:linear-gradient(90deg,#f6e9e4e8,#fbf3eacf),url('assets/personal-hero.png') center 70%/cover}.founder-copy{z-index:2;width:38%;flex-shrink:0}.founder-copy h2{text-transform:none;font-size:23px;letter-spacing:-.5px;font-weight:600;color:#654f49}.founder-copy p{font-size:14px;line-height:1.5;margin:9px 0 15px;color:#8b7870}.founder-link{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:10px 30px;border:1px solid #a58e81;border-radius:6px;font-size:13px;font-weight:600;background:#fff8f233}.founder-link:hover{background:#fff8f2}.personal-brand{position:relative;z-index:2;display:flex;gap:25px;align-items:center;flex-shrink:0}.personal-brand>div{font:46px/1 Georgia,serif;color:#957165}.personal-brand small{font:13px Arial,sans-serif;display:block;line-height:1.5;margin-top:8px}.arch{font:70px/1 Georgia,serif;border:1px solid #baa393;border-radius:70px 70px 0 0;width:75px;height:115px;display:grid;place-items:center;color:#b49a87}.founder-quote{position:relative;z-index:2;font:italic 17px/1.7 Georgia,serif;align-self:center;white-space:nowrap}.founder-quote span{display:block;font-size:23px;margin-top:5px;transform:rotate(-7deg)}.founder>img{position:absolute;right:3%;height:100%;width:28%;bottom:0;object-fit:cover;object-position:center 25%;z-index:-1;opacity:.75;mask-image:linear-gradient(90deg,transparent,#000 35%,#000 85%,transparent)}.founder-topics{position:absolute;right:4%;top:25%;text-transform:uppercase;font-size:10px;letter-spacing:1.5px;line-height:2;color:#9b887e;z-index:2}footer{padding:0 4.5%}.footer-main{display:flex;align-items:center;gap:30px;min-height:80px}.footer-nav{display:flex;align-items:center;gap:24px;font-size:11px;margin-left:auto}.footer-main>.pill{font-size:10px;min-height:35px;padding:10px 20px}.footer-bottom{border-top:1px solid var(--line);display:flex;justify-content:space-between;padding:12px 0}.footer-bottom p{font-size:10px;color:#858482;margin:0}.footer-bottom span{color:#27b5d1;font-size:19px;vertical-align:middle;margin-right:5px}dialog{border:0;background:var(--paper);color:var(--ink);border-radius:12px;padding:45px;max-width:680px;width:calc(100% - 28px);max-height:90svh;overflow:auto;box-shadow:0 25px 80px #0003}dialog::backdrop{background:#111b;backdrop-filter:blur(5px)}.close{position:absolute;right:12px;top:8px;width:40px;height:40px;background:none;border:0;font-size:32px}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:#82817b;margin:0 0 18px}dialog h2{font-size:32px;text-transform:none;line-height:1.15;margin-bottom:20px}#detail-content p{color:#64635f;font-size:16px;line-height:1.7}#detail-content ul{padding-left:20px;line-height:1.8;color:#64635f}#detail-cta{margin-top:15px}input,select,textarea{width:100%;padding:13px;border:1px solid #c6c4bd;background:#fffdf8;border-radius:5px;color:#171717;min-height:47px;font-size:15px}textarea{resize:vertical}.brief-note{font-size:13px;color:var(--muted);line-height:1.6}form{display:grid;gap:18px;margin-top:25px}label{display:grid;gap:8px;font-size:13px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.status{margin:0;font-size:13px;color:var(--muted);line-height:1.5}.status:empty{display:none}:focus-visible{outline:2px solid #1b9cba;outline-offset:5px}@media(min-width:1600px){body{max-width:1600px;margin:auto}}@media(max-width:1200px){.brand strong{font-size:22px}.brand small{font-size:7px;margin-left:3px}.xmark{font-size:37px;width:31px}.location{font-size:11px;margin-top:23px}.section{padding-top:24px;padding-bottom:22px}h2{font-size:34px}.tile h3{font-size:11px}.project-picture{height:140px}.project-grid{gap:20px}.founder{min-height:195px;padding-top:28px;padding-bottom:28px;gap:2%}.founder-copy h2{font-size:21px}.founder-copy p{font-size:12px}.personal-brand{gap:15px}.personal-brand>div{font-size:41px}.personal-brand small{font-size:11px}.arch{width:65px;height:100px;font-size:60px}.founder-quote{font-size:14px}.founder-quote span{font-size:20px}.footer-nav{gap:20px;font-size:10px}.footer-main{gap:20px}}@media(max-width:950px){.brand small{display:none}.service-grid{grid-template-columns:repeat(4,1fr);gap:18px 12px}.tile-image{aspect-ratio:1.5}.tile h3{font-size:13px;min-height:32px}.solutions{grid-template-columns:25% 1fr}.solution-grid{grid-template-columns:repeat(3,1fr);gap:15px 12px}.solution-grid .tile-image{aspect-ratio:1.5}.solution-intro h2{font-size:30px}.section-heading{gap:25px}.founder-copy{width:43%}.founder-quote{display:none}.personal-brand{margin-left:15px}.founder-topics{font-size:8px;right:3%}.footer-nav{gap:15px}.footer-main>.pill{display:none}.project-picture{height:130px}}@media(max-width:700px){.brand strong{font-size:23px}.xmark{font-size:40px}.hero-shade{background:linear-gradient(90deg,#000b,#0005),linear-gradient(0deg,#0006,transparent)}.location{margin-top:30px}.section{padding:28px 5%}.section-heading{flex-wrap:wrap;gap:12px 20px}.section-heading>p{font-size:12px}.section-heading>.text-link{font-size:11px}.section-heading h2{font-size:30px}.service-grid{grid-template-columns:repeat(2,1fr);gap:23px 14px}.tile-image{aspect-ratio:1.2}.tile h3{font-size:14px;min-height:0}.solutions{display:block}.solution-intro{margin-bottom:27px}.solution-intro h2 br{display:none}.solution-intro p br{display:none}.solution-intro h2{font-size:30px}.solution-intro p{max-width:350px}.solution-grid{grid-template-columns:repeat(2,1fr);gap:24px 14px}.solution-grid .tile-image{aspect-ratio:1.25}.project-grid{grid-template-columns:repeat(2,1fr);gap:24px 15px}.project-picture{height:140px}.projects .section-heading{gap:15px}.projects .text-link{display:none}.project-nav{margin-left:auto;gap:8px}.project-nav button{width:32px;height:32px;font-size:22px}.project-card h3{font-size:15px}.project-card p{font-size:11px;line-height:1.6}.demo-note{line-height:1.6;margin-top:22px}.founder{padding:32px 6%;min-height:330px;display:block}.founder-copy{width:100%;max-width:380px}.founder-copy h2{font-size:23px}.founder-copy p{font-size:14px;max-width:310px}.founder-copy p br{display:none}.founder-link{font-size:13px;background:#fff8f277}.personal-brand{margin:28px 0 0;display:inline-flex}.personal-brand>div{font-size:40px}.arch{height:78px;width:50px;font-size:43px}.founder>img{width:44%;right:0;height:65%;opacity:.35}.founder-topics{display:none}.footer-main{padding:23px 0;flex-wrap:wrap;gap:25px}.footer-nav{margin:0;flex-wrap:wrap;font-size:12px;gap:18px}.footer-bottom{gap:15px;flex-direction:column}.footer-bottom p{font-size:11px}dialog{padding:40px 25px}dialog h2{font-size:28px}.form-row{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:after,*:before{transition:none!important}}
+
+/* Feedback revision: readable type, explicit spaces and flexible mobile layout. */
+.screens{display:grid;grid-template-columns:1fr 1fr;gap:6%;padding-top:42px;padding-bottom:42px}.screens p:not(.eyebrow){font-size:16px;line-height:1.65;max-width:650px;margin:0 0 18px}.screens h2{font-size:clamp(28px,3vw,42px)}
+.service-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:24px 16px}.service-grid .tile-image{aspect-ratio:1.8}.tile h3{font-size:16px;line-height:1.4}.pill{font-size:12px}.solution-intro p,.section-heading>p{font-size:16px}.section-heading{flex-wrap:wrap}.text-link,.footer-nav{font-size:14px}.project-card p,.brief-note,label,.status{font-size:14px}.demo-note{font-size:12px}.brand small{font-size:9px}.founder{flex-wrap:wrap}.personal-brand>div{overflow-wrap:anywhere}.founder-topics{display:none}
+@media(max-width:1100px){.founder-quote{display:none}}
+@media(max-width:700px){.screens{grid-template-columns:1fr;gap:24px}.service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tile h3{font-size:16px}.solution-intro h2{line-height:1.15;letter-spacing:-.6px}.solution-intro p{font-size:16px}.section-heading>.text-link{font-size:14px}.project-card p{font-size:14px}.personal-brand{max-width:100%;gap:14px}.personal-brand>div{font-size:32px}.founder-copy{max-width:100%}.founder-copy p{font-size:16px}.footer-nav{font-size:14px}.pill{white-space:normal}dialog{padding:44px 22px 28px}dialog h2{overflow-wrap:anywhere}}
+
+/* Preserve the sprite cell’s native proportions, then crop within the existing service card. */
+.service-grid .tile-image{position:relative;overflow:hidden;background-image:none}
+.service-grid .tile-image::before{content:'';position:absolute;left:0;top:50%;width:100%;aspect-ratio:var(--frame-ratio);transform:translateY(-50%);background-image:url('assets/tiles.png');background-size:var(--frame-size);background-position:var(--frame-position);background-repeat:no-repeat}
+
+/* Personal project: live copy and the supplied portrait, without baked-in text. */
+.founder{display:block;min-height:560px;padding:58px 6%;background:#f8eee5;color:#78594e}
+.founder:before{background:linear-gradient(90deg,#f8eee5e8 0%,#f8eee5b8 48%,#f8eee59c 100%),url('assets/personal-hero.png') right center/auto 100% no-repeat}
+.founder-copy{position:relative;width:62%;max-width:760px;z-index:2}
+.founder-copy h2{font-size:clamp(28px,3.4vw,48px);line-height:1.15;letter-spacing:-.025em;color:#65483e;text-wrap:balance}
+.founder-copy p{font-size:clamp(18px,2vw,28px);line-height:1.5;color:#805e51;max-width:640px;margin:24px 0 28px}
+.founder-link{font-size:18px;line-height:1.4;min-height:56px;padding:15px 30px;border:2px solid #a07d69;border-radius:10px;background:#fff9f459;max-width:100%;text-align:center}
+.personal-brand{display:flex;width:fit-content;max-width:100%;margin:42px 0 0;gap:24px}
+.personal-brand>div{font-size:clamp(38px,5.2vw,70px);color:#805a4c}
+.personal-brand small{font-size:clamp(14px,1.5vw,20px);line-height:1.5;margin-top:12px}
+.arch{width:84px;height:132px;flex:none;font-size:78px;color:#a27e68;border:2px solid #a27e68}
+.founder-portrait{position:absolute;right:0;bottom:0;width:38%;max-width:352px;aspect-ratio:474/754;overflow:hidden;z-index:1;mask-image:linear-gradient(90deg,transparent,#000 14%);pointer-events:none}
+.founder-portrait img{position:absolute;width:264.556963%;height:auto;max-width:none;left:-164.556963%;top:-66.312997%;display:block}
+@media(max-width:950px){.founder{min-height:520px;padding:40px 6%}.founder-copy{width:65%}.founder-copy h2{font-size:32px}.founder-copy p{font-size:21px;max-width:440px}.founder-link{font-size:16px;padding:13px 22px}.personal-brand{gap:16px;margin-top:34px}.personal-brand>div{font-size:46px}.personal-brand small{font-size:15px}.arch{width:64px;height:104px;font-size:58px}.founder-portrait{width:42%;max-width:326px}}
+@media(max-width:600px){.founder{min-height:0;padding:34px 6% 0}.founder-copy{width:100%;max-width:none}.founder-copy h2{font-size:28px;max-width:100%}.founder-copy p{font-size:18px;line-height:1.5;max-width:none;margin:18px 0 22px}.founder-link{font-size:16px;width:100%;min-height:52px;padding:12px 14px}.personal-brand{gap:14px;margin:28px 0 0;position:relative}.personal-brand>div{font-size:42px}.personal-brand small{font-size:14px;max-width:200px}.arch{width:56px;height:88px;font-size:50px}.founder-portrait{position:relative;width:76%;max-width:330px;margin:-6px -6.82% 0 auto;right:auto;bottom:auto}.founder:before{background:linear-gradient(180deg,#f8eee5e8,#f8eee5b3),url('assets/personal-hero.png') right bottom/auto 85% no-repeat}}
+
+/* Direct contact choices keep each page's existing button styling. */
+.messenger-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:24px}.messenger-actions .pill{display:flex;align-items:center;justify-content:center;min-height:48px;font-size:14px;white-space:normal;text-align:center}
+@media(max-width:480px){.messenger-actions{grid-template-columns:1fr}}
+.hero .location-icon svg{display:block;flex:none}
+.hero .location-label{line-height:1.5}
+
+/* Use supplied photography for the outdoor-advertising card and the corrected screen image. */
+.service-grid .tile-photo::before{display:none}.tile-photo img{display:block;width:100%;height:100%;position:absolute;inset:0;object-fit:cover;object-position:50% 32%}.tile-photo img[src$="hero-owner.svg"]{object-position:82% 50%}
+
+/* Original The Village logo and online-media example, without the archive's package terms. */
+.service-grid .tile-media{background:#fff}.service-grid .tile-media::before{display:none}.tile-media-logo{position:absolute;left:5%;top:50%;width:54%;height:auto;transform:translateY(-50%)}.tile-media-sample{position:absolute;right:2%;top:50%;width:37%;aspect-ratio:199/168;overflow:hidden;transform:translateY(-50%)}.tile-media-sample img{position:absolute;display:block;width:389.94975%;height:auto;max-width:none;left:-284.42211%;top:-113.09524%}
+
+/* Directions retain the existing images and click-to-open details. */
+.service-grid .tile-marketplace::before,.service-grid .tile-signage-bank::before{display:none}
+.tile-marketplace{background:#f4e9e7}
+.tile-source-crop{position:absolute;display:block;overflow:hidden}
+.tile-source-crop img{position:absolute;display:block;height:auto;max-width:none}
+/* CSS-only crop of the supplied phone example, excluding rankings and Instagram UI. */
+.tile-marketplace .tile-source-crop{height:100%;aspect-ratio:366/535;left:50%;top:0;transform:translateX(-50%)}
+.tile-marketplace .tile-source-crop img{width:351.092896%;left:-27.322404%;top:-37.383178%}
+/* CSS-only crop preserves the HOTABYCH watermark and the lighted sign. */
+.tile-signage-restaurant .tile-source-crop{width:100%;aspect-ratio:824/626;left:0;top:0}
+.tile-signage-restaurant .tile-source-crop img{width:154.247573%;left:-.970874%;top:-16.29393%}
+.tile-photo img[src$="bellabot-real-restaurant.jpg"]{object-position:76% 50%}
+.service-card-badges,.service-badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.service-card-badges span,.service-badges span{border:1px solid var(--line);border-radius:14px;padding:5px 8px;font-size:11px;line-height:1.3;color:#64635f}
+.service-detail-compact{max-width:540px;padding:36px 28px 28px}
+.service-detail-compact h2{font-size:28px;line-height:1.15;margin-bottom:16px}
+.service-detail-compact .eyebrow{margin-bottom:14px}
+.service-detail-compact #detail-content p,.service-detail-compact #detail-content ul{font-size:14px;line-height:1.55;margin:12px 0}
+.service-detail-compact #detail-cta{margin-top:14px}
+@media(max-width:700px){.service-detail-compact{padding:42px 22px 24px}.service-detail-compact h2{font-size:25px}}
+
+/* Bank sign is the primary visual; the restaurant remains a separate historical example. */
+.tile-signage-bank .tile-source-crop{width:100%;aspect-ratio:805/643;left:0;top:0}
+.tile-signage-bank .tile-source-crop img{width:100%;left:0;top:0}
+.service-case-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}
+.service-case-gallery figure{margin:0;min-width:0}
+.service-case-image{position:relative;overflow:hidden;aspect-ratio:1.8;border-radius:4px}
+.service-case-gallery figcaption{font-size:12px;line-height:1.45;margin-top:8px;color:#64635f}
+.service-case-gallery figcaption strong{display:block;color:var(--ink);font-weight:500}
+.service-case-gallery figcaption span{display:block;margin-top:5px}
+
+/* Hermès appears only among the sign examples, with no wider partnership claim. */
+.tile-signage-hermes .tile-source-crop{width:100%;aspect-ratio:792/631;left:0;top:-18%}
+.tile-signage-hermes .tile-source-crop img{width:100%;left:0;top:0}
+
+/* Installation visuals remain distinct from advertising on ready-made screens. */
+.tile-photo img[src$="led-installation-source.png"]{object-position:50% 45%}
+.tile-led-mount .tile-source-crop,.tile-led-ready .tile-source-crop{width:100%;left:0;top:-18%}
+.tile-led-mount .tile-source-crop{aspect-ratio:793/821}
+.tile-led-ready .tile-source-crop{aspect-ratio:791/835}
+.tile-led-mount .tile-source-crop img,.tile-led-ready .tile-source-crop img{width:100%;left:0;top:0}
+
+/* The supplied Rasputin example keeps the visible sign and watermark. */
+.tile-signage-rasputin .tile-source-crop{width:100%;aspect-ratio:856/635;left:0;top:0}
+.tile-signage-rasputin .tile-source-crop img{width:100%;left:0;top:0}
+
+/* Supplied brochure views keep their artwork while excluding carousel controls. */
+.service-grid .tile-brochure-cover::before,.service-grid .tile-slim-frame::before{display:none}
+.tile-brochure-cover{background:#c4c3c8}
+.brochure-case-gallery .service-case-image{aspect-ratio:1}
+.tile-brochure-cover .tile-source-crop{width:100%;aspect-ratio:821/821;left:0;top:0}
+.tile-brochure-cover .tile-source-crop img{width:100%;left:0;top:0}
+.service-grid .tile-brochure-cover .tile-source-crop{width:auto;height:100%;aspect-ratio:781/600;left:50%;top:0;transform:translateX(-50%)}
+.service-grid .tile-brochure-cover .tile-source-crop img{width:105.121639%;left:-2.56082%;top:-21.666667%}
+.tile-brochure-menu .tile-source-crop{width:100%;aspect-ratio:793/793;left:0;top:0}
+.tile-brochure-menu .tile-source-crop img{width:108.070618%;left:-4.035309%;top:-1.008827%}
+.tile-brochure-front .tile-source-crop{width:100%;aspect-ratio:790/790;left:0;top:0}
+.tile-brochure-front .tile-source-crop img{width:108.860759%;left:-4.43038%;top:-1.012658%}
+
+/* Panel photos are cropped from the supplied pages, without carousel UI or specification tables. */
+.tile-slim-frame,.tile-slim-crystal{background:#ececec}
+.slim-case-gallery .service-case-image{aspect-ratio:3/4}
+.tile-slim-frame .tile-source-crop{height:100%;aspect-ratio:361/482;left:50%;top:0;transform:translateX(-50%)}
+.tile-slim-frame .tile-source-crop img{width:237.67313%;left:-9.695291%;top:0}
+.tile-slim-crystal .tile-source-crop{height:100%;aspect-ratio:355/479;left:50%;top:0;transform:translateX(-50%)}
+.tile-slim-crystal .tile-source-crop img{width:238.309859%;left:-9.859155%;top:0}
+
+/* CORKS remains a separate supplied example with the original agency logo. */
+.brochure-case-gallery .tile-brochure-corks{aspect-ratio:857/1069}
+.tile-brochure-corks .tile-source-crop{width:100%;aspect-ratio:857/1069;left:0;top:0}
+.tile-brochure-corks .tile-source-crop img{width:100%;left:0;top:0}
+
+/* Historical SMM screenshots stay distinct from website-development services. */
+.service-grid .tile-smm-beerburger::before{display:none}
+.tile-smm-beerburger{background:#fff}
+.smm-case-gallery,.print-case-gallery{grid-template-columns:1fr}
+.smm-case-gallery .service-case-image{aspect-ratio:861/851}
+.tile-smm-beerburger .tile-source-crop{width:100%;aspect-ratio:861/851;left:0;top:0}
+.tile-smm-beerburger .tile-source-crop img{width:144.831591%;left:0;top:0}
+.service-grid .tile-smm-beerburger .tile-source-crop{aspect-ratio:861/205;top:50%;transform:translateY(-50%)}
+/* Historical printing example excludes the surrounding social post interface. */
+.print-case-gallery .service-case-image{aspect-ratio:644/455}
+.tile-print-beerburger .tile-source-crop{width:100%;aspect-ratio:644/455;left:0;top:0}
+.tile-print-beerburger .tile-source-crop img{width:197.826087%;left:-16.459627%;top:-14.945055%}
+
+/* Neutral pictograms replace unrelated photo subjects in these two service cards. */
+.tile-photo img[src$="maf-neutral.svg"],.tile-photo img[src$="trademark-neutral.svg"]{object-fit:contain;object-position:center;background:#e8e6df}
+
+/* Project carousel chevrons stay centered independently of font baselines. */
+.project-nav button{display:grid;place-items:center;padding:0;line-height:1}
+.project-nav button svg{display:block;width:12px;height:16px;pointer-events:none}
+
+/* Selected service illustrations retain the supplied photo bytes; cropping is CSS-only. */
+.service-grid .tile-photo img[src*="service-selected-"]{object-fit:cover;object-position:50% 50%}
+.service-grid .tile-photo img[src$="service-selected-02-industry.jpg"]{object-position:50% 55%}
+.service-grid .tile-photo img[src$="service-selected-05-events.jpg"]{object-position:50% 62%}
+.service-grid .tile-photo img[src$="service-selected-06-multimedia.jpg"]{object-position:50% 40%}
+
+/* Keep the agency descriptor in the site's ordinary sans at a readable small size. */
+.brand small{font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:400;line-height:1.45;letter-spacing:normal}
+
+/* Approved Russian service photographs retain original bytes; all cropping is CSS-only. */
+.service-grid .tile-photo img[src$="service-selected-07-maf.jpg"]{object-position:50% 85%}
+.service-grid .tile-photo img[src$="service-selected-08-trademark.jpg"]{object-position:50% 18%}
+.service-grid .tile-photo img[src$="service-selected-09-screens.jpg"]{object-position:50% 40%}
+.service-photo-credit{border-top:1px solid var(--line);padding-top:12px;margin-top:18px}
+#detail-content .service-photo-credit p,#detail-content p.service-photo-credit{font-size:14px;line-height:1.6}
+.service-photo-credit a{text-decoration:underline;text-underline-offset:3px}
+
+/* Plain text identifies the channels used in this campaign, without logo artwork. */
+.campaign-image{position:relative;overflow:hidden;background:#17313e}
+.campaign-image>img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:50% 62%}
+.campaign-channel-badges{position:absolute;left:10px;right:10px;bottom:10px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;width:fit-content;max-width:calc(100% - 20px);padding:8px 10px;border-radius:5px;background:#fffef6ed;color:#141414;pointer-events:none}
+.campaign-channel-label{flex-basis:100%;font-size:12px;line-height:1.3}
+.campaign-channel{padding:2px 7px;border:1px solid #6f777a;border-radius:3px;font-size:14px;font-weight:600;line-height:1.3;letter-spacing:.04em}
+.campaign-card-service{font-size:14px;line-height:1.4;margin:8px 0 0;color:#454541}
+.campaign-card-note,.project-card p.campaign-card-note{font-size:12px;line-height:1.4;margin:6px 0 0;color:#797875}
+.project-card p.campaign-card-note{color:#c1c1bf}
+.campaign-case{border-top:1px solid var(--line);padding-top:14px;margin-top:20px}
+.campaign-case h3{font-size:20px;line-height:1.35;font-weight:500;margin:0 0 12px}
+#detail-content .campaign-result{font-size:22px;line-height:1.4;color:var(--ink);margin:14px 0}
+#detail-content .campaign-source-note{font-size:14px;line-height:1.6}
+@media(max-width:700px){.campaign-channel-badges{left:8px;right:8px;bottom:8px;padding:6px 8px;max-width:calc(100% - 16px)}.campaign-case h3{font-size:18px}#detail-content .campaign-result{font-size:20px}}
+.footer-main>.pill{margin-left:auto}
+
+
+/* A single static first screen keeps the supplied image and the agency's full service scope. */
+.hero{position:relative;min-height:600px;height:auto;color:#fff;background:url('assets/hero.png') center/cover;overflow:hidden}
+.hero-topbar{position:relative;z-index:3;display:flex;justify-content:flex-end;padding:24px 4.5% 0}
+.hero-project-cta,.hero-services-cta{display:inline-flex;align-items:center;justify-content:center;min-height:48px;font-size:14px;line-height:1.4;text-align:center;white-space:normal}
+.hero-project-cta{max-width:100%;padding:13px 26px}
+.hero-copy{position:relative;z-index:2;max-width:1080px;padding:40px 6% 44px}
+.hero h1{max-width:850px;font-size:clamp(42px,4.8vw,68px);line-height:1.08;letter-spacing:-.025em;text-transform:uppercase;margin:0 0 22px;font-weight:750;text-wrap:balance;overflow-wrap:break-word}
+.hero-lead{max-width:640px;font-size:20px;line-height:1.5;margin:0 0 26px;text-wrap:pretty}
+.hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:18px}
+.hero-services-cta{max-width:100%;padding:13px 26px}
+.hero .location{font-size:14px;line-height:1.5;margin-top:28px}
+.footer-nav{margin-left:auto}
+.footer-nav button{min-height:44px;padding:10px 0;font-size:14px}
+.footer-main>.pill{display:inline-flex;align-items:center;justify-content:center;min-height:44px;font-size:12px;margin-left:0;max-width:100%;white-space:normal;text-align:center}
+@media(max-width:700px){
+ .hero{min-height:540px;background-position:62% center}
+ .hero-topbar{padding:18px 6% 0}
+ .hero-project-cta{padding:13px 20px}
+ .hero-copy{max-width:100%;padding:34px 6% 32px}
+ .hero h1{font-size:clamp(32px,8.2vw,46px);line-height:1.12;letter-spacing:-.02em;margin-bottom:20px}
+ .hero-lead{max-width:100%;font-size:18px;line-height:1.5;margin-bottom:24px}
+ .hero-actions{align-items:flex-start}
+ .hero-services-cta{padding:13px 22px}
+ .hero .location{margin-top:26px}
+ .footer-main{gap:16px 24px}
+ .footer-nav{margin-left:auto}
+}
