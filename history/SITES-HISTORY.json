@@ -1,18 +1,22 @@
 {
   "project": "RA XOTT",
   "sites_project_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7",
-  "snapshot_source_commit": "68d19306e49e6bdc93fcbdc7e12a5e1d76b173cf",
-  "latest_saved_version": 30,
-  "saved_versions_covered": 30,
-  "original_commits_covered": 33,
-  "history_type": "Original Sites commits stored in a companion git bundle; GitHub main is a verified content snapshot with separate GitHub commit hashes.",
+  "snapshot_source_commit": "364147b173644c21e5bd419d622f63c798cc8b8f",
+  "latest_saved_version": 31,
+  "saved_versions_mapped": 31,
+  "original_commits_listed": 34,
+  "original_commits_in_companion_bundle": 33,
+  "history_type": "Separate GitHub snapshots with original Sites source SHA mapping; original Sites commits through v30 remain in the companion git bundle.",
   "bundle": {
     "filename": "ra-xott-sites-through-live-v30.bundle",
     "size_bytes": 38284864,
     "sha256": "4f55585edb1f50b3cd93f0d1c80a61c7090dddacf7b8f4722ac15109819b103a",
     "standalone_restore_verified": true,
     "git_fsck_passed": true,
-    "all_saved_version_commits_present": true
+    "all_saved_version_commits_present": true,
+    "covered_saved_versions_through": 30,
+    "covered_saved_versions_count": 30,
+    "original_commits_count": 33
   },
   "versions": [
     {
@@ -344,6 +348,17 @@
       "has_deployment_attempt": true,
       "source_tree": "17a6fdbb04848e2db42175d747185f033f00f301",
       "in_history_bundle": true
+    },
+    {
+      "version_number": 31,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_f72dda0786348191bdd67282c1b5d159",
+      "source_commit": "364147b173644c21e5bd419d622f63c798cc8b8f",
+      "archive_sha256": "sha256:8b1d988a0dcba97ddd34b08ee161b45364e7ad7702b51053464b82bf780c26a3",
+      "archive_bytes": 45813760,
+      "saved_archive_file_count": 52,
+      "has_deployment_attempt": true,
+      "source_tree": "2cbc67d07119cdab508b9cbf124949ebd861514c",
+      "in_history_bundle": false
     }
   ],
   "commits": [
@@ -352,10 +367,10 @@
       "source_tree": "016b18626e4f6b215e799d2f55770c14911684d5",
       "source_parents": [],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1790808737,
       "sites_saved_version_numbers": [
         1
       ],
-      "source_committed_at_epoch": 1790808737,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -365,10 +380,10 @@
         "a65c86809f18e40f17ed57d9fffa94f2a3d47cf0"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1790955409,
       "sites_saved_version_numbers": [
         2
       ],
-      "source_committed_at_epoch": 1790955409,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -378,10 +393,10 @@
         "667d2c1b86306a4b805d18cc1b1f85b6eb9c700b"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791144891,
       "sites_saved_version_numbers": [
         3
       ],
-      "source_committed_at_epoch": 1791144891,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -391,10 +406,10 @@
         "83e36afe5ca1e20160178ffe46506405c5920eac"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791146554,
       "sites_saved_version_numbers": [
         4
       ],
-      "source_committed_at_epoch": 1791146554,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -404,10 +419,10 @@
         "2f7a50345ed760164359e8fc1ab4d3ed54974713"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791201530,
       "sites_saved_version_numbers": [
         5
       ],
-      "source_committed_at_epoch": 1791201530,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -417,10 +432,10 @@
         "a13a2c927101236304229f6923cce1780c988179"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791203830,
       "sites_saved_version_numbers": [
         6
       ],
-      "source_committed_at_epoch": 1791203830,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -430,10 +445,10 @@
         "11570bc19fa7924cda9c4e9fc1e4faedde2f20ff"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791203997,
       "sites_saved_version_numbers": [
         7
       ],
-      "source_committed_at_epoch": 1791203997,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -443,10 +458,10 @@
         "5985f4ddbd7bc23e4e802546d1b7c12e1e664b5a"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791215499,
       "sites_saved_version_numbers": [
         8
       ],
-      "source_committed_at_epoch": 1791215499,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -456,10 +471,10 @@
         "181001def3f7b4fd83c7ec048d397ad2bf4089a5"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791215770,
       "sites_saved_version_numbers": [
         9
       ],
-      "source_committed_at_epoch": 1791215770,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -469,10 +484,10 @@
         "e30440b305990e8d3b1b958f1a4818f4ced3ab44"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791218489,
       "sites_saved_version_numbers": [
         10
       ],
-      "source_committed_at_epoch": 1791218489,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -482,10 +497,10 @@
         "961a970bdc63b308137df556993263946e0a84b1"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791222711,
       "sites_saved_version_numbers": [
         11
       ],
-      "source_committed_at_epoch": 1791222711,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -495,10 +510,10 @@
         "c03f5856420e3932e09966be29062acf07b5af0d"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791225828,
       "sites_saved_version_numbers": [
         12
       ],
-      "source_committed_at_epoch": 1791225828,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -508,10 +523,10 @@
         "d71010458e5bfd0af581275c2904f07d62a357be"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791226302,
       "sites_saved_version_numbers": [
         13
       ],
-      "source_committed_at_epoch": 1791226302,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -521,10 +536,10 @@
         "e9f4fe42a0cb34b589fb1505cd344e39e9c38ea2"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791226928,
       "sites_saved_version_numbers": [
         14
       ],
-      "source_committed_at_epoch": 1791226928,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -534,10 +549,10 @@
         "9a8dcc6071b76c7caeaee30c25afd0499c75b155"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791227743,
       "sites_saved_version_numbers": [
         15
       ],
-      "source_committed_at_epoch": 1791227743,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -547,10 +562,10 @@
         "5d240359d4aab32fa399f6ee756ea21796db9c9a"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791228674,
       "sites_saved_version_numbers": [
         16
       ],
-      "source_committed_at_epoch": 1791228674,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -560,10 +575,10 @@
         "f69a46f80e95a4ec417890ec8332ee21e9377946"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791228771,
       "sites_saved_version_numbers": [
         17
       ],
-      "source_committed_at_epoch": 1791228771,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -573,10 +588,10 @@
         "b2fe176f8de1131310a6005efa3ebdb6870823b1"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791230345,
       "sites_saved_version_numbers": [
         18
       ],
-      "source_committed_at_epoch": 1791230345,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -586,8 +601,8 @@
         "a8cc4002a788c3a1127036a0174a515fc07303fe"
       ],
       "source_subject": "Update Site source",
-      "sites_saved_version_numbers": [],
       "source_committed_at_epoch": 1791230437,
+      "sites_saved_version_numbers": [],
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -597,8 +612,8 @@
         "99672a153f85a4313fa41f78205f516bc2fdd1dd"
       ],
       "source_subject": "Update Site source",
-      "sites_saved_version_numbers": [],
       "source_committed_at_epoch": 1791230437,
+      "sites_saved_version_numbers": [],
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -608,10 +623,10 @@
         "e708943dc489ee582f95b472423c29e0167a811a"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791230437,
       "sites_saved_version_numbers": [
         19
       ],
-      "source_committed_at_epoch": 1791230437,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -621,10 +636,10 @@
         "45ac4f429adcd2b6f605c8113d176dca9786bdd2"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791231251,
       "sites_saved_version_numbers": [
         20
       ],
-      "source_committed_at_epoch": 1791231251,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -634,10 +649,10 @@
         "55913fd9d67ceb61fbc8a18a8369ee274e8cbc3c"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791232967,
       "sites_saved_version_numbers": [
         21
       ],
-      "source_committed_at_epoch": 1791232967,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -647,10 +662,10 @@
         "51058f2eb9cea18d8df9b71040277883643af2d2"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791233086,
       "sites_saved_version_numbers": [
         22
       ],
-      "source_committed_at_epoch": 1791233086,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -660,10 +675,10 @@
         "402e95dc92e2aa2575c40aa2f6efa7a94a95b865"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791233233,
       "sites_saved_version_numbers": [
         23
       ],
-      "source_committed_at_epoch": 1791233233,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -673,10 +688,10 @@
         "9cb09ae172043e71509fbd017eab4aced9b38db8"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791233496,
       "sites_saved_version_numbers": [
         24
       ],
-      "source_committed_at_epoch": 1791233496,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -686,10 +701,10 @@
         "43a24e82ab2a3d56fed45169810e47b3e150e17b"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791233810,
       "sites_saved_version_numbers": [
         25
       ],
-      "source_committed_at_epoch": 1791233810,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -699,10 +714,10 @@
         "e0c8ca0c639484110a9ae077b326781a0e87d856"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791233996,
       "sites_saved_version_numbers": [
         26
       ],
-      "source_committed_at_epoch": 1791233996,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -712,10 +727,10 @@
         "c083dd6070ea81b260b456c90bdc7582fb85208c"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791234262,
       "sites_saved_version_numbers": [
         27
       ],
-      "source_committed_at_epoch": 1791234262,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -725,10 +740,10 @@
         "e07b775ebb1292e1801114e2ac8e8d3d227bfbbc"
       ],
       "source_subject": "Update Site source",
+      "source_committed_at_epoch": 1791236961,
       "sites_saved_version_numbers": [
         28
       ],
-      "source_committed_at_epoch": 1791236961,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -738,8 +753,8 @@
         "65428231ee142386876e6403b0a2d9ed564814dd"
       ],
       "source_subject": "Use approved service photos and soften agency descriptor",
-      "sites_saved_version_numbers": [],
       "source_committed_at_epoch": 1791238459,
+      "sites_saved_version_numbers": [],
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -749,10 +764,10 @@
         "d8a916939e28bad334a92782aae2b35d42cc1f49"
       ],
       "source_subject": "Add Russian service photos, summit campaign case and simpler navigation",
+      "source_committed_at_epoch": 1791239078,
       "sites_saved_version_numbers": [
         29
       ],
-      "source_committed_at_epoch": 1791239078,
       "source_original_hash_preserved_in_bundle": true
     },
     {
@@ -762,11 +777,24 @@
         "3118c3123e588a3eaa32175b6519e6fc6802db6b"
       ],
       "source_subject": "Simplify static hero and add verified service details",
+      "source_committed_at_epoch": 1791240783,
       "sites_saved_version_numbers": [
         30
       ],
-      "source_committed_at_epoch": 1791240783,
       "source_original_hash_preserved_in_bundle": true
+    },
+    {
+      "source_commit": "364147b173644c21e5bd419d622f63c798cc8b8f",
+      "source_tree": "2cbc67d07119cdab508b9cbf124949ebd861514c",
+      "source_parents": [
+        "68d19306e49e6bdc93fcbdc7e12a5e1d76b173cf"
+      ],
+      "source_subject": "Keep confirmed summit case and use sourced campaign logos",
+      "source_committed_at_epoch": 1791241742,
+      "sites_saved_version_numbers": [
+        31
+      ],
+      "source_original_hash_preserved_in_bundle": false
     }
   ],
   "snapshot_files": [
@@ -774,6 +802,7 @@
       "path": ".openai/hosting.json",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "731effc1a985d40145fd845b300e7fc800d3c1c5",
       "sha": "731effc1a985d40145fd845b300e7fc800d3c1c5",
       "bytes": 106,
       "sha256": "e8d3d49151bfc8ecdfe8de315a7033752378e772590a7eaeaf572ed7aa992917",
@@ -783,15 +812,17 @@
       "path": "dist/app.js",
       "mode": "100644",
       "type": "blob",
-      "sha": "509738bc84597d02b69a9812053e2e03273bbe12",
-      "bytes": 33581,
-      "sha256": "48b773f4dd57cd0ec6a555ccf74872f37a6a0657f6bbd8ebb5fc6be70bb3934e",
+      "source_sha": "ee5efde5ddf921720fa44ce86dc4c557c72284d9",
+      "sha": "ee5efde5ddf921720fa44ce86dc4c557c72284d9",
+      "bytes": 32363,
+      "sha256": "c8f8f3f6b9ac4d7d23ff63909c86f3a03a76deec5e53cd68add1ed65698a17ca",
       "inline_text": true
     },
     {
       "path": "dist/assets/bellabot-real-restaurant.jpg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "131b7336f50537ffc5950cf2441cdcb4e37c9e1e",
       "sha": "131b7336f50537ffc5950cf2441cdcb4e37c9e1e",
       "bytes": 258145,
       "sha256": "e96f8d21e326afbaa0b1ac309c1fce61fc9fb9482251b4926fe3a2039b809ad0",
@@ -801,6 +832,7 @@
       "path": "dist/assets/bezuslove-reference.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "df20e762cb1449396e8b482eb9d6bb234e133bcf",
       "sha": "df20e762cb1449396e8b482eb9d6bb234e133bcf",
       "bytes": 1806954,
       "sha256": "341c6462f29c08c4cec7f9ca996cebb79b9a799d73d40811aed4394c6d1333a9",
@@ -810,6 +842,7 @@
       "path": "dist/assets/brochure-beerburger-view-1.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "4ef4be08ae19501cbe29672efc9f2481def8fa7e",
       "sha": "4ef4be08ae19501cbe29672efc9f2481def8fa7e",
       "bytes": 776055,
       "sha256": "8eec8c3948391a8db1399f2f6ba843dfdce88b8be0aa43eda66ec5edb681ac71",
@@ -819,6 +852,7 @@
       "path": "dist/assets/brochure-beerburger-view-2.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "f4fc87b5406bf28e7ae9c298f33fe158e1948c87",
       "sha": "f4fc87b5406bf28e7ae9c298f33fe158e1948c87",
       "bytes": 1018182,
       "sha256": "7d872abcb1d480d938a8f0e2f5d2cff2ddc6568f33f6da8f3ba92b6d30c05e21",
@@ -828,6 +862,7 @@
       "path": "dist/assets/brochure-beerburger-view-3.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "0e0d70dc50febadb04b3ddbe719d91966bfc2915",
       "sha": "0e0d70dc50febadb04b3ddbe719d91966bfc2915",
       "bytes": 608201,
       "sha256": "44bb1d29f01c1f617bb906fe338e12df7de0dacec2ba1263ee8191ec8eafffa4",
@@ -837,15 +872,27 @@
       "path": "dist/assets/brochure-corks-source.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "0b85a40d383f67356fe9d4e295dfd6a2353670e4",
       "sha": "0b85a40d383f67356fe9d4e295dfd6a2353670e4",
       "bytes": 496839,
       "sha256": "777bfd0d586a3ebb8e4e0e7ade98c2bc38b851349d2b103cad4e74a838cd3e73",
       "inline_text": false
     },
     {
+      "path": "dist/assets/ctc-logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "source_sha": "00806bf346719b8daebcbd302db2e3d9861fd98e",
+      "sha": "00806bf346719b8daebcbd302db2e3d9861fd98e",
+      "bytes": 724,
+      "sha256": "8133e6c63cfb9992e42aadaa7e73ab4cebf89abff0919b7079e944a7df8f5c41",
+      "inline_text": true
+    },
+    {
       "path": "dist/assets/hermes-source.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "07539070ad57d3db66448fc1b6906f6cb73a26bc",
       "sha": "07539070ad57d3db66448fc1b6906f6cb73a26bc",
       "bytes": 449314,
       "sha256": "5c3a1b40e08b5eefbef0408db013645d090b4984c7aa04701cf658016751ae66",
@@ -855,6 +902,7 @@
       "path": "dist/assets/hero-owner.svg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "5e5527f0a50fdb18a7552bc0303aceb719b08e44",
       "sha": "5e5527f0a50fdb18a7552bc0303aceb719b08e44",
       "bytes": 5564101,
       "sha256": "fcce9a05ef667b5a8710d0a7b85cc32dcbd9aca84e8397142c01cf7fd47ec8ef",
@@ -864,6 +912,7 @@
       "path": "dist/assets/hero.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "b6b886ba817fce5ea80ef56cd7a9034f394e6ce0",
       "sha": "b6b886ba817fce5ea80ef56cd7a9034f394e6ce0",
       "bytes": 2365157,
       "sha256": "b81a07053983412a0dcd24e71a2e39f626b2e4159fba2702b1e9cd9e9bad6f5a",
@@ -873,6 +922,7 @@
       "path": "dist/assets/led-completed-source.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "fabbee380befafed80cee968b7ce747b9d0f5d26",
       "sha": "fabbee380befafed80cee968b7ce747b9d0f5d26",
       "bytes": 605135,
       "sha256": "a2921bef7c2118e97ecb17083d11ab0b85a7196c2c8ceea57e2f3603fe0d47ff",
@@ -882,6 +932,7 @@
       "path": "dist/assets/led-installation-source.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "c09e446b78e3c6ab343cccb72440f636b978aff4",
       "sha": "c09e446b78e3c6ab343cccb72440f636b978aff4",
       "bytes": 1049696,
       "sha256": "3c11c5df8caf082c8ea343b5808a3147b1e1247773aa8567889764bcb8b0bce2",
@@ -891,6 +942,7 @@
       "path": "dist/assets/maf-neutral.svg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "7be76ea082fddb61872680d2f845f034fd6360d2",
       "sha": "7be76ea082fddb61872680d2f845f034fd6360d2",
       "bytes": 532,
       "sha256": "2a023d53a8f79a55244b85053b90c0e51cdb3efc323d5f8f30983d9957327f56",
@@ -900,6 +952,7 @@
       "path": "dist/assets/marketplace-source.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "a19d97757ffc875967edd6a5e820018b199013ce",
       "sha": "a19d97757ffc875967edd6a5e820018b199013ce",
       "bytes": 734229,
       "sha256": "9e0ad6f84f0517288e9a98ab48cc1d988aa1bd5fa4dc5cd7ef0aaf5dd3ac9b72",
@@ -909,6 +962,7 @@
       "path": "dist/assets/outdoor-sochi-airport.jpg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "59c1444f1bd0bc1b1d8d2124d323109fab6a22df",
       "sha": "59c1444f1bd0bc1b1d8d2124d323109fab6a22df",
       "bytes": 204893,
       "sha256": "d7460600acf1fb8ab46b9f57c98f12aa5262523478e733c99fc7bd4329004df3",
@@ -918,6 +972,7 @@
       "path": "dist/assets/personal-hero.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "bc2de66edfae003e16edfdfe98997e23b595a12b",
       "sha": "bc2de66edfae003e16edfdfe98997e23b595a12b",
       "bytes": 1801480,
       "sha256": "3e3a31065757f7653186d5e25d217af3353b27ecfc53dc719033f0612acd0558",
@@ -927,6 +982,7 @@
       "path": "dist/assets/personal-portrait.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "df55092ec44329a9710638adb0b0596a547a1369",
       "sha": "df55092ec44329a9710638adb0b0596a547a1369",
       "bytes": 1854470,
       "sha256": "86af3f37eceb05ae32bd1536284cd75884cd90dc6f57552095eeb0dfef25eeec",
@@ -936,6 +992,7 @@
       "path": "dist/assets/post-bank-source.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "6d84af33bc4b5298628ef4a0e6de5eff9431fd38",
       "sha": "6d84af33bc4b5298628ef4a0e6de5eff9431fd38",
       "bytes": 941493,
       "sha256": "088c49aae110a3a870529fb3ef059aa8c87f3a1bfb5ba6de0c6bc769827aa35a",
@@ -945,6 +1002,7 @@
       "path": "dist/assets/print-beerburger-source.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "eee9fed90c1456518749f51196f5616ca87e367a",
       "sha": "eee9fed90c1456518749f51196f5616ca87e367a",
       "bytes": 1068049,
       "sha256": "5206d655e2b9deaa0f434c80f6c90a0d6c5b53637343ead7410690cc73b74c7d",
@@ -954,6 +1012,7 @@
       "path": "dist/assets/projects.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "37ddf98f93e7a2e0bfa76e8e88145f2068c94efd",
       "sha": "37ddf98f93e7a2e0bfa76e8e88145f2068c94efd",
       "bytes": 2405854,
       "sha256": "94ed33b96c685a7d04831652c9a48acbf9cc67bd80b25c94ba574c067573fd67",
@@ -963,6 +1022,7 @@
       "path": "dist/assets/rasputin-source.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "ad6101a7c0ad7f2fe3bd6d554da58cefd38f5878",
       "sha": "ad6101a7c0ad7f2fe3bd6d554da58cefd38f5878",
       "bytes": 1090824,
       "sha256": "715224d2c530a7ef31848139499782de69cbf351c57ca219c5ef048e98e74f8c",
@@ -972,6 +1032,7 @@
       "path": "dist/assets/service-selected-01-web.jpg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "936caea27e8974850baaf436fcf1e3cc877fe454",
       "sha": "936caea27e8974850baaf436fcf1e3cc877fe454",
       "bytes": 194738,
       "sha256": "ff71194f3c97401b8332e684d7f4fc005cb85fc39f21cf944cfc99ee63cd5d6d",
@@ -981,6 +1042,7 @@
       "path": "dist/assets/service-selected-02-industry.jpg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "6ccf01c503ba99b69c2fe6b7df947d964d4fc9a7",
       "sha": "6ccf01c503ba99b69c2fe6b7df947d964d4fc9a7",
       "bytes": 320679,
       "sha256": "cbb50ed39c79aeafbfa125c29f4a1e55c46e9a2e784196843df5a070aab0f69b",
@@ -990,6 +1052,7 @@
       "path": "dist/assets/service-selected-03-branding.jpg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "2a64c9042747920d06347e2ebad1895558d1fb26",
       "sha": "2a64c9042747920d06347e2ebad1895558d1fb26",
       "bytes": 130621,
       "sha256": "9dfc88ab01c1f630b02011fb3575cf273e64ffeb3f9cdd66d1659b6251a71a0e",
@@ -999,6 +1062,7 @@
       "path": "dist/assets/service-selected-04-film.jpg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "313c8ddc06fca24fc10a1b8a21ac806793464eac",
       "sha": "313c8ddc06fca24fc10a1b8a21ac806793464eac",
       "bytes": 225492,
       "sha256": "d8d7b5a27512b5253fd49cf1cb0bc3ddfb9b800f0267b02e31fbfacde936697f",
@@ -1008,6 +1072,7 @@
       "path": "dist/assets/service-selected-05-events.jpg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "68947cade8a7e242572e5922399a4040bbc98fb0",
       "sha": "68947cade8a7e242572e5922399a4040bbc98fb0",
       "bytes": 255434,
       "sha256": "8a9a14751f68973717b2c98ced4531a3c47f1d05ca9c621977171f51c4ae2dc7",
@@ -1017,6 +1082,7 @@
       "path": "dist/assets/service-selected-06-multimedia.jpg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "1ecd4c4575dabb960d492b1902cb52fb1a14338c",
       "sha": "1ecd4c4575dabb960d492b1902cb52fb1a14338c",
       "bytes": 640691,
       "sha256": "94aaa64a3c4cd23e3863d3ad4f547aa08c7a0e52866031a04f32d770bb91a494",
@@ -1026,6 +1092,7 @@
       "path": "dist/assets/service-selected-07-maf.jpg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "b305fa7d44fbc2cb3309f53504223bb8ee3c2ce0",
       "sha": "b305fa7d44fbc2cb3309f53504223bb8ee3c2ce0",
       "bytes": 6493568,
       "sha256": "62d1e009981c5b124ef114bb5a48fa01f18e2d213967adae83d2507151c08ac5",
@@ -1035,6 +1102,7 @@
       "path": "dist/assets/service-selected-08-trademark.jpg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "c6d19ff866bf7ca53bcebcba9082c6fba48f7579",
       "sha": "c6d19ff866bf7ca53bcebcba9082c6fba48f7579",
       "bytes": 285848,
       "sha256": "f4cf08cf940790c162683cf530aea9c6f579a7a768ee7cae9a3db3ca19316bf8",
@@ -1044,6 +1112,7 @@
       "path": "dist/assets/service-selected-09-screens.jpg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "c82f87192eeef48f5a982d6eb16ab7f1930f21be",
       "sha": "c82f87192eeef48f5a982d6eb16ab7f1930f21be",
       "bytes": 77654,
       "sha256": "6ff7c9a0aa643584fba34175e2e26cc568d734e96283a5938acd13d736513a27",
@@ -1053,6 +1122,7 @@
       "path": "dist/assets/signage-source.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "bfe35cdad2ab99ee8b1801d102d5cc45d65d76a0",
       "sha": "bfe35cdad2ab99ee8b1801d102d5cc45d65d76a0",
       "bytes": 1283776,
       "sha256": "4dd98e57b585044dcbc695136c96c9f7d319a96c8d30d5ba205a409ded284f16",
@@ -1062,6 +1132,7 @@
       "path": "dist/assets/slim-crystal-source.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "85a8e73a88b796a6940924c6b600d42d0879a6be",
       "sha": "85a8e73a88b796a6940924c6b600d42d0879a6be",
       "bytes": 519884,
       "sha256": "dd435051bf32dee6e872007944d3e14fd23245009f6ddee36c7deaf98881c415",
@@ -1071,6 +1142,7 @@
       "path": "dist/assets/slim-frame-source.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "738e3b948691c9a27df3a596e4f0b8e643d5ccce",
       "sha": "738e3b948691c9a27df3a596e4f0b8e643d5ccce",
       "bytes": 356827,
       "sha256": "6c1e72442355bea511b45d14b711f424708caca04f0d2fe1c7c47899a6f6ec4b",
@@ -1080,6 +1152,7 @@
       "path": "dist/assets/smm-beerburger-source.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "86a5083ac8c6dd1112e8c132322e4f51d13c5160",
       "sha": "86a5083ac8c6dd1112e8c132322e4f51d13c5160",
       "bytes": 844296,
       "sha256": "7e66ad3ce466381d67779a90bfb25d8d40b1697de327e8be264a9db31d5b8836",
@@ -1089,6 +1162,7 @@
       "path": "dist/assets/the-village-header.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "12a02fc2c910501f6e8b730eb65bb5d499fcffe2",
       "sha": "12a02fc2c910501f6e8b730eb65bb5d499fcffe2",
       "bytes": 37424,
       "sha256": "7d13c7a9621b6ca537f7c220618a06d8b6dbcc9a25a30c5b9d99f61c824d1278",
@@ -1098,6 +1172,7 @@
       "path": "dist/assets/the-village-page-branding.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "a27e6ac8f16bceb8823884f79cac4acdf9cdb498",
       "sha": "a27e6ac8f16bceb8823884f79cac4acdf9cdb498",
       "bytes": 96371,
       "sha256": "a70296714a843086fa1132b54a63b96f137ea23978d5fc42ece5c4925ce30e24",
@@ -1107,24 +1182,47 @@
       "path": "dist/assets/tiles.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "ee65c8c18d016cbe637ceb0d562f58bddb2c1a07",
       "sha": "ee65c8c18d016cbe637ceb0d562f58bddb2c1a07",
       "bytes": 2342715,
       "sha256": "d11dc354cb46ee1a9b621898b0e0c1cb38ce09055314afcd03b47c96643056c0",
       "inline_text": false
     },
     {
+      "path": "dist/assets/tnt-logo-official.png",
+      "mode": "100644",
+      "type": "blob",
+      "source_sha": "88cdaf71740aa1ce661a6cb2d8511955ccb43267",
+      "sha": "88cdaf71740aa1ce661a6cb2d8511955ccb43267",
+      "bytes": 61388,
+      "sha256": "3974cc148c5ad1bce1bf9354656cad832d4ae526e0642284cba0ddc13237618a",
+      "inline_text": false
+    },
+    {
       "path": "dist/assets/trademark-neutral.svg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "5f128b7a32df0353878302dca5c89fb34e33f9c0",
       "sha": "5f128b7a32df0353878302dca5c89fb34e33f9c0",
       "bytes": 520,
       "sha256": "f7c69420c1d41185695efe64ff8b3463c797ed5665f4cffcdbb5d40bdd83439b",
       "inline_text": true
     },
     {
+      "path": "dist/assets/trademark-rospatent-user.png",
+      "mode": "100644",
+      "type": "blob",
+      "source_sha": "8f02480ce0dbf240325f0ebf40585ea118c74477",
+      "sha": "8f02480ce0dbf240325f0ebf40585ea118c74477",
+      "bytes": 476606,
+      "sha256": "24214b3c71e67fb3ad291268e6cba22a31c4808acf5af595e941b1bbe498ecde",
+      "inline_text": false
+    },
+    {
       "path": "dist/favicon.svg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "96308249e3ac345c70343a88de51f5179d66785d",
       "sha": "96308249e3ac345c70343a88de51f5179d66785d",
       "bytes": 225,
       "sha256": "1479e6515e02db2f6a7cdf2f5cbc79520f9d72d897c54dc0d92fbde2609485f1",
@@ -1134,15 +1232,17 @@
       "path": "dist/index.html",
       "mode": "100644",
       "type": "blob",
-      "sha": "59e1bf3cb8a4581faea23508fbfe5e8d570b3ed3",
-      "bytes": 6311,
-      "sha256": "f5c9488c8c09a3296c211169e8008828359300576491a45efd5a5988b8755b9a",
+      "source_sha": "c3214b55e3f164e7fbea28e8846604d1ff320900",
+      "sha": "c3214b55e3f164e7fbea28e8846604d1ff320900",
+      "bytes": 5302,
+      "sha256": "d2276ed84f2e01f0f43a5675cfad4abaf7b49af48a615aaa0c53be8e4da03d3d",
       "inline_text": true
     },
     {
       "path": "dist/lyubov/app.js",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "c83c275667dacfc9d6aba7853c96eb7090938c90",
       "sha": "c83c275667dacfc9d6aba7853c96eb7090938c90",
       "bytes": 6089,
       "sha256": "fa2b75dd2ee1d2845a3cb40552448989ffc6dca50107c785a5ed65c323051b4a",
@@ -1152,6 +1252,7 @@
       "path": "dist/lyubov/assets/hero.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "bc2de66edfae003e16edfdfe98997e23b595a12b",
       "sha": "bc2de66edfae003e16edfdfe98997e23b595a12b",
       "bytes": 1801480,
       "sha256": "3e3a31065757f7653186d5e25d217af3353b27ecfc53dc719033f0612acd0558",
@@ -1161,6 +1262,7 @@
       "path": "dist/lyubov/assets/portrait.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "df55092ec44329a9710638adb0b0596a547a1369",
       "sha": "df55092ec44329a9710638adb0b0596a547a1369",
       "bytes": 1854470,
       "sha256": "86af3f37eceb05ae32bd1536284cd75884cd90dc6f57552095eeb0dfef25eeec",
@@ -1170,6 +1272,7 @@
       "path": "dist/lyubov/assets/practices.png",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "74b00adfb26c6e25b50fb78079c08a4d6e472c98",
       "sha": "74b00adfb26c6e25b50fb78079c08a4d6e472c98",
       "bytes": 2269946,
       "sha256": "4f625559c3e9da11b4bc192da7c01fb95c37f0669673212524d965aa4e31acc9",
@@ -1179,6 +1282,7 @@
       "path": "dist/lyubov/favicon.svg",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "03bbbae2d576cddd1a12c0898222d10690ff5800",
       "sha": "03bbbae2d576cddd1a12c0898222d10690ff5800",
       "bytes": 206,
       "sha256": "708b568b2f5d74b847fecce8630f7d479cd0441ce2fbd30d2caf4e32313d8992",
@@ -1188,6 +1292,7 @@
       "path": "dist/lyubov/index.html",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "f8c338d38052489bb9c00ce5635534103465938e",
       "sha": "f8c338d38052489bb9c00ce5635534103465938e",
       "bytes": 10093,
       "sha256": "230ee7cdd881b698d76df89ec03a591ecf802c96eb67cc03210730c36ade9656",
@@ -1197,6 +1302,7 @@
       "path": "dist/lyubov/style.css",
       "mode": "100644",
       "type": "blob",
+      "source_sha": "ec9713b2cf40d9e22eae0d1b9cc62eaec325f1fe",
       "sha": "ec9713b2cf40d9e22eae0d1b9cc62eaec325f1fe",
       "bytes": 14695,
       "sha256": "ece113235492b35fd7d6d9c894c6e83b9dcb114141a2f0ea263016696362ef4f",
@@ -1206,34 +1312,51 @@
       "path": "dist/style.css",
       "mode": "100644",
       "type": "blob",
-      "sha": "b9e99dbb2487836d855981abaa38ba9e74f6ee6b",
-      "bytes": 28559,
-      "sha256": "0ff92867602d05f826419193e833c7f58dc197608299108c5c570070d11ae68c",
+      "source_sha": "7a1865e72d4097ded0223f05c6c1b6bedf1de358",
+      "sha": "7a1865e72d4097ded0223f05c6c1b6bedf1de358",
+      "bytes": 29611,
+      "sha256": "3a737cbd2259d46331c403ad30b1d3e55ce28e623722767a08f27f04d8ccb367",
+      "inline_text": true
+    },
+    {
+      "path": "sources/campaign-logo-sources.json",
+      "mode": "100644",
+      "type": "blob",
+      "source_sha": "92aae216a43a49026ff48ade25258821ab1d9fff",
+      "sha": "92aae216a43a49026ff48ade25258821ab1d9fff",
+      "bytes": 1577,
+      "sha256": "acae413dbf8a5219ecc2339cf056664346cc0e76fdd9610f3fb1d463097b66e4",
       "inline_text": true
     },
     {
       "path": "sources/service-photo-sources.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "6372b798f4a573fb4701198a3af03df16434818b",
-      "bytes": 6946,
-      "sha256": "30fe221b2c4895b53360009a8524408079010f8d52bc61843a6b878c8c89ca36",
+      "source_sha": "be965583bdfadf9f9ac90167ee9aa467eb2dad2f",
+      "sha": "04ae645e743ef4a2d2a76dbae3999fde392a80d7",
+      "bytes": 7058,
+      "sha256": "b79c9589f20f5cd913f05ef3aa7cb5316347e6cc984a75b1340ed4837ac1a63d",
       "inline_text": true
     },
     {
       "path": "sources/summit-case.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "f686d5d5ae8e98b4c05deab14b7afdcd16761e7f",
-      "bytes": 1142,
-      "sha256": "285a934625f2fc0ff61d6a210b442012a361b58f87b527278456252155983d31",
+      "source_sha": "e086beab2d367841475cbd02b2f35fbf340469e0",
+      "sha": "185ece31be88829a6d54d0fa1a0647504dee3242",
+      "bytes": 1183,
+      "sha256": "a98e32d0adc5b91f5e573a84abe99f4cbcf76f1fbbba03ff0765a0052f584170",
       "inline_text": true
     }
   ],
   "public_snapshot_content_exceptions": [
     {
       "path": "sources/summit-case.json",
-      "change": "Removed internal conversation message identifier; case facts and attribution remain unchanged."
+      "change": "Removed internal conversation or private Library identifier; substantive source facts preserved."
+    },
+    {
+      "path": "sources/service-photo-sources.json",
+      "change": "Removed internal conversation or private Library identifier; substantive source facts preserved."
     }
   ]
 }

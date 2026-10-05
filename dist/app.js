@@ -31,13 +31,6 @@ const servicePhotoCredits={
     source:'https://commons.wikimedia.org/wiki/File:Парк_Сосенки_в_Царицыно._Лавочки.JPG',
     license:'CC BY-SA 3.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/3.0/',
     note:'Тематическая иллюстрация услуги, не проект RA XOTT. Фото кадрировано средствами CSS; исходный файл не изменён'
-  },
-  'Регистрация товарного знака':{
-    subject:'На карточке: главное здание Роспатента, Москва',
-    author:'Геннадий Зябловский',
-    source:'https://commons.wikimedia.org/wiki/File:Rospatent1.jpg',
-    license:'CC BY-SA 4.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',
-    note:'Тематическая иллюстрация услуги, не проект агентства и не обозначение партнёрства с Роспатентом. Фото кадрировано средствами CSS; исходный файл не изменён'
   }
 };
 const compactServiceTitles=[websiteServiceTitle,industryServiceTitle,brochureServiceTitle,slimServiceTitle,smmServiceTitle,marketplaceServiceTitle,robotServiceTitle,signageServiceTitle,ledServiceTitle];
@@ -63,7 +56,7 @@ const services=[
   ['Регистрация товарного знака','Сопровождение регистрации товарного знака в Роспатенте',['Предварительная проверка товарного знака','Подбор классов МКТУ','Подготовка и подача заявки','Сопровождение экспертизы и ответы на запросы','Состав работ и стоимость определяются индивидуально']]
 ];
 const solutions=[['Запуск бренда и бизнеса','Собрать основу бренда, первые носители и цифровую точку входа',['Брендинг и дизайн','Сайт','Рекламные материалы']],['Открытие ресторана','Связать характер заведения, оформление и первое знакомство с гостями',['Айдентика','Вывеска и полиграфия','Фото и цифровая подача']],[promotionSolutionTitle,'Помочь аудитории узнать о событии и почувствовать его идею',[tvRadioServiceTitle,'Визуальная коммуникация','Фото, видео и оформление']],['Ребрендинг','Переосмыслить визуальную систему и последовательно перенести её на носители',['Фирменный стиль','Брендбук','Обновление носителей']],['Оформление объекта','Собрать наружное и внутреннее оформление в единую систему',['Вывески','Навигация и графика','Экранные форматы']],['Контент для маркетплейсов','Показать продукт понятно, последовательно и выразительно',['Предметная съёмка','Инфографика','Дизайн карточек']]];
-const projects=[['New Wave','Комплексное оформление и продюсирование'],['Fight Nights','Брендинг, оформление, медиа'],[summitCaseTitle,tvRadioServiceTitle],['Частные проекты','Вывески, интерьер, полиграфия']];
+const projects=[[summitCaseTitle,tvRadioServiceTitle]];
 const detail=document.querySelector('#detail');
 function showDetail(title,text,items=[],kind='Направление'){
   document.querySelector('#detail-title').textContent=title;
@@ -159,9 +152,9 @@ function showDetail(title,text,items=[],kind='Направление'){
     ['Более 8 лет опыта дизайнеров','Более 795 выполненных работ'].forEach(text=>{const badge=document.createElement('span');badge.textContent=text;badges.append(badge)});
     box.append(note,badges);
   }
-  if(title!==mediaServiceTitle&&!compactServiceTitles.includes(title)){
+  if(kind!=='Кейс'&&title!==mediaServiceTitle&&!compactServiceTitles.includes(title)){
     const note=document.createElement('p');
-    note.textContent=kind==='Пример'?'Это иллюстрация визуальной подачи Реальные материалы, результаты и участие RA XOTT в проекте пока не подтверждены':'Состав работ, сроки и стоимость обсуждаются индивидуально';
+    note.textContent='Состав работ, сроки и стоимость обсуждаются индивидуально';
     box.append(note);
   }
   detail.showModal();
@@ -187,7 +180,7 @@ const servicePhotos={
   [robotServiceTitle]:['assets/bellabot-real-restaurant.jpg','Сервисный робот BellaBot',1208,809],
   [ledServiceTitle]:['assets/led-installation-source.png','Монтажная конструкция LED-экрана',793,821],
   'МАФ и благоустройство':['assets/service-selected-07-maf.jpg','Скамейки в парке Сосенки, Москва: тематическая иллюстрация благоустройства',3140,2096],
-  'Регистрация товарного знака':['assets/service-selected-08-trademark.jpg','Главное здание Роспатента, Москва: тематическая иллюстрация услуги',472,472]
+  'Регистрация товарного знака':['assets/trademark-rospatent-user.png','Роспатент — Федеральная служба по интеллектуальной собственности: изображение предоставлено пользователем',1200,800]
 };
 const screenshotCards={
   [marketplaceServiceTitle]:['tile-marketplace','assets/marketplace-source.png','Пример товарной инфографики на экране телефона',1285,924],
@@ -255,8 +248,9 @@ function addCampaignImage(image){
   image.classList.add('campaign-image');image.removeAttribute('aria-hidden');image.style.backgroundImage='none';
   const picture=document.createElement('img');picture.src='assets/service-selected-05-events.jpg';picture.alt='Тематическая иллюстрация конференции, не фотография блокчейн-саммита';picture.width=1400;picture.height=1000;picture.loading='lazy';
   const badges=document.createElement('div');badges.className='campaign-channel-badges';
-  const label=document.createElement('span');label.className='campaign-channel-label';label.textContent='Каналы кампании';badges.append(label);
-  ['ТНТ','СТС'].forEach(text=>{const badge=document.createElement('span');badge.className='campaign-channel';badge.textContent=text;badges.append(badge)});
+  [['assets/tnt-logo-official.png','ТНТ — телеканал рекламной кампании',794,261],['assets/ctc-logo.svg','СТС — телеканал рекламной кампании',755,279]].forEach(([src,alt,width,height])=>{
+    const logo=document.createElement('img');logo.className='campaign-channel-logo';logo.src=src;logo.alt=alt;logo.width=width;logo.height=height;logo.loading='lazy';badges.append(logo);
+  });
   image.append(picture,badges);
 }
 function addCampaignCaption(card,includeService=false){
@@ -268,6 +262,19 @@ solutions.forEach((x,i)=>{
   if(x[0]===promotionSolutionTitle){labelDialogCard(tile.querySelector('button'),tile.querySelector('h3'),'solution-card-'+i);addCampaignImage(tile.querySelector('.tile-image'));addCampaignCaption(tile.querySelector('button'),true)}
   document.querySelector('.solution-grid').append(tile);
 });
-projects.forEach((x,i)=>{const b=document.createElement('button');b.className='project-card';const img=document.createElement('div');img.className='project-picture';img.style.backgroundPosition=(i*100/3)+'% 50%';img.setAttribute('aria-hidden','true');const h=document.createElement('h3');h.textContent=x[0];const p=document.createElement('p');p.textContent=x[1];b.append(img,h,p);if(x[0]===summitCaseTitle){addCampaignImage(img);addCampaignCaption(b);labelDialogCard(b,h,'summit-project-card')}b.addEventListener('click',()=>showDetail(x[0],x[1],[],x[0]===summitCaseTitle?'Кейс':'Пример'));document.querySelector('.project-grid').append(b)});const grid=document.querySelector('.project-grid');document.querySelector('#project-next').addEventListener('click',()=>grid.append(grid.firstElementChild));document.querySelector('#project-prev').addEventListener('click',()=>grid.prepend(grid.lastElementChild));document.querySelector('#project-all').addEventListener('click',()=>showDetail('Проекты','Кейс блокчейн-саммита на Роза Хуторе: продвижение на телевидении и радио. Сведения предоставлены агентством. Остальные проекты пока показывают иллюстративную подачу и требуют подтверждения участия RA XOTT',projects.map(x=>x[0]),'Обзор'));
+projects.forEach(x=>{
+  const button=document.createElement('button');button.className='project-card';
+  const image=document.createElement('div');image.className='project-picture';addCampaignImage(image);
+  const copy=document.createElement('div');copy.className='project-copy';
+  const heading=document.createElement('h3');heading.textContent=x[0];
+  const service=document.createElement('p');service.textContent=x[1];
+  const result=document.createElement('p');result.className='project-result';result.textContent='1 000 ожидали · 2 000 гостей';
+  const source=document.createElement('p');source.className='project-source-note';source.textContent='По данным агентства';
+  const open=document.createElement('span');open.className='project-open';open.textContent='Подробнее о кейсе →';
+  copy.append(heading,service,result,source);addCampaignCaption(copy);copy.append(open);
+  button.append(image,copy);labelDialogCard(button,heading,'summit-project-card');
+  button.addEventListener('click',()=>showDetail(x[0],x[1],[],'Кейс'));
+  document.querySelector('.project-grid').append(button);
+});
 const about=()=>showDetail('RA XOTT','Рекламное агентство полного цикла из Сочи Рабочая структура объединяет брендинг, производство, размещение рекламы, digital, контент, события и мультимедиа',['Основательница - Любовь Безус','Состав команды и партнёров уточняется под проект','Личный проект основательницы - bezuslove']);document.querySelector('#about-open').addEventListener('click',about);
 const brief=document.querySelector('#brief');document.querySelectorAll('.brief-open').forEach(b=>b.addEventListener('click',()=>brief.showModal()));document.querySelector('#detail-cta').addEventListener('click',()=>{detail.close();brief.showModal()});document.querySelectorAll('dialog').forEach(d=>{d.querySelector('.close').addEventListener('click',()=>d.close());d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}})});

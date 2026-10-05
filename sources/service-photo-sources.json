@@ -1,6 +1,6 @@
 {
   "usage": "Иллюстрации направлений услуг. Фото не обозначают проекты, клиентов или работы RA XOTT.",
-  "selection": "Утверждённые пользователем фотографии 1–6 и российские фотографии 7–9.",
+  "selection": "Утверждённые пользователем фотографии 1–6 и российские фотографии 7 и 9. Иллюстрация 8 заменена изображением Роспатента, присланным пользователем.",
   "asset_integrity": "Файлы скопированы без изменения растровых данных. Кадрирование только CSS.",
   "entries": [
     {
@@ -105,17 +105,15 @@
     {
       "selection_number": 8,
       "service_title": "Регистрация товарного знака",
-      "asset_path": "assets/service-selected-08-trademark.jpg",
-      "author": "Геннадий Зябловский",
-      "source_page_url": "https://commons.wikimedia.org/wiki/File:Rospatent1.jpg",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "width": 472,
-      "height": 472,
-      "object_fit": "cover",
-      "object_position": "50% 18%",
-      "public_attribution": "В detail услуги: автор, источник, лицензия и уведомление о CSS-кадрировании; не подразумевает партнёрство с Роспатентом",
-      "sha256": "f4cf08cf940790c162683cf530aea9c6f579a7a768ee7cae9a3db3ca19316bf8"
+      "asset_path": "assets/trademark-rospatent-user.png",
+      "source": "Изображение Роспатента, предоставленное пользователем",
+      "source_filename": "image(20261005-230402).png",
+      "width": 1200,
+      "height": 800,
+      "object_fit": "contain",
+      "object_position": "center",
+      "reuse_note": "Пользователь явно попросил использовать своё присланное изображение. Байты сохранены без обработки. Не обозначает партнёрство с Роспатентом.",
+      "sha256": "24214b3c71e67fb3ad291268e6cba22a31c4808acf5af595e941b1bbe498ecde"
     },
     {
       "selection_number": 9,

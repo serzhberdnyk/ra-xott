@@ -3,16 +3,19 @@
   "snapshot_date_utc": "2026-10-05",
   "sites_project_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7",
   "sites_url": "https://ra-xott-showcase.imberdnyk.chatgpt.site",
-  "sites_saved_version": 30,
-  "sites_source_commit": "68d19306e49e6bdc93fcbdc7e12a5e1d76b173cf",
+  "sites_saved_version": 31,
+  "sites_source_commit": "364147b173644c21e5bd419d622f63c798cc8b8f",
   "github_repository": "serzhberdnyk/ra-xott",
-  "github_parent_commit": "57c8cc98c1149d217762e8f739a17d799115fbc2",
   "snapshot_method": "Verified content snapshot added to existing GitHub history",
-  "source_files": 51,
+  "source_files": 55,
   "source_content_exceptions": [
     {
       "path": "sources/summit-case.json",
-      "change": "Removed internal conversation message identifier; case facts and attribution remain unchanged."
+      "change": "Removed internal conversation or private Library identifier; substantive source facts preserved."
+    },
+    {
+      "path": "sources/service-photo-sources.json",
+      "change": "Removed internal conversation or private Library identifier; substantive source facts preserved."
     }
   ],
   "original_sites_history": {
@@ -21,9 +24,12 @@
     "sha256": "4f55585edb1f50b3cd93f0d1c80a61c7090dddacf7b8f4722ac15109819b103a",
     "standalone_restore_verified": true,
     "git_fsck_passed": true,
-    "all_saved_version_commits_present": true
+    "all_saved_version_commits_present": true,
+    "covered_saved_versions_through": 30,
+    "covered_saved_versions_count": 30,
+    "original_commits_count": 33
   },
   "versions_manifest": "history/SITES-VERSIONS.json",
   "source_history_manifest": "history/SITES-HISTORY.json",
-  "synchronization": "Snapshot saved separately; automatic synchronization and deployment not configured by this transfer"
+  "synchronization": "Snapshots saved separately; automatic synchronization and deployment not configured by this transfer"
 }

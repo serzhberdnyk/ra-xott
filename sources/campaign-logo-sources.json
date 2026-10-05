@@ -1,0 +1,28 @@
+{
+  "usage": "Небольшие логотипы конкретных телеканалов рекламной кампании саммита, не обозначение партнёрства. Исходные файлы не изменены, размеры заданы CSS.",
+  "verified_date": "2026-10-05",
+  "entries": [
+    {
+      "channel": "ТНТ",
+      "asset_path": "assets/tnt-logo-official.png",
+      "source_page_url": "https://tnt-online.ru/",
+      "source_asset_url": "https://static.tnt-online.ru/images/2023/logo_tnt.png?v=4",
+      "source": "Оригинальное изображение в header официального сайта телеканала",
+      "width": 794,
+      "height": 261,
+      "sha256": "3974cc148c5ad1bce1bf9354656cad832d4ae526e0642284cba0ddc13237618a"
+    },
+    {
+      "channel": "СТС",
+      "asset_path": "assets/ctc-logo.svg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Logo_СТС_23-10-2017.svg",
+      "source_asset_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Logo_%D0%A1%D0%A2%D0%A1_23-10-2017.svg",
+      "source": "Wikimedia Commons; в карточке файла указан первоисточник ctcmedia.ru",
+      "author": "АО «Сеть Телевизионных Станций»",
+      "reuse_note": "PD-textlogo / trademark, по сведениям карточки файла; знак не изменён",
+      "width": 755,
+      "height": 279,
+      "sha256": "8133e6c63cfb9992e42aadaa7e73ab4cebf89abff0919b7079e944a7df8f5c41"
+    }
+  ]
+}
