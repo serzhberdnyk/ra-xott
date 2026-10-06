@@ -344,3 +344,7 @@
   transform:none;
  }
 }
+
+/* Channel artwork for the television and radio campaign. */
+.campaign-symbol .campaign-channel-badges{inset:0;justify-content:center;gap:24px}
+.campaign-symbol .campaign-channel-logo{width:88px;height:42px}

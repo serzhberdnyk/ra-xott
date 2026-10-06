@@ -5,74 +5,77 @@ const mediaServiceDescription='Рекламные полосы, разворот
 const mediaPublications=[
   {
     name:'Дорогое удовольствие',type:'Печатный журнал',geography:'Сочи и Красная Поляна',
-    teaser:'Обеспеченная аудитория, бизнес, мода и стиль жизни',status:'Архивный каталог',
-    audience:'В архивной презентации издание ориентировано на обеспеченных читателей, собственников бизнеса, топ-менеджеров и госслужащих. Подходит для знакомства с брендом, продуктом или услугой в lifestyle-контексте.',
-    distribution:'В архиве перечислены бутики и магазины одежды, ювелирные и интерьерные салоны, рестораны, отели, SPA и фитнес-центры, автосалоны и бизнес-точки Сочи и Красной Поляны.',
-    groups:[{title:'Печатные форматы из архива',items:[
+    teaser:'Обеспеченная аудитория, бизнес, мода и стиль жизни',status:'Условия по запросу',
+    audience:'По медиакаталогу 2022 года издание ориентировано на обеспеченных читателей, собственников бизнеса, топ-менеджеров и госслужащих. Подходит для знакомства с брендом, продуктом или услугой в lifestyle-контексте.',
+    distribution:'В медиакаталоге 2022 года перечислены бутики и магазины одежды, ювелирные и интерьерные салоны, рестораны, отели, SPA и фитнес-центры, автосалоны и бизнес-точки Сочи и Красной Поляны.',
+    formatsNote:'Форматы из медиакаталога 2022 года, доступность уточняем',
+    groups:[{title:'Печатные форматы',items:[
       'Рекламный макет на одну полосу или разворот',
       'Рекламная статья на 1, 2 или 3 полосы',
       'Первый разворот, 2–6-й субразвороты и 1–4-я субполосы',
       '3-я и 4-я обложки, гейтфолдер — раскрывающаяся вкладка',
       'Твёрдая вкладка на бумаге 250 г'
     ]}],
-    metrics:{label:'Аудитория в архивной презентации (дата файла 19.04.2022)',items:[
+    metrics:{label:'Аудитория · медиакаталог 2022 года',items:[
       ['83%','обеспеченные и высокообеспеченные читатели'],
       ['73%','собственники бизнеса, топ-менеджеры и госслужащие'],
       ['57% / 43%','женщины / мужчины'],
       ['87%','ведут активный образ жизни и следят за внешностью']
-    ],note:'Стр. 2–3 архива. Дата исследования, выборка и методика не указаны. Текущий сочинский выпуск и возможность размещения уточняются у издателя.'}
+    ],note:'Исторические данные издателя. Текущую аудиторию, выпуск и возможность размещения уточняем при подборе.'}
   },
   {
     name:'Собака.ru',type:'Печатный журнал и онлайн-медиа',geography:'Сочи и Краснодар',
-    teaser:'Городское lifestyle- и fashion-издание: люди, еда, стиль',status:'Есть данные 2026',
+    teaser:'Городское lifestyle- и fashion-издание: люди, еда, стиль',status:'Медиакит 2026',
     audience:'Городская аудитория, интересующаяся модой, культурой, ресторанами и героями города. Печатное размещение можно рассматривать отдельно от материалов на сайте.',
-    distribution:'В архиве указано бесплатное распространение в городских заведениях Сочи и Краснодара. Конкретные актуальные точки, выпуск и географию кампании согласовываем при подборе.',
-    groups:[{title:'Печатные форматы из архива',items:[
+    distribution:'В медиакаталоге 2022 года указано бесплатное распространение в городских заведениях Сочи и Краснодара. Актуальные точки, выпуск и географию кампании согласовываем при подборе.',
+    formatsNote:'Форматы из медиакаталога 2022 года, доступность уточняем',
+    groups:[{title:'Печатные форматы',items:[
       '1/2 полосы, целая полоса и разворот',
       'Лицевая, 3-я и 4-я обложки; разворот в начале журнала',
       'Гейтфолд, плотная двусторонняя страница, вкладка продукции в тираж',
       'Рубрика «Портреты»: съёмка и создание образа с фотографом и стилистами',
       'Заметки и публикации в тематических рубриках: еда, интервью, светская хроника'
-    ]},{title:'Онлайн-форматы из архива',items:[
+    ]},{title:'Онлайн-форматы',items:[
       'Промопроект или фотопост: статья с фотографиями и активными ссылками',
       'Лонгрид или спецпроект с видео, интервью, графиками и исследованиями',
       'Сквозной баннер и брендирование сайта'
     ]}],
     metrics:{label:'Региональный тираж по медиакиту издателя 2026',items:[
       ['6 000 экз.','Сочи'],['5 000 экз.','Краснодар']
-    ],note:'Это тиражи двух региональных изданий, а не охват читателей. Печатные выпуски 2026 подтверждены. С июня 2026 у сочинского издания новый издатель; текущие рекламные условия согласовываются заново.'},
+    ],note:'Тираж по данным издателя за 2026 год. Текущие рекламные условия согласовываем перед размещением.'},
     links:[['Медиакит 2026','https://static.sobaka.ru/uploads/pdf/MEDIA-KIT_Sobaka_RU_2026.pdf'],['Выпуски Сочи','https://www.sobaka.ru/sochi/magazine/archive'],['Рекламодателям','https://www.sobaka.ru/sochi/marketing']]
   },
   {
     name:'SCAPP',type:'Печатный журнал, сайт и Telegram',geography:'Сочи',
-    teaser:'Гастрономия, городская жизнь, бизнес и архитектура',status:'Есть данные издателя',
+    teaser:'Гастрономия, городская жизнь, бизнес и архитектура',status:'Данные издателя',
     audience:'Городское медиа о Сочи: гастрономия, городская жизнь, бизнес и архитектура. Позволяет выбрать имиджевое присутствие в печати, подробный материал на сайте или отдельный цифровой формат.',
     distribution:'В официальном списке распространения журнала указаны рестораны, отели и санатории, магазины, салоны, автоцентры и private banking. Печатную географию и цифровую аудиторию рассматриваем отдельно.',
-    groups:[{title:'Печатные форматы на странице издателя',items:[
+    groups:[{title:'Печатные форматы',items:[
       'Имиджевые размещения и развороты',
       'Публикации, спецпроекты и тематические номера'
     ]},{title:'Онлайн и дополнительные площадки',items:[
       'Большие материалы, новости, гиды и партнёрские публикации на сайте',
       'Спецпроекты, Telegram и офлайн-события — по индивидуальному запросу'
-    ]},{title:'Дополнительные digital-форматы из архива',items:[
+    ]},{title:'Онлайн-форматы · медиакаталог 2022 года',items:[
       'Статья до 3 000 знаков из материалов клиента или с работой журналиста и фотографа',
       'Рекламная новость и публикация в тематическом обзоре',
       'Баннеры 1050 × 150 и 300 × 500 px, слайдер',
       'Брендирование страниц и рубрик, спонсорство рубрик, product placement'
     ]}],
-    metrics:{label:'Показатели на официальной странице издателя, проверка 05.10.2026',items:[
+    metrics:{label:'Данные издателя',items:[
       ['5 000 экз.','тираж печатного журнала'],
       ['90 000','уникальных пользователей сайта в месяц'],
       ['5 000','подписчиков Telegram']
-    ],note:'Показатели заявлены издателем; дата их измерения на странице не указана. Архивные digital-форматы приведены по стр. 5 PDF с датой файла 19.04.2022, где есть блок медиакита 2017. Технические требования уточняются перед размещением.'},
+    ],note:'Период измерения показателей не указан. Актуальные показатели, доступные форматы и требования к макетам уточняем перед размещением.'},
     links:[['Рекламодателям SCAPP','https://sochi.scapp.ru/reklamodatelyam/'],['Распространение журнала','https://sochi.scapp.ru/tochki-rasprostraneniya-zhurnala-scapp/']]
   },
   {
     name:'Стиль Жизни Sochi',type:'Печатный журнал',geography:'Сочи',
-    teaser:'Персоны, путешествия, бизнес, мода и искусство',status:'Архивный каталог',
-    audience:'В архиве журнал обращается к сочинцам и гостям курорта. Рубрики: «Персона», «Путешествия», «Бизнес», «Мода», «Авто», «Гурмэ», «Кино», «Искусство» и «Светская хроника».',
-    distribution:'В архивной презентации заявлено более 350 мест распространения в Сочи. Точного перечня адресов на странице нет; действующую сеть распространения нужно подтвердить у издателя.',
-    groups:[{title:'Печатные форматы из архива',items:[
+    teaser:'Персоны, путешествия, бизнес, мода и искусство',status:'Условия по запросу',
+    audience:'По медиакаталогу 2022 года — журнал для сочинцев и гостей курорта. Рубрики: «Персона», «Путешествия», «Бизнес», «Мода», «Авто», «Гурмэ», «Кино», «Искусство» и «Светская хроника».',
+    distribution:'По медиакаталогу 2022 года — более 350 мест распространения в Сочи. Действующие адреса уточняем при подборе.',
+    formatsNote:'Форматы из медиакаталога 2022 года, доступность уточняем',
+    groups:[{title:'Печатные форматы',items:[
       'Полоса и имиджевый разворот; первый, второй и третий развороты',
       '3-я и 4-я обложки, гейтфолдер, плотная полоса 250 г',
       'Полоса после слова редактора, новостная заметка на 1/2 полосы',
@@ -80,28 +83,30 @@ const mediaPublications=[
       'Фотопроект на 6 полос и разворот в «Светской хронике»',
       'Вклейки, специальные вложения и тематические приложения'
     ]}],
-    metrics:{label:'Основные возрастные группы в архиве (дата файла 19.04.2022)',items:[
+    metrics:{label:'Возраст читателей · медиакаталог 2022 года',items:[
       ['41%','читатели 28–37 лет'],['21%','читатели 20–27 лет'],['19%','читатели 38–48 лет']
-    ],note:'Стр. 6 архива. Дата исследования и методика не указаны. Текущий выпуск и рекламная доступность не подтверждены; условия уточняются перед подбором.'}
+    ],note:'Исторические данные издателя. Текущий выпуск, аудиторию и возможность размещения уточняем при подборе.'}
   },
   {
     name:'ТЕМА',type:'Газета',geography:'Сочи',
-    teaser:'Новости, афиша, мода, интервью и гастрономия',status:'Архивный каталог',
-    audience:'В презентации издание названо «глянцевой газетой». Среди рубрик — новости, beauty, гаджеты, кино и музыка, афиша, мода, интервью и гурмэ. Демографический состав аудитории в источнике не указан.',
-    distribution:'В архивном предложении указана сочинская площадка. Отдельный тираж и адреса распространения на стр. 6 не приведены.',
-    groups:[{title:'Печатные форматы из архива',items:[
+    teaser:'Новости, афиша, мода, интервью и гастрономия',status:'Условия по запросу',
+    audience:'В медиакаталоге 2022 года — глянцевая газета о новостях, красоте, гаджетах, кино и музыке, афише, моде, интервью и гастрономии.',
+    distribution:'Сочи. Тираж и действующие точки распространения уточняем при подборе.',
+    formatsNote:'Форматы из медиакаталога 2022 года, доступность уточняем',
+    groups:[{title:'Печатные форматы',items:[
       '1/4 полосы, 1/2 полосы или целая полоса',
       'Разворот и первый разворот',
       '3-я и 4-я обложки'
     ]}],
-    note:'Форматы приведены по стр. 6 архивной презентации (дата файла 19.04.2022). Текущий выпуск и возможность размещения требуют подтверждения у издателя.'
+    note:'Текущий выпуск и возможность размещения уточняем у издателя.'
   },
   {
     name:'F/B magazine',type:'Печатный журнал',geography:'Сочи и Красная Поляна',
-    teaser:'Фотоистории, имиджевые публикации и светская хроника',status:'Архивный каталог',
-    audience:'В архиве заявлен средний возраст читателя 32 года. В рекламном предложении представлены большие фотоистории, фотопроекты и светская хроника.',
-    distribution:'Архивный перечень охватывает рестораны и кафе, отели и горные курорты, бутики, интерьерные и ювелирные салоны, SPA, фитнес и клиники, автосалоны, жилые комплексы и агентства недвижимости. География — Сочи и Красная Поляна.',
-    groups:[{title:'Печатные форматы из архива',items:[
+    teaser:'Фотоистории, имиджевые публикации и светская хроника',status:'Условия по запросу',
+    audience:'Фотоистории, фотопроекты и светская хроника. Средний возраст читателя по медиакаталогу 2022 года — 32 года.',
+    distribution:'В медиакаталоге 2022 года — рестораны и кафе, отели и горные курорты, бутики, интерьерные и ювелирные салоны, SPA, фитнес и клиники, автосалоны, жилые комплексы и агентства недвижимости. География — Сочи и Красная Поляна.',
+    formatsNote:'Форматы из медиакаталога 2022 года, доступность уточняем',
+    groups:[{title:'Печатные форматы',items:[
       'Полоса в первой трети издания или без фиксированной позиции',
       'Первый, второй и обычный развороты',
       'Плотная двусторонняя вставка; 3-я и 4-я обложки; 3-я обложка вместе с полосой',
@@ -109,28 +114,29 @@ const mediaPublications=[
       'Обложка с фотопроектом на 8 полос; фотоистории на 6 или 8 полос',
       'Публикация в «Светской хронике»'
     ]}],
-    metrics:{label:'Распространение в архивной презентации (дата файла 19.04.2022)',items:[
+    metrics:{label:'Распространение · медиакаталог 2022 года',items:[
       ['5 000 экз.','заявленный тираж'],['12','выпусков в год'],['Более 120','постоянных точек, без сезонных']
-    ],note:'Стр. 7–8 архива. Тираж, периодичность и точки не актуализированы; выборка для среднего возраста не указана. Текущие условия и доступность размещения уточняются у издателя.'}
+    ],note:'Исторические данные издателя. Текущий тираж, периодичность, адреса и возможность размещения уточняем при подборе.'}
   },
   {
     name:'The Village Юг',type:'Онлайн-медиа',geography:'Региональная площадка «Юг»',
-    teaser:'Нативные материалы, бизнес-кейсы, спецпроекты и баннеры',status:'Архивный каталог',
-    audience:'В архиве представлены рубрики о городе, людях, бизнесе, развлечениях, еде и стиле. Региональный охват и состав аудитории именно The Village Юг в источнике не указаны.',
-    distribution:'Размещение на сайте: главная страница, рубрики, страницы материалов и обсуждений. Это цифровая площадка; печатного распространения в источнике нет.',
-    groups:[{title:'Материалы и спецпроекты из архива',items:[
+    teaser:'Нативные материалы, бизнес-кейсы, спецпроекты и баннеры',status:'Условия по запросу',
+    audience:'В медиакаталоге 2022 года — рубрики о городе, людях, бизнесе, развлечениях, еде и стиле. Региональную аудиторию и охват уточняем под задачу кампании.',
+    distribution:'В медиакаталоге 2022 года представлены размещения на главной странице, в рубриках, на страницах материалов и обсуждений.',
+    formatsNote:'Форматы из медиакаталога 2022 года, доступность уточняем',
+    groups:[{title:'Материалы и спецпроекты',items:[
       'Промоновость «Коротко» с фотографией, контактным блоком и ссылками',
       '«Слово шефа»: концепция ресторана, сезонные блюда, завтраки и бизнес-ланчи',
       'Дайджест из 5–10 продуктов с описаниями и ссылками',
       'Фотопост из 10 тематических фотографий с интеграцией бренда',
       'Бизнес-кейс с цифрами и комментариями экспертов',
       'Спецпроект с индивидуальной вёрсткой; нативные форматы «Процесс», «Тест», «Детали», «Цифры»'
-    ]},{title:'Баннеры и брендирование из архива',items:[
+    ]},{title:'Баннеры и брендирование',items:[
       'Баннер 990 × 250 px над обсуждениями или внизу материалов',
       'Брендирование страницы: фон и баннер 300 × 500 px на компьютере',
       'Мобильный halfscreen-баннер 620 × 500 px'
     ]}],
-    note:'Стр. 9 архивной презентации (дата файла 19.04.2022). Текущая возможность размещения The Village Юг не подтверждена. Исторический график трафика сайтов Look At Media за 2015–2017 не используется как региональный охват этой площадки.'
+    note:'Возможность размещения на площадке «Юг» и действующие форматы уточняем у издателя.'
   }
 ];
 function mediaCopy(text,className=''){
@@ -146,7 +152,7 @@ function appendMediaServiceDetail(box){
   });
   box.append(overview);
   const heading=document.createElement('h3');heading.className='media-catalog-heading';heading.textContent='Издания и площадки';box.append(heading);
-  box.append(mediaCopy('Откройте издание, чтобы посмотреть аудиторию, географию и конкретные форматы. Каталог включает архивные предложения из презентации RA XOTT (дата файла 19.04.2022); свежие сведения издателей отмечены отдельно. Стоимость, выпуск и доступность согласовываются перед размещением.','media-catalog-note'));
+  box.append(mediaCopy('Выберите издание, чтобы посмотреть аудиторию, географию и форматы. Предложения основаны на медиакаталогах разных лет. Действующие форматы, стоимость и доступность согласовываем перед размещением.','media-catalog-note'));
   const catalog=document.createElement('div');catalog.className='media-publication-list';
   mediaPublications.forEach(publication=>{
     const item=document.createElement('details');item.className='media-publication';
@@ -160,6 +166,7 @@ function appendMediaServiceDetail(box){
     [['Аудитория и тематика',publication.audience],['География и распространение',publication.distribution]].forEach(([label,text])=>{
       const section=document.createElement('section');const h=document.createElement('h4');h.textContent=label;section.append(h,mediaCopy(text));body.append(section);
     });
+    if(publication.formatsNote)body.append(mediaCopy(publication.formatsNote,'media-source-note'));
     publication.groups.forEach(group=>{
       const section=document.createElement('section');const h=document.createElement('h4');h.textContent=group.title;
       const list=document.createElement('ul');group.items.forEach(text=>{const li=document.createElement('li');li.textContent=text;list.append(li)});section.append(h,list);body.append(section);
@@ -215,7 +222,7 @@ const servicePhotoCredits={
     author:'Барвенковский',
     source:'https://commons.wikimedia.org/wiki/File:Парк_Сосенки_в_Царицыно._Лавочки.JPG',
     license:'CC BY-SA 3.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/3.0/',
-    note:'Тематическая иллюстрация услуги, не проект RA XOTT. Фото кадрировано средствами CSS; исходный файл не изменён'
+    note:'Фрагмент фотографии'
   }
 };
 const compactServiceTitles=[websiteServiceTitle,industryServiceTitle,brochureServiceTitle,slimServiceTitle,smmServiceTitle,marketplaceServiceTitle,robotServiceTitle,signageServiceTitle,ledServiceTitle];
@@ -248,7 +255,6 @@ const projects=[
     "title": "Блокчейн-саммит на Роза Хуторе",
     "service": "Реклама на телевидении и радио",
     "summary": "1 000 ожидали · 2 000 гостей",
-    "sourceNote": "По данным агентства",
     "text": "Реклама на телевидении и радио",
     "summit": true
   },
@@ -257,8 +263,7 @@ const projects=[
     "title": "Почта Банк",
     "service": "Световая вывеска",
     "summary": "Фасадная вывеска и монтаж",
-    "sourceNote": "Пример из предоставленных материалов",
-    "text": "Пример световой фасадной вывески с объёмными буквами. На фотографиях показаны готовое оформление, процесс монтажа и крупный ракурс букв.",
+    "text": "Световая фасадная вывеска с объёмными буквами. На фотографиях показаны готовое оформление, процесс монтажа и крупный ракурс букв.",
     "images": [
       {
         "className": "tile-signage-bank",
@@ -291,8 +296,7 @@ const projects=[
     "title": "Hermès",
     "service": "Световая вывеска",
     "summary": "Подсвеченные буквы на фасаде",
-    "sourceNote": "Пример из предоставленных материалов",
-    "text": "Пример световой вывески Hermès. Три фотографии показывают подсвеченные буквы на фасаде: общий вид, боковой ракурс и крупный план.",
+    "text": "Световая вывеска Hermès. Три фотографии показывают подсвеченные буквы на фасаде: общий вид, боковой ракурс и крупный план.",
     "images": [
       {
         "className": "tile-signage-hermes",
@@ -325,22 +329,21 @@ const projects=[
     "title": "Есть хинкали • Пить вино",
     "service": "Световая вывеска ресторана",
     "summary": "Сочи · объёмные буквы на подложке",
-    "sourceNote": "Публикация от 14 декабря 2020 года",
-    "text": "Световая вывеска ресторана «Есть хинкали • Пить вино» в Сочи. В публикации от 14 декабря 2020 года описаны объёмные буквы на подложке с европейскими диодами.",
+    "text": "Световая вывеска ресторана «Есть хинкали • Пить вино» в Сочи: объёмные буквы на подложке с европейскими диодами. Декабрь 2020 года.",
     "facts": [
-      "Для этого исторического проекта в публикации указан гарантийный срок 5 лет"
+      "Гарантия для проекта 2020 года — 5 лет. Условия для новых заказов согласовываем отдельно"
     ],
     "notes": [
-      "На исходной фотографии сохранены водяные знаки HOTABYCH. «Хоттабыч» — прежнее название агентства"
+      "«Хоттабыч» — прежнее название агентства"
     ],
     "images": [
       {
         "className": "tile-signage-restaurant",
         "src": "assets/optimized/signage-source.webp",
-        "alt": "Световая вывеска «Есть хинкали • Пить вино» в Сочи; исходная публикация с водяными знаками HOTABYCH",
+        "alt": "Световая вывеска «Есть хинкали • Пить вино» в Сочи",
         "width": 1271,
         "height": 852,
-        "label": "Вывеска и исходная публикация"
+        "label": "Вывеска ресторана"
       }
     ]
   },
@@ -349,16 +352,15 @@ const projects=[
     "title": "Распутин",
     "service": "Световая вывеска",
     "summary": "Объёмные буквы на фасаде",
-    "sourceNote": "Пример из предоставленных материалов",
-    "text": "Пример световой вывески «Распутин»: объёмные буквы над входом и готовое фасадное оформление.",
+    "text": "Световая вывеска «Распутин»: объёмные буквы над входом и готовое фасадное оформление.",
     "notes": [
-      "На исходной фотографии сохранены водяные знаки HOTABYCH. «Хоттабыч» — прежнее название агентства"
+      "«Хоттабыч» — прежнее название агентства"
     ],
     "images": [
       {
         "className": "tile-signage-rasputin",
         "src": "assets/optimized/rasputin-source.webp",
-        "alt": "Фасад со световой вывеской «РАСПУТИН» и исходными водяными знаками HOTABYCH",
+        "alt": "Фасад со световой вывеской «РАСПУТИН»",
         "width": 856,
         "height": 635,
         "label": "Готовая световая вывеска"
@@ -370,17 +372,16 @@ const projects=[
     "title": "Beerburger Station",
     "service": "Дизайн буклета, офсетная печать и SMM",
     "summary": "2018 · тираж 5 000 экземпляров",
-    "sourceNote": "Макеты и публикации агентства 2018 года",
-    "text": "Объединённый пример работы для Beerburger Station: дизайн буклета, офсетная печать и ведение аккаунта в соцсетях. Пользователь подтвердил, что макеты выполнены в 2018 году без использования искусственного интеллекта.",
+    "text": "Beerburger Station: дизайн буклета, офсетная печать и ведение аккаунта в соцсетях. Макеты выполнены в 2018 году без использования искусственного интеллекта.",
     "facts": [
       "Дизайн буклета: обложка и развороты с меню",
-      "Офсетная печать: 5 пачек по 1 000 буклетов, всего 5 000 экземпляров. Публикация от 5 августа 2018 года",
-      "SMM: на представленных скриншотах аккаунта — 164 → 2 954 подписчика. Публикация от 13 августа 2018 года",
-      "По подписи SMM-публикации: месяц ведения Instagram и 565 просмотров профиля"
+      "Офсетная печать: 5 000 экземпляров · август 2018 года",
+      "SMM: 164 → 2 954 подписчика · август 2018 года",
+      "Месяц ведения Instagram и 565 просмотров профиля — по данным агентства"
     ],
     "notes": [
-      "В подписи SMM-поста указано «2 700» привлечённых людей. Эти сведения отличаются от чисел на скриншотах; они сохранены как данные исторической публикации",
-      "Цены, телефон и предложения ресторана на макетах относятся к исходным материалам 2018 года"
+      "Число подписчиков на скриншотах: 164 до продвижения и 2 954 после",
+      "Меню и предложения ресторана на макетах — за 2018 год"
     ],
     "images": [
       {
@@ -410,18 +411,18 @@ const projects=[
       {
         "className": "tile-print-beerburger",
         "src": "assets/optimized/print-beerburger-source.webp",
-        "alt": "Исходная публикация от 5 августа 2018 года об офсетной печати буклета Beerburger Station",
+        "alt": "Офсетная печать буклета Beerburger Station · август 2018 года",
         "width": 1274,
         "height": 1075,
-        "label": "Офсетная печать · исходная публикация"
+        "label": "Офсетная печать · 2018 год"
       },
       {
         "className": "tile-smm-beerburger",
         "src": "assets/optimized/smm-beerburger-source.webp",
-        "alt": "Исходная SMM-публикация Beerburger Station: скриншоты с 164 и 2 954 подписчиками",
+        "alt": "Продвижение Beerburger Station: 164 и 2 954 подписчика",
         "width": 1247,
         "height": 851,
-        "label": "SMM · представленные скриншоты"
+        "label": "SMM · 2018 год"
       }
     ]
   },
@@ -430,16 +431,15 @@ const projects=[
     "title": "CORKS",
     "service": "Дизайн винной карты",
     "summary": "Винная карта CORKS Wine Bar Kitchen",
-    "sourceNote": "Пример из предоставленных материалов",
-    "text": "Пример винной карты CORKS Wine Bar Kitchen. На изображении показаны обложки и внутренние страницы раздела WINE.",
+    "text": "Винная карта CORKS Wine Bar Kitchen. На изображении показаны обложки и внутренние страницы раздела WINE.",
     "notes": [
-      "В исходном изображении сохранён логотип «Хоттабыч», прежнее название агентства"
+      "«Хоттабыч» — прежнее название агентства"
     ],
     "images": [
       {
         "className": "tile-brochure-corks",
         "src": "assets/optimized/brochure-corks-source.webp",
-        "alt": "Винная карта CORKS Wine Bar Kitchen с исходным логотипом «Хоттабыч»",
+        "alt": "Винная карта CORKS Wine Bar Kitchen",
         "width": 857,
         "height": 1069,
         "label": "Винная карта"
@@ -451,8 +451,7 @@ const projects=[
     "title": "Монтаж LED-экрана",
     "service": "Установка экранного оборудования",
     "summary": "Монтажная конструкция и готовый экран",
-    "sourceNote": "Фотографии из предоставленных материалов",
-    "text": "Пример монтажа LED-экрана. На двух фотографиях показаны монтажная металлическая конструкция и готовый большой экран.",
+    "text": "Монтаж LED-экрана. На двух фотографиях показаны монтажная металлическая конструкция и готовый большой экран.",
     "images": [
       {
         "className": "tile-led-mount",
@@ -465,7 +464,7 @@ const projects=[
       {
         "className": "tile-led-ready",
         "src": "assets/optimized/led-completed-source.webp",
-        "alt": "Готовый установленный LED-экран из предоставленных материалов",
+        "alt": "Готовый установленный LED-экран",
         "width": 791,
         "height": 835,
         "label": "Готовый экран"
@@ -492,6 +491,7 @@ function appendRealProjectDetail(box,project){
 const detail=document.querySelector('#detail');
 function showDetail(title,text,items=[],kind='Направление'){
   document.querySelector('#detail-title').textContent=title;
+  document.querySelector('#signage-service-page-link').hidden=title!==signageServiceTitle;
   document.querySelector('#led-sales-page-link').hidden=title!==ledServiceTitle;
   detail.classList.toggle('service-detail-compact',compactServiceTitles.includes(title));
   detail.classList.toggle('service-detail-media',title===mediaServiceTitle);
@@ -511,7 +511,7 @@ function showDetail(title,text,items=[],kind='Направление'){
     const figure=document.createElement('figure');figure.className='service-hologram-example';
     const crop=document.createElement('div');crop.className='service-hologram-photo';
     const image=document.createElement('img');image.decoding='async';image.src='assets/optimized/holographic-projection-user.webp';image.alt='Сценическое выступление: пример голографической проекции';image.width=1273;image.height=868;image.loading='lazy';
-    const caption=document.createElement('figcaption');caption.textContent='Пример голографической проекции · иллюстрация формата из предоставленных материалов';
+    const caption=document.createElement('figcaption');caption.textContent='Голографическая проекция';
     crop.append(image);figure.append(crop,caption);box.append(intro,figure);
   }
   if(title===promotionSolutionTitle||title===eventServiceTitle||title===summitCaseTitle){
@@ -519,12 +519,12 @@ function showDetail(title,text,items=[],kind='Направление'){
     if(title!==summitCaseTitle){const heading=document.createElement('h3');heading.textContent=summitCaseTitle;campaign.append(heading)}
     const channels=document.createElement('p');channels.textContent=summitCaseCampaign;
     const result=document.createElement('p');result.className='campaign-result';result.textContent='1 000 ожидали · 2 000 гостей';
-    const note=document.createElement('p');note.className='campaign-source-note';note.textContent='План и посещаемость указаны по данным агентства. Изображение на карточке: тематическая иллюстрация конференции';
+    const note=document.createElement('p');note.className='campaign-source-note';note.textContent='Посещаемость по данным агентства';
     campaign.append(channels,result,note);box.append(campaign);
   }
   const credit=servicePhotoCredits[title];
   if(credit){
-    const section=document.createElement('section');section.className='service-photo-credit';section.setAttribute('aria-label','Источник иллюстрации');
+    const section=document.createElement('section');section.className='service-photo-credit';section.setAttribute('aria-label','Фото и лицензия');
     const subject=document.createElement('p');subject.textContent=credit.subject;
     const line=document.createElement('p');line.append(document.createTextNode('Фото: '+credit.author+' · '));
     const source=document.createElement('a');source.href=credit.source;source.target='_blank';source.rel='noopener noreferrer';source.textContent='Источник';
@@ -535,15 +535,15 @@ function showDetail(title,text,items=[],kind='Направление'){
   }
   if(title==='Видеоэкраны и динамическая реклама'){
     const note=document.createElement('p');note.className='service-photo-credit';
-    note.append(document.createTextNode('На карточке: экран на Эстонской улице, 39, Сочи. Иллюстрация формата размещения из '));
-    const source=document.createElement('a');source.href='https://raxott.ru/wp-content/uploads/2025/04/ra-xott-videoekrany.pdf#page=3';source.target='_blank';source.rel='noopener noreferrer';source.textContent='архивной презентации RA XOTT, стр. 3';
-    note.append(source,document.createTextNode('. Архивная фотография не подтверждает текущую доступность площадки'));box.append(note);
+    note.append(document.createTextNode('Экран на Эстонской улице, 39, Сочи. '));
+    const source=document.createElement('a');source.href='https://raxott.ru/wp-content/uploads/2025/04/ra-xott-videoekrany.pdf#page=3';source.target='_blank';source.rel='noopener noreferrer';source.textContent='Подробнее о площадках';
+    note.append(source,document.createTextNode('. Доступность и график размещения уточняем при подборе'));box.append(note);
   }
   if(title===brochureServiceTitle){
     const note=document.createElement('p');note.textContent='Занимаемся с 2008 года';box.append(note);
   }
   if(title===slimServiceTitle){
-    const label=document.createElement('p');label.textContent='Заявленные характеристики из предоставленных материалов';
+    const label=document.createElement('p');label.textContent='Характеристики SLIM-панелей';
     const list=document.createElement('ul');
     ['Яркость от 2000 лк','Равномерное свечение','Замена постера за 30 секунд','В комплекте всё необходимое для монтажа'].forEach(text=>{const item=document.createElement('li');item.textContent=text;list.append(item)});
     box.append(label,list);
@@ -561,17 +561,17 @@ function showDetail(title,text,items=[],kind='Направление'){
       ['tile-brochure-cover','assets/optimized/brochure-beerburger-view-1.webp','Буклет Beerburger Station: обложка и разворот',821,850,'Beerburger Station','Работа 2018 года, выполнена без использования искусственного интеллекта'],
       ['tile-brochure-menu','assets/optimized/brochure-beerburger-view-2.webp','Буклет Beerburger Station: разворот меню',857,855,'Разворот меню',''],
       ['tile-brochure-front','assets/optimized/brochure-beerburger-view-3.webp','Буклет Beerburger Station: обложка',860,859,'Обложка буклета',''],
-      ['tile-brochure-corks','assets/optimized/brochure-corks-source.webp','CORKS: винная карта, с логотипом Хоттабыч в исходном изображении',857,1069,'CORKS · Винная карта','']
+      ['tile-brochure-corks','assets/optimized/brochure-corks-source.webp','CORKS: винная карта',857,1069,'CORKS · Винная карта','']
     ]:title===slimServiceTitle?[
-      ['tile-slim-frame','assets/optimized/slim-frame-source.webp','Настенная световая панель: фреймлайт из предоставленных материалов',858,482,'Фреймлайт',''],
-      ['tile-slim-crystal','assets/optimized/slim-crystal-source.webp','Настенная световая панель: кристалайт из предоставленных материалов',846,479,'Кристалайт','']
+      ['tile-slim-frame','assets/optimized/slim-frame-source.webp','Настенная световая панель: фреймлайт',858,482,'Фреймлайт',''],
+      ['tile-slim-crystal','assets/optimized/slim-crystal-source.webp','Настенная световая панель: кристалайт',846,479,'Кристалайт','']
     ]:title===smmServiceTitle?[
-      ['tile-smm-beerburger','assets/optimized/smm-beerburger-source.webp','Beerburger Station: представленные скриншоты с 164 и 2 954 подписчиками',1247,851,'Beerburger Station · пример продвижения, 2018 год','На представленных скриншотах: 164 → 2 954 подписчика. По публикации агентства — месяц работы']
+      ['tile-smm-beerburger','assets/optimized/smm-beerburger-source.webp','Beerburger Station: 164 и 2 954 подписчика',1247,851,'Beerburger Station · продвижение, 2018 год','164 → 2 954 подписчика. По данным агентства — месяц работы']
     ]:title===printServiceTitle?[
-      ['tile-print-beerburger','assets/optimized/print-beerburger-source.webp','Исторический пример офсетного буклета Beerburger Station',1274,1075,'Beerburger Station · офсетная печать, 2018 год','Офсетная печать · 5 000 экземпляров. По публикации агентства от 5 августа 2018 года']
+      ['tile-print-beerburger','assets/optimized/print-beerburger-source.webp','Офсетный буклет Beerburger Station · 2018 год',1274,1075,'Beerburger Station · офсетная печать, 2018 год','Офсетная печать · 5 000 экземпляров · август 2018 года']
     ]:[
       ['tile-signage-bank','assets/optimized/post-bank-source.webp','Световая вывеска «ПОЧТА БАНК»',805,643,'Почта Банк',''],
-      ['tile-signage-restaurant','assets/optimized/signage-source.webp','Световая вывеска ресторана «Есть хинкали • Пить вино» с водяными знаками HOTABYCH',1271,852,'Есть хинкали • Пить вино','Сочи. Световые объёмные буквы на подложке с европейскими диодами. В публикации о проекте указана гарантия 5 лет'],
+      ['tile-signage-restaurant','assets/optimized/signage-source.webp','Световая вывеска ресторана «Есть хинкали • Пить вино»',1271,852,'Есть хинкали • Пить вино','Сочи · 2020 год. Световые объёмные буквы на подложке с европейскими диодами. Гарантия для этого проекта — 5 лет'],
       ['tile-signage-hermes','assets/optimized/hermes-source.webp','Световая вывеска Hermès',792,631,'Hermès','Световая вывеска'],
       ['tile-signage-rasputin','assets/optimized/rasputin-source.webp','Световая вывеска «РАСПУТИН» с водяными знаками HOTABYCH',856,635,'Распутин','Световая вывеска']
     ];
@@ -622,18 +622,18 @@ const servicePhotos={
   'Мероприятия и промоакции':['assets/service-selected-05-events.jpg','Докладчик и аудитория на конференции',1400,1000],
   'Мультимедиа и интерактив':['assets/service-selected-06-multimedia.jpg','Световая инсталляция со светящимися нитями',1400,2100],
   'Наружная реклама и вывески':['assets/outdoor-sochi-airport.jpg','Рекламная конструкция у аэропорта Сочи',1323,993],
-  'Видеоэкраны и динамическая реклама':['assets/service-selected-09-screens.jpg','Архивная иллюстрация рекламного LED-экрана на Эстонской улице, 39, Сочи',772,579],
+  'Видеоэкраны и динамическая реклама':['assets/service-selected-09-screens.jpg','Рекламный LED-экран на Эстонской улице, 39, Сочи',772,579],
   [robotServiceTitle]:['assets/bellabot-real-restaurant.jpg','Сервисный робот BellaBot',1208,809],
   [ledServiceTitle]:['assets/optimized/led-installation-source.webp','Монтажная конструкция LED-экрана',793,821],
-  'МАФ и благоустройство':['assets/optimized/service-selected-07-maf-1570.webp','Скамейки в парке Сосенки, Москва: тематическая иллюстрация благоустройства',3140,2096],
-  'Регистрация товарного знака':['assets/optimized/trademark-rospatent-user.webp','Роспатент — Федеральная служба по интеллектуальной собственности: изображение предоставлено пользователем',1200,800]
+  'МАФ и благоустройство':['assets/optimized/service-selected-07-maf-1570.webp','Скамейки в парке Сосенки, Москва',3140,2096],
+  'Регистрация товарного знака':['assets/optimized/trademark-rospatent-user.webp','Роспатент — Федеральная служба по интеллектуальной собственности',1200,800]
 };
 const screenshotCards={
   [marketplaceServiceTitle]:['tile-marketplace','assets/optimized/marketplace-source.webp','Пример товарной инфографики на экране телефона',1285,924],
   [signageServiceTitle]:['tile-signage-bank','assets/optimized/post-bank-source.webp','Световая вывеска «ПОЧТА БАНК»',805,643],
   [brochureServiceTitle]:['tile-brochure-cover','assets/optimized/brochure-beerburger-view-1.webp','Буклет Beerburger Station: обложка и разворот',821,850],
   [slimServiceTitle]:['tile-slim-frame','assets/optimized/slim-frame-source.webp','Настенная световая SLIM-панель',858,482],
-  [smmServiceTitle]:['tile-smm-beerburger','assets/optimized/smm-beerburger-source.webp','Beerburger Station: пример продвижения в соцсетях, 2018 год',1247,851]
+  [smmServiceTitle]:['tile-smm-beerburger','assets/optimized/smm-beerburger-source.webp','Beerburger Station: продвижение в соцсетях, 2018 год',1247,851]
 };
 const serviceCardIds={
   [mediaServiceTitle]:'media-card',
@@ -682,25 +682,26 @@ services.forEach((x,index)=>{
     img.classList.add('tile-media');img.removeAttribute('aria-hidden');
     const logo=document.createElement('img');logo.decoding='async';logo.className='tile-media-logo';logo.src='assets/the-village-header.png';logo.alt='The Village+ | Юг';logo.loading='lazy';logo.width=697;logo.height=184;
     const sample=document.createElement('div');sample.className='tile-media-sample';
-    const picture=document.createElement('img');picture.decoding='async';picture.src='assets/the-village-page-branding.png';picture.alt='Пример брендированной страницы онлайн-медиа The Village из презентации';picture.loading='lazy';picture.width=776;picture.height=411;
+    const picture=document.createElement('img');picture.decoding='async';picture.src='assets/the-village-page-branding.png';picture.alt='Брендированная страница онлайн-медиа The Village';picture.loading='lazy';picture.width=776;picture.height=411;
     sample.append(picture);img.append(logo,sample);
   }
   const cardId=serviceCardIds[x[0]];
   if(cardId)labelDialogCard(tile.querySelector('button'),tile.querySelector('h3'),cardId);
   document.querySelector('.service-grid').append(tile);
 });
-function addCampaignImage(image){
+function addCampaignImage(image,withPhoto=true){
   image.classList.add('campaign-image');image.removeAttribute('aria-hidden');image.style.backgroundImage='none';
-  const picture=document.createElement('img');picture.decoding='async';picture.src='assets/service-selected-05-events.jpg';picture.alt='Тематическая иллюстрация конференции, не фотография блокчейн-саммита';picture.width=1400;picture.height=1000;picture.loading='lazy';
+  if(withPhoto){
+    const picture=document.createElement('img');picture.decoding='async';picture.src='assets/service-selected-05-events.jpg';picture.alt='Конференция: выступление перед аудиторией';picture.width=1400;picture.height=1000;picture.loading='lazy';image.append(picture);
+  }else{image.classList.add('campaign-symbol')}
   const badges=document.createElement('div');badges.className='campaign-channel-badges';
   [['assets/tnt-logo-official.png','ТНТ — телеканал рекламной кампании',794,261],['assets/ctc-logo.svg','СТС — телеканал рекламной кампании',755,279]].forEach(([src,alt,width,height])=>{
     const logo=document.createElement('img');logo.decoding='async';logo.className='campaign-channel-logo';logo.src=src;logo.alt=alt;logo.width=width;logo.height=height;logo.loading='lazy';badges.append(logo);
   });
-  image.append(picture,badges);
+  image.append(badges);
 }
 function addCampaignCaption(card,includeService=false){
   if(includeService){const label=document.createElement('p');label.className='campaign-card-service';label.textContent=tvRadioServiceTitle;card.append(label)}
-  const note=document.createElement('p');note.className='campaign-card-note';note.textContent='Фото: иллюстрация конференции';card.append(note);
 }
 solutions.forEach((x,i)=>{
   const tile=makeTile(x,i+8);
@@ -710,7 +711,7 @@ solutions.forEach((x,i)=>{
 projects.forEach(project=>{
   const button=document.createElement('button');button.className='project-card';
   const image=document.createElement('div');image.className='project-picture';
-  if(project.summit){addCampaignImage(image)}else{
+  if(project.summit){addCampaignImage(image,false)}else{
     const photo=project.images[0];image.classList.add('project-source-picture',photo.className);image.style.backgroundImage='none';
     const crop=document.createElement('span');crop.className='tile-source-crop';
     const picture=document.createElement('img');picture.src=photo.src;picture.alt=photo.alt;picture.width=photo.width;picture.height=photo.height;picture.loading='lazy';picture.decoding='async';crop.append(picture);image.append(crop);
@@ -719,12 +720,11 @@ projects.forEach(project=>{
   const heading=document.createElement('h3');heading.textContent=project.title;
   const service=document.createElement('p');service.textContent=project.service;
   const summary=document.createElement('p');summary.className=project.summit?'project-result':'project-summary';summary.textContent=project.summary;
-  const source=document.createElement('p');source.className='project-source-note';source.textContent=project.sourceNote;
   const open=document.createElement('span');open.className='project-open';open.textContent='Подробнее о кейсе →';
-  copy.append(heading,service,summary,source);if(project.summit)addCampaignCaption(copy);copy.append(open);
+  copy.append(heading,service,summary);if(project.summit)addCampaignCaption(copy);copy.append(open);
   button.append(image,copy);labelDialogCard(button,heading,project.id+'-project-card');
   button.addEventListener('click',()=>showDetail(project.title,project.text,project.facts??[],'Кейс'));
   document.querySelector('.project-grid').append(button);
 });
-const about=()=>showDetail('RA XOTT','Рекламное агентство полного цикла из Сочи Рабочая структура объединяет брендинг, производство, размещение рекламы, digital, контент, события и мультимедиа',['Основательница - Любовь Безус','Состав команды и партнёров уточняется под проект','Личный проект основательницы - bezuslove']);document.querySelector('#about-open').addEventListener('click',about);
+const about=()=>showDetail('RA XOTT','Рекламное агентство полного цикла RA XOTT. Работаем с 2011 года. Ранее назывались HOTABYCH. Агентство из Сочи объединяет брендинг, производство, размещение рекламы, digital, контент, события и мультимедиа',['Основательница - Любовь Безус','Состав команды и партнёров уточняется под проект','Личный проект основательницы - bezuslove']);document.querySelector('#about-open').addEventListener('click',about);
 const brief=document.querySelector('#brief');document.querySelectorAll('.brief-open').forEach(b=>b.addEventListener('click',()=>brief.showModal()));document.querySelector('#detail-cta').addEventListener('click',()=>{detail.close();brief.showModal()});document.querySelectorAll('dialog').forEach(d=>{d.querySelector('.close').addEventListener('click',()=>d.close());d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}})});
