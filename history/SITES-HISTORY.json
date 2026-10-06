@@ -1,10 +1,10 @@
 {
   "project": "RA XOTT",
   "sites_project_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7",
-  "snapshot_source_commit": "e4305504c53959b656d6ce481a86ff9717c4f60e",
-  "latest_saved_version": 32,
-  "saved_versions_mapped": 32,
-  "original_commits_listed": 35,
+  "snapshot_source_commit": "4ac6f42c7d02f1b5d11f478fed1bd97a4f3af2c2",
+  "latest_saved_version": 33,
+  "saved_versions_mapped": 33,
+  "original_commits_listed": 36,
   "original_commits_in_companion_bundle": 33,
   "history_type": "Separate GitHub snapshots with original Sites source SHA mapping; original Sites commits through v30 remain in the companion git bundle.",
   "bundle": {
@@ -369,6 +369,17 @@
       "saved_archive_file_count": 53,
       "has_deployment_attempt": true,
       "source_tree": "43fac307eacd2979ffe475f26557c4cdd4cc7955",
+      "in_history_bundle": false
+    },
+    {
+      "version_number": 33,
+      "version_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7~appgver_63ca51338098819189695792acfeee5c",
+      "source_commit": "4ac6f42c7d02f1b5d11f478fed1bd97a4f3af2c2",
+      "archive_sha256": "sha256:70e5ab0ee7e9033ac0fd4a86aa9b209cda272468b4235d1789f81b6f5f039148",
+      "archive_bytes": 47063040,
+      "saved_archive_file_count": 53,
+      "has_deployment_attempt": true,
+      "source_tree": "f5d4e0432c5b98e049f42fe7422bc593953cfcee",
       "in_history_bundle": false
     }
   ],
@@ -819,6 +830,19 @@
         32
       ],
       "source_original_hash_preserved_in_bundle": false
+    },
+    {
+      "source_commit": "4ac6f42c7d02f1b5d11f478fed1bd97a4f3af2c2",
+      "source_tree": "f5d4e0432c5b98e049f42fe7422bc593953cfcee",
+      "source_parents": [
+        "e4305504c53959b656d6ce481a86ff9717c4f60e"
+      ],
+      "source_subject": "Remove upper project CTA while preserving services and contact actions",
+      "source_committed_at_epoch": 1791247933,
+      "sites_saved_version_numbers": [
+        33
+      ],
+      "source_original_hash_preserved_in_bundle": false
     }
   ],
   "snapshot_files": [
@@ -1266,10 +1290,10 @@
       "path": "dist/index.html",
       "mode": "100644",
       "type": "blob",
-      "source_sha": "c3214b55e3f164e7fbea28e8846604d1ff320900",
-      "sha": "c3214b55e3f164e7fbea28e8846604d1ff320900",
-      "bytes": 5302,
-      "sha256": "d2276ed84f2e01f0f43a5675cfad4abaf7b49af48a615aaa0c53be8e4da03d3d",
+      "source_sha": "2bd57066cde18005c236ba541b1223f8d4c609b6",
+      "sha": "2bd57066cde18005c236ba541b1223f8d4c609b6",
+      "bytes": 5133,
+      "sha256": "55bead341fd1ea6121eb8d17812ddf3732d0c8b02103fb3a5edfc70a12eef07b",
       "inline_text": true
     },
     {
@@ -1346,10 +1370,10 @@
       "path": "dist/style.css",
       "mode": "100644",
       "type": "blob",
-      "source_sha": "18ae63630ce1caf46bc47873b6816756c0437670",
-      "sha": "18ae63630ce1caf46bc47873b6816756c0437670",
-      "bytes": 34649,
-      "sha256": "089c1ccc79b51fcf20fb9d9e324b81d67f3675f284cf2d66c6a7de09e388b43f",
+      "source_sha": "5a27cbd9a19f4552584afa46647bf07ee892bcb0",
+      "sha": "5a27cbd9a19f4552584afa46647bf07ee892bcb0",
+      "bytes": 34408,
+      "sha256": "e7226d8697f264590b57ddb39ca42c783b9eb409bfbec1aba7e3c48fb8da86f8",
       "inline_text": true
     },
     {

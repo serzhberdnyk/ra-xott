@@ -1,10 +1,10 @@
 {
   "project": "RA XOTT",
-  "snapshot_date_utc": "2026-10-05",
+  "snapshot_date_utc": "2026-10-06",
   "sites_project_id": "appgprj_6abd9152b75c8191a95d183a1c38a5e7",
   "sites_url": "https://ra-xott-showcase.imberdnyk.chatgpt.site",
-  "sites_saved_version": 32,
-  "sites_source_commit": "e4305504c53959b656d6ce481a86ff9717c4f60e",
+  "sites_saved_version": 33,
+  "sites_source_commit": "4ac6f42c7d02f1b5d11f478fed1bd97a4f3af2c2",
   "github_repository": "serzhberdnyk/ra-xott",
   "snapshot_method": "Verified content snapshot added to existing GitHub history",
   "source_files": 60,
@@ -43,5 +43,6 @@
   },
   "versions_manifest": "history/SITES-VERSIONS.json",
   "source_history_manifest": "history/SITES-HISTORY.json",
-  "synchronization": "Snapshots saved separately; automatic synchronization and deployment not configured by this transfer"
+  "synchronization": "Snapshots saved separately; automatic synchronization and deployment not configured by this transfer",
+  "github_parent_commit": "cdb49e5e6d258dbccbae373491416226e24783ca"
 }
