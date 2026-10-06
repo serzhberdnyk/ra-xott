@@ -492,6 +492,7 @@ function appendRealProjectDetail(box,project){
 const detail=document.querySelector('#detail');
 function showDetail(title,text,items=[],kind='Направление'){
   document.querySelector('#detail-title').textContent=title;
+  document.querySelector('#led-sales-page-link').hidden=title!==ledServiceTitle;
   detail.classList.toggle('service-detail-compact',compactServiceTitles.includes(title));
   detail.classList.toggle('service-detail-media',title===mediaServiceTitle);
   detail.setAttribute('aria-describedby',title===mediaServiceTitle?'media-detail-intro':'detail-content');

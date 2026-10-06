@@ -1,0 +1,62 @@
+/* The LED equipment page reuses the agency's palette and type; styles stay local. */
+.led-page{max-width:1600px;margin:auto}
+.led-skip{position:absolute;z-index:10;left:5%;top:12px;padding:12px 18px;background:var(--paper);border:1px solid var(--ink);transform:translateY(-180%)}
+.led-skip:focus{transform:none}
+.led-header{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:26px 5%;border-bottom:1px solid var(--line)}
+.led-header nav,.led-footer nav{display:flex;flex-wrap:wrap;gap:24px;font-size:14px;line-height:1.5}
+.led-header nav a,.led-footer nav a{padding:8px 0}
+.led-header nav a:hover,.led-footer nav a:hover{color:#247f90;text-decoration:underline;text-underline-offset:4px}
+.led-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:center;gap:6%;padding:54px 5% 48px;border-bottom:1px solid var(--line)}
+.led-hero h1{font-size:clamp(36px,4.25vw,64px);line-height:1.04;font-weight:400;letter-spacing:-.04em;text-transform:uppercase;margin:0 0 24px;text-wrap:balance;overflow-wrap:break-word}
+.led-lead{font-size:18px;line-height:1.65;margin:0 0 28px;max-width:630px;color:#454541}
+.led-hero .eyebrow{color:#247f90}
+.led-actions{display:flex;flex-wrap:wrap;gap:12px}
+.led-page .led-contact{display:inline-flex;align-items:center;justify-content:center;min-height:48px;min-width:44px;max-width:100%;padding:13px 24px;border:1px solid #424240;border-radius:12px;background:#1b1b1b;color:#fff;box-shadow:0 2px 0 #0003,0 5px 12px #14141412;font-size:14px;font-weight:600;line-height:1.4;text-transform:none;text-align:center;white-space:normal;overflow-wrap:anywhere;transform:none;transition:background .18s ease,border-color .18s ease}
+.led-page .led-contact-secondary{background:transparent;color:var(--ink);box-shadow:none}
+.led-page .led-contact:hover{transform:none}
+@media(hover:hover) and (pointer:fine){.led-page .led-contact:hover{background:#30302e;border-color:#575752}.led-page .led-contact-secondary:hover{background:#e9e7e0;border-color:#141414}}
+.led-page .led-contact:active{background:#111;color:#fff}
+.led-page .led-contact:focus-visible{outline:3px solid #247f90;outline-offset:4px}
+.led-geography{font-size:14px;line-height:1.6;color:#64635f;max-width:580px;margin:24px 0 0}
+.led-hero-figure,.led-example figure{margin:0;min-width:0}
+.led-hero-figure img,.led-example img{display:block;width:100%;height:auto;border-radius:4px}
+.led-hero-figure{max-width:460px;justify-self:end}
+.led-hero-figure figcaption,.led-example figcaption{font-size:12px;line-height:1.5;margin-top:12px;color:#64635f}
+.led-section{padding:48px 5%;border-bottom:1px solid var(--line)}
+.led-heading{margin-bottom:30px}
+.led-page h2{font-size:clamp(28px,3vw,44px);line-height:1.08;letter-spacing:-.025em;text-wrap:balance}
+.led-heading>p:not(.eyebrow){font-size:16px;line-height:1.65;color:#64635f;margin:22px 0 0;max-width:340px}
+.led-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.led-steps article{border-top:1px solid var(--line);padding-top:20px}
+.led-number{font-size:13px;line-height:1.5;color:#247f90}
+.led-steps h3{font-size:21px;font-weight:500;line-height:1.25;margin:20px 0 14px}
+.led-steps p{font-size:16px;line-height:1.65;color:#64635f;margin:0}
+.led-brief,.led-faq{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:8%}
+.led-brief .led-heading,.led-faq .led-heading{margin-bottom:0}
+.led-questions{margin:0;min-width:0}
+.led-questions>div{padding:20px 0;border-top:1px solid var(--line)}
+.led-questions>div:first-child{padding-top:0;border-top:0}
+.led-questions dt{font-size:20px;font-weight:500;line-height:1.3}
+.led-questions dd{font-size:16px;line-height:1.65;color:#64635f;margin:10px 0 0}
+.led-example{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);align-items:center;gap:8%;padding:48px 5%;background:#191a1a;color:#fff}
+.led-example figure{max-width:440px}
+.led-example figcaption{color:#c1c1bf}
+.led-example .eyebrow{color:var(--cyan)}
+.led-example p:not(.eyebrow){font-size:17px;line-height:1.65;color:#d1d0cf;margin:24px 0 0;max-width:560px}
+.led-inline-link{display:inline-block;padding:12px 0;margin-top:16px;font-size:15px;line-height:1.5;text-decoration:underline;text-underline-offset:5px}
+.led-faq-list{min-width:0}
+.led-faq-list details{border-top:1px solid var(--line);padding:0}
+.led-faq-list details:last-child{border-bottom:1px solid var(--line)}
+.led-faq-list summary{cursor:pointer;min-height:56px;padding:20px 12px 20px 0;font-size:18px;line-height:1.5;font-weight:500}
+.led-faq-list details[open] summary{color:#247f90}
+.led-faq-list p{font-size:16px;line-height:1.65;color:#64635f;margin:0 0 24px}
+.led-faq-list p a{text-decoration:underline;text-underline-offset:4px}
+.led-discuss{display:flex;align-items:center;justify-content:space-between;gap:32px}
+.led-discuss p:not(.eyebrow){font-size:16px;line-height:1.65;max-width:590px;color:#64635f;margin:20px 0 0}
+.led-discuss .led-actions{flex-shrink:0}
+.led-footer{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 5%}
+.led-footer p{font-size:12px;line-height:1.5;color:#64635f;margin:0}
+@media(max-width:950px){.led-header .brand small{display:none}.led-hero{gap:5%}.led-hero h1{font-size:clamp(34px,4.8vw,46px)}.led-steps{gap:24px}.led-brief,.led-faq{gap:5%}.led-discuss{align-items:flex-start;flex-direction:column}}
+@media(max-width:700px){.led-header{flex-wrap:wrap;padding-top:20px;padding-bottom:16px;gap:12px 24px}.led-header nav{gap:20px}.led-hero{grid-template-columns:minmax(0,1fr);padding-top:34px;gap:30px}.led-hero h1{font-size:clamp(34px,8vw,48px)}.led-lead{font-size:17px}.led-hero-figure{justify-self:start;max-width:460px;width:100%}.led-section,.led-example{padding-top:34px;padding-bottom:34px}.led-steps,.led-brief,.led-faq,.led-example{grid-template-columns:minmax(0,1fr);gap:28px}.led-steps{gap:24px}.led-steps h3{margin-top:14px}.led-example figure{max-width:460px}.led-example>div{grid-row:1}.led-footer{align-items:flex-start;flex-direction:column;gap:12px}.led-footer nav{gap:8px 20px}}
+@media(max-width:380px){.led-actions{flex-direction:column;width:100%}.led-contact{width:100%}.led-header nav{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.led-page .led-contact{transition:none}}

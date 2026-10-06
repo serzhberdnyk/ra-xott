@@ -274,3 +274,73 @@
 #detail-content .project-detail-note{font-size:13px;line-height:1.6}
 @media(max-width:1200px){.projects .project-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px}}
 @media(max-width:700px){.projects .project-grid{grid-template-columns:minmax(0,1fr);gap:28px}.projects .project-card{max-width:520px;margin-inline:auto}.projects .project-card h3{font-size:23px}.projects .project-copy{padding-top:14px}.project-case-gallery{grid-template-columns:minmax(0,1fr)}}
+
+/* Contact CTAs: a restrained raised surface, scoped to existing agency contact actions. */
+:is(.pill.brief-open,#detail-cta.pill,#brief .messenger-actions .pill){
+ --contact-cta-background:#1b1b1b;
+ --contact-cta-shadow:0 2px 0 #0003,0 5px 12px #14141412;
+ display:inline-flex;
+ align-items:center;
+ justify-content:center;
+ gap:8px;
+ min-height:48px;
+ min-width:44px;
+ max-width:100%;
+ padding:13px 24px;
+ border:1px solid #424240;
+ border-radius:12px;
+ background:var(--contact-cta-background);
+ color:#fff;
+ box-shadow:var(--contact-cta-shadow);
+ font-size:.875rem;
+ font-weight:600;
+ line-height:1.4;
+ letter-spacing:.01em;
+ text-transform:none;
+ text-align:center;
+ white-space:normal;
+ overflow-wrap:anywhere;
+ appearance:none;
+ transform:none;
+ transition:background .18s ease,border-color .18s ease,box-shadow .18s ease,transform .18s ease;
+}
+/* Neutralise the legacy pill hover on touch screens; the resting surface is already a button. */
+:is(.pill.brief-open,#detail-cta.pill,#brief .messenger-actions .pill):hover{
+ background:var(--contact-cta-background);
+ box-shadow:var(--contact-cta-shadow);
+ transform:none;
+}
+@media(hover:hover) and (pointer:fine){
+ :is(.pill.brief-open,#detail-cta.pill,#brief .messenger-actions .pill):not(:disabled):hover{
+  border-color:#575752;
+  background:#30302e;
+  box-shadow:0 3px 0 #0003,0 7px 15px #14141418;
+  transform:translateY(-1px);
+ }
+}
+:is(.pill.brief-open,#detail-cta.pill,#brief .messenger-actions .pill):not(:disabled):active{
+ border-color:#252524;
+ background:#111;
+ box-shadow:inset 0 1px 2px #0003,0 1px 2px #14141412;
+ transform:translateY(1px);
+}
+:is(.pill.brief-open,#detail-cta.pill,#brief .messenger-actions .pill):focus-visible{
+ outline:3px solid #247f90;
+ outline-offset:4px;
+}
+:is(.pill.brief-open,#detail-cta.pill,#brief .messenger-actions .pill):disabled{
+ color:#d0d0cc;
+ background:#484846;
+ border-color:#5c5c57;
+ box-shadow:none;
+ transform:none;
+ cursor:not-allowed;
+}
+@media(prefers-reduced-motion:reduce){
+ :is(.pill.brief-open,#detail-cta.pill,#brief .messenger-actions .pill),
+ :is(.pill.brief-open,#detail-cta.pill,#brief .messenger-actions .pill):not(:disabled):hover,
+ :is(.pill.brief-open,#detail-cta.pill,#brief .messenger-actions .pill):not(:disabled):active{
+  transition:none;
+  transform:none;
+ }
+}
