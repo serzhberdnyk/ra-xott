@@ -1,0 +1,44 @@
+/* Scoped footer only. Load after the existing style.css. */
+footer.rx-footer{position:relative;isolation:isolate;overflow:hidden;padding:0 4.8%;color:#f2f7fa;background:#071e32;}
+.rx-footer *{box-sizing:border-box}
+.rx-footer .rx-footer-content{position:relative;z-index:1;max-width:1440px;margin:0 auto;padding-top:34px}
+.rx-footer .rx-brand{display:flex;justify-content:center;align-items:center;gap:10px;width:fit-content;margin:0 auto;color:#f2f7fa;text-decoration:none;flex-wrap:wrap;}
+.rx-footer .rx-brand .xmark{display:inline-block;background:none;color:#75d4e7;font-size:42px;font-weight:900;letter-spacing:-5px;width:35px;line-height:1}
+.rx-footer .rx-brand strong{font-size:30px;letter-spacing:1px;line-height:1.2}
+.rx-footer .rx-brand small{display:block;flex-basis:100%;margin:0;text-align:center;font-size:8px;letter-spacing:1.8px;line-height:1.65;color:#c4d8e6}
+.rx-footer .rx-art{position:absolute;z-index:0;inset:0 0 auto;height:480px;pointer-events:none;overflow:hidden}
+.rx-footer .rx-fibres{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;animation:rx-float-left 14s ease-in-out infinite;animation-play-state:paused}
+.rx-footer .rx-fibres--right{animation-name:rx-float-right;animation-duration:16s}
+.rx-footer[data-rx-active="true"] .rx-fibres{animation-play-state:running}
+@keyframes rx-float-left{0%,100%{transform:translateY(-2px) scale(1.008)}50%{transform:translateY(2px) scale(1)}}
+@keyframes rx-float-right{0%,100%{transform:translateY(2px) scale(1)}50%{transform:translateY(-2px) scale(1.008)}}
+.rx-footer .rx-footer-actions{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:0;margin-top:323px;padding:0 0 28px}
+.rx-footer .footer-nav{display:flex;margin:0;font-size:14px;gap:0}
+.rx-footer .footer-nav button{font:inherit;color:#e5f1f7;background:transparent;border:0;min-height:48px;padding:8px 0;cursor:pointer}
+.rx-footer #rx-footer-brief.pill{display:inline-flex;align-items:center;justify-content:center;gap:30px;background:#e9f5f9;color:#102f46;border:1px solid #e9f5f9;border-radius:30px;min-height:48px;padding:13px 23px;font-size:12px;text-transform:uppercase;cursor:pointer;box-shadow:none;transform:none;transition:background .2s}
+.rx-footer #rx-footer-brief.pill:hover{background:#e9f5f9;transform:none;box-shadow:none}
+@media(hover:hover) and (pointer:fine){.rx-footer #rx-footer-brief.pill:not(:disabled):hover{background:#fff;color:#102f46;border-color:#fff;box-shadow:none;transform:none}}
+.rx-footer #rx-footer-brief.pill:not(:disabled):active{background:#d3eaf3;color:#102f46;border-color:#d3eaf3;box-shadow:none;transform:none}
+.rx-footer #rx-footer-brief.pill:focus-visible{outline:2px solid #8de4f5;outline-offset:6px}
+.rx-footer .pill span{font-size:19px;line-height:1}
+.rx-footer .footer-bottom{display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid #50738c73;padding:10px 0 12px}
+.rx-footer .footer-bottom p{margin:0;font-size:10px;line-height:1.5;color:#bed0df}
+.rx-footer .footer-bottom p span{color:#75d4e7;font-size:18px;vertical-align:middle;margin-right:5px}
+.rx-footer .rx-motion-toggle{font:inherit;font-size:10px;color:#bed0df;border:0;background:transparent;padding:12px 4px;min-height:44px;cursor:pointer}
+.rx-footer .rx-motion-toggle[hidden]{display:none}
+.rx-footer :is(a,button):focus-visible{outline:2px solid #8de4f5;outline-offset:6px;border-radius:4px}
+@media(max-width:600px){
+ footer.rx-footer{padding:0 6%}
+ .rx-footer .rx-footer-content{padding-top:34px}
+ .rx-footer .rx-brand strong{font-size:27px}
+ .rx-footer .rx-art{inset:70px -48% auto;height:310px;opacity:1}
+ .rx-footer .rx-footer-actions{margin-top:264px;padding-bottom:20px;gap:14px}
+ .rx-footer #rx-footer-brief.pill{font-size:12px;gap:15px;padding:12px 17px}
+ .rx-footer .footer-nav{font-size:13px}
+ .rx-footer .footer-bottom{justify-content:space-between;gap:4px 10px;padding-top:12px}
+ .rx-footer .footer-bottom p:last-child{flex-basis:100%;padding:0 0 8px}
+}
+@media(prefers-reduced-motion:reduce){
+ .rx-footer .rx-fibres{animation:none!important}
+ .rx-footer .rx-motion-toggle{display:none}
+}

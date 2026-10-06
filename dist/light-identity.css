@@ -1,0 +1,26 @@
+/* Approved light identity, phase one. Local preview only: hero photograph reuse clearance is pending. */
+:root{--identity-paper:#F7F6F2;--identity-navy:#18243B;--identity-cyan:#28D8DC;--identity-fuchsia:#E942BE}
+.hero.hero-light{display:grid;grid-template-columns:minmax(0,.94fr) minmax(0,1.45fr);align-items:center;gap:3%;min-height:0;height:auto;padding:24px 3.7% 38px;background:var(--identity-paper);color:var(--identity-navy);overflow:hidden}
+.hero-light .hero-copy{padding:28px 0;max-width:none;min-width:0}
+.hero-light h1{margin:0 0 24px;max-width:620px;font-size:clamp(36px,4.25vw,64px);font-weight:750;line-height:1.06;letter-spacing:-.045em;text-transform:none;text-wrap:balance;overflow-wrap:normal}
+.hero-light .hero-lead{font-size:clamp(18px,1.65vw,25px);line-height:1.4;margin:0 0 30px;max-width:540px;color:var(--identity-navy)}
+.hero-light .location{margin-top:24px;color:#606C82;font-size:15px}
+.hero-light .location-icon{flex-basis:20px}
+.hero-concept{position:relative;min-width:0;margin:0;aspect-ratio:989/819;isolation:isolate;border:2px solid transparent;border-radius:34px;background:linear-gradient(var(--identity-paper),var(--identity-paper)) padding-box,linear-gradient(120deg,var(--identity-cyan),#b9d9ed 55%,var(--identity-fuchsia)) border-box;box-shadow:-12px 0 35px #28d8dc12,12px 10px 35px #e942be0a;overflow:hidden}
+/* A code-native viewport shows only the approved mockup's photographic panel.
+   Source canvas 1672×941; panel bounds x=667, y=19, width=989, height=819.
+   Headline, lead and CTA are real HTML outside this viewport. */
+.hero-concept-crop{position:absolute;inset:0;overflow:hidden;border-radius:32px}
+.hero-concept-crop img{display:block;position:absolute;width:169.059656%;max-width:none;height:114.896215%;left:-67.44186%;top:-2.319902%;object-fit:fill}
+/* One readable live badge masks the raster badge completely. Source badge is
+   within x=723..958, y=752..793 of the 989×819 photo viewport. The opaque live
+   badge extends beyond those bounds, including at narrow mobile sizes. */
+.hero-concept figcaption{position:absolute;right:2.2%;bottom:2.2%;min-width:26.5%;min-height:6.5%;max-width:calc(100% - 24px);display:flex;align-items:center;justify-content:center;padding:9px 18px;border-radius:999px;background:#fff;color:var(--identity-navy);text-align:center;font-size:clamp(12px,1.05vw,16px);line-height:1.25;font-weight:600;box-shadow:0 2px 10px #18243b0d}
+/* The hero keeps one native link. Non-hero CTAs and messenger controls retain their existing styles. */
+.hero-light .hero-services-cta{display:inline-flex;align-items:center;justify-content:center;min-height:50px;max-width:100%;border:2px solid transparent;border-radius:999px;color:var(--identity-navy);background:linear-gradient(#fff,#fff) padding-box,linear-gradient(110deg,var(--identity-cyan),var(--identity-fuchsia)) border-box;box-shadow:0 3px 14px #28d8dc12,4px 4px 15px #e942be0b;font-size:clamp(16px,1.35vw,20px);font-weight:600;line-height:1.4;text-transform:none;white-space:normal;text-align:center;padding:15px 34px;transform:none;transition:box-shadow .18s ease,transform .18s ease}
+.hero-light .hero-services-cta:hover{background:linear-gradient(#fff,#fff) padding-box,linear-gradient(110deg,var(--identity-cyan),var(--identity-fuchsia)) border-box;transform:none}
+@media(hover:hover) and (pointer:fine){.hero-light .hero-services-cta:not(:disabled):hover{border-color:transparent;background:linear-gradient(#22344F,#22344F) padding-box,linear-gradient(110deg,var(--identity-cyan),var(--identity-fuchsia)) border-box;color:#fff;box-shadow:0 5px 18px #28d8dc25,5px 4px 18px #e942be16;transform:translateY(-1px)}}
+.hero-light .hero-services-cta:not(:disabled):active{border-color:transparent;background:linear-gradient(var(--identity-navy),var(--identity-navy)) padding-box,linear-gradient(110deg,var(--identity-cyan),var(--identity-fuchsia)) border-box;color:#fff;transform:translateY(1px);box-shadow:0 1px 5px #18243b20}
+.hero-light .hero-services-cta:focus-visible{outline:3px solid var(--identity-navy);outline-offset:5px}
+@media(max-width:800px){.hero.hero-light{grid-template-columns:minmax(0,1fr);gap:24px;padding:28px 5% 32px}.hero-light .hero-copy{padding:0}.hero-light h1{max-width:650px;font-size:clamp(34px,7.7vw,54px);line-height:1.08;margin-bottom:20px}.hero-light .hero-lead{max-width:570px;font-size:19px;margin-bottom:24px}.hero-light .location{margin-top:20px;font-size:14px}.hero-concept{width:100%;max-width:700px;justify-self:center;border-radius:25px}.hero-concept-crop{border-radius:23px}.hero-light .hero-services-cta{font-size:17px;padding:14px 26px}}
+@media(prefers-reduced-motion:reduce){.hero-light .hero-services-cta,.hero-light .hero-services-cta:not(:disabled):hover,.hero-light .hero-services-cta:not(:disabled):active{transition:none;transform:none}}

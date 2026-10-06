@@ -240,7 +240,7 @@ const services=[
   [brochureServiceTitle,brochureServiceDescription,[]],
   [mediaServiceTitle,mediaServiceDescription,[]],
   [marketplaceServiceTitle,marketplaceServiceDescription,[]],
-  ['Фото и видео','Визуальные материалы для бренда, продукта, события и цифровых каналов',['Фотопроизводство','Видео и монтаж','Контент для экранов']],
+  ['Фото и видео','Визуальные материалы для бренда, продукта, события и цифровых каналов',['Фотопроизводство','Видео и монтаж','Контент для экранов','Разработка концепций и адаптация роликов и креативов под экраны']],
   [eventServiceTitle,'События, объединённые идеей и вниманием к деталям',['Мероприятия и конференции',tvRadioServiceTitle,'Флешмобы и промоакции','Оформление события','Помощь в организации фестивалей']],
   [robotServiceTitle,robotServiceDescription,[]],
   ['Мультимедиа и интерактив','Технологии и контент для взаимодействия с аудиторией',['Дополненная и виртуальная реальность (AR/VR)','Мэппинг, фасадные проекции и голограммы','Интерактивные столы и светодиодные фотозоны','Гобопроекции в помещении и на улице','Видеоконтент и экраны']],
@@ -650,6 +650,19 @@ const serviceCardIds={
   'Регистрация товарного знака':'trademark-card',
   'Видеоэкраны и динамическая реклама':'screen-placement-card'
 };
+// Card-only delivery candidates. Keep src and intrinsic dimensions for existing crop rules
+// and older browsers; full-resolution case galleries are deliberately unaffected.
+const cardDelivery={
+  'assets/service-selected-06-multimedia.jpg': ['service-selected-06-multimedia',[480,800,1400]],
+  'assets/optimized/led-installation-source.webp': ['led-installation-source',[400,793]],
+  'assets/optimized/post-bank-source.webp': ['post-bank-source',[400,805]]
+};
+function applyCardDelivery(picture){
+  const candidate=cardDelivery[picture.getAttribute('src')||picture.src];
+  if(!candidate)return;
+  picture.srcset=candidate[1].map(width=>`assets/mobile/${candidate[0]}-${width}.webp ${width}w`).join(', ');
+  picture.sizes='(max-width: 700px) calc((90vw - 16px) / 2), (min-width: 1600px) 359px, calc((92.6vw - 48px) / 4)';
+}
 const spriteColumns=[[2,270],[274,531],[535,816],[821,1097],[1102,1381],[1386,1645],[1650,1914]];
 services.forEach((x,index)=>{
   const frame=serviceImageFrames[x[0]],tile=makeTile(x,frame??0),img=tile.querySelector('.tile-image');
@@ -664,6 +677,7 @@ services.forEach((x,index)=>{
     img.classList.add('tile-photo');img.removeAttribute('aria-hidden');
     const picture=document.createElement('img');picture.decoding='async';
     [picture.src,picture.alt,picture.width,picture.height]=photo;
+    applyCardDelivery(picture);
     if(x[0]==='МАФ и благоустройство'){
       picture.srcset='assets/optimized/service-selected-07-maf-785.webp 785w, assets/optimized/service-selected-07-maf-1570.webp 1570w';
       picture.sizes='(max-width: 700px) calc((90vw - 16px) / 2), (min-width: 1600px) 359px, calc((92.6vw - 48px) / 4)';
@@ -676,6 +690,7 @@ services.forEach((x,index)=>{
     const crop=document.createElement('span');crop.className='tile-source-crop';
     const picture=document.createElement('img');picture.decoding='async';
     [picture.src,picture.alt,picture.width,picture.height]=screenshot.slice(1);
+    applyCardDelivery(picture);
     picture.loading='lazy';crop.append(picture);img.append(crop);
   }
   if(x[0]===mediaServiceTitle){
@@ -708,23 +723,40 @@ solutions.forEach((x,i)=>{
   if(x[0]===promotionSolutionTitle){labelDialogCard(tile.querySelector('button'),tile.querySelector('h3'),'solution-card-'+i);addCampaignImage(tile.querySelector('.tile-image'));addCampaignCaption(tile.querySelector('button'),true)}
   document.querySelector('.solution-grid').append(tile);
 });
-projects.forEach(project=>{
-  const button=document.createElement('button');button.className='project-card';
-  const image=document.createElement('div');image.className='project-picture';
-  if(project.summit){addCampaignImage(image,false)}else{
-    const photo=project.images[0];image.classList.add('project-source-picture',photo.className);image.style.backgroundImage='none';
-    const crop=document.createElement('span');crop.className='tile-source-crop';
-    const picture=document.createElement('img');picture.src=photo.src;picture.alt=photo.alt;picture.width=photo.width;picture.height=photo.height;picture.loading='lazy';picture.decoding='async';crop.append(picture);image.append(crop);
-  }
-  const copy=document.createElement('div');copy.className='project-copy';
-  const heading=document.createElement('h3');heading.textContent=project.title;
-  const service=document.createElement('p');service.textContent=project.service;
-  const summary=document.createElement('p');summary.className=project.summit?'project-result':'project-summary';summary.textContent=project.summary;
-  const open=document.createElement('span');open.className='project-open';open.textContent='Подробнее о кейсе →';
-  copy.append(heading,service,summary);if(project.summit)addCampaignCaption(copy);copy.append(open);
-  button.append(image,copy);labelDialogCard(button,heading,project.id+'-project-card');
-  button.addEventListener('click',()=>showDetail(project.title,project.text,project.facts??[],'Кейс'));
-  document.querySelector('.project-grid').append(button);
-});
-const about=()=>showDetail('RA XOTT','Рекламное агентство полного цикла RA XOTT. Работаем с 2011 года. Ранее назывались HOTABYCH. Агентство из Сочи объединяет брендинг, производство, размещение рекламы, digital, контент, события и мультимедиа',['Основательница - Любовь Безус','Состав команды и партнёров уточняется под проект','Личный проект основательницы - bezuslove']);document.querySelector('#about-open').addEventListener('click',about);
+// One compact homepage case; complete portfolio data stays available for service examples.
+const summitCase=projects.find(project=>project.summit);
+document.querySelector('#summit-case-open').addEventListener('click',()=>showDetail(summitCase.title,summitCase.text,summitCase.facts??[],'Кейс'));
+
+// Uploaded office collage: CSS viewports only; the original remains unchanged.
+function appendOfficeGallery(box){
+  const section=document.createElement('section');section.className='agency-office-gallery';
+  const heading=document.createElement('h3');heading.textContent='Сочинский офис';
+  const grid=document.createElement('div');grid.className='agency-proof-office-grid';
+  const rooms=['Переговорная','Общее пространство','Холл','Зона встреч','Зона отдыха','Рабочее пространство','Стол для переговоров','Гостевая зона'];
+  rooms.forEach((label,i)=>{
+    const figure=document.createElement('figure');
+    const link=document.createElement('a');link.className='agency-office-tile';link.href='assets/agency/sochi-office-collage.jpg';link.target='_blank';link.rel='noopener noreferrer';link.setAttribute('aria-label',label+' — открыть полный коллаж в новой вкладке');
+    const image=document.createElement('img');image.src='assets/agency/sochi-office-collage.jpg';image.alt=label+' сочинского офиса';image.width=794;image.height=1280;image.loading='lazy';image.decoding='async';
+    image.style.left=(-(i%2===0?18:400)/374*100)+'%';image.style.top=(-[196,467,738,1008][Math.floor(i/2)]/261*100)+'%';
+    const caption=document.createElement('figcaption');caption.textContent=label;
+    link.append(image);figure.append(link,caption);grid.append(figure);
+  });
+  const original=document.createElement('a');original.className='agency-proof-link';original.href='assets/agency/sochi-office-collage.jpg';original.target='_blank';original.rel='noopener noreferrer';original.textContent='Посмотреть коллаж целиком ↗';
+  section.append(heading,grid,original);box.append(section);
+}
+const about=()=>{showDetail('RA XOTT','Рекламное агентство полного цикла RA XOTT. Работаем с 2011 года. Ранее назывались HOTABYCH. Агентство из Сочи объединяет брендинг, производство, размещение рекламы, digital, контент, события и мультимедиа',['Основательница - Любовь Безус','Состав команды и партнёров уточняется под проект','Личный проект основательницы - bezuslove']);appendOfficeGallery(document.querySelector('#detail-content'))};document.querySelector('#about-open').addEventListener('click',about);
 const brief=document.querySelector('#brief');document.querySelectorAll('.brief-open').forEach(b=>b.addEventListener('click',()=>brief.showModal()));document.querySelector('#detail-cta').addEventListener('click',()=>{detail.close();brief.showModal()});document.querySelectorAll('dialog').forEach(d=>{d.querySelector('.close').addEventListener('click',()=>d.close());d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}})});
+
+// CSS backgrounds have no native loading=lazy. Observe only their existing containers.
+// The no-IntersectionObserver fallback shows them immediately, without timers.
+const deferredBackgrounds=[...document.querySelectorAll('.tile-image'),...document.querySelectorAll('.founder')];
+if(typeof IntersectionObserver==='function'){
+  const backgroundObserver=new IntersectionObserver((entries,observer)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){entry.target.classList.add('background-ready');observer.unobserve(entry.target)}
+    });
+  },{rootMargin:'200px 0px'});
+  deferredBackgrounds.forEach(element=>backgroundObserver.observe(element));
+}else{
+  deferredBackgrounds.forEach(element=>element.classList.add('background-ready'));
+}
