@@ -241,7 +241,254 @@ const services=[
   ['Регистрация товарного знака','Сопровождение регистрации товарного знака в Роспатенте',['Предварительная проверка товарного знака','Подбор классов МКТУ','Подготовка и подача заявки','Сопровождение экспертизы и ответы на запросы','Состав работ и стоимость определяются индивидуально']]
 ];
 const solutions=[['Запуск бренда и бизнеса','Собрать основу бренда, первые носители и цифровую точку входа',['Брендинг и дизайн','Сайт','Рекламные материалы']],['Открытие ресторана','Связать характер заведения, оформление и первое знакомство с гостями',['Айдентика','Вывеска и полиграфия','Фото и цифровая подача']],[promotionSolutionTitle,'Помочь аудитории узнать о событии и почувствовать его идею',[tvRadioServiceTitle,'Визуальная коммуникация','Фото, видео и оформление']],['Ребрендинг','Переосмыслить визуальную систему и последовательно перенести её на носители',['Фирменный стиль','Брендбук','Обновление носителей']],['Оформление объекта','Собрать наружное и внутреннее оформление в единую систему',['Вывески','Навигация и графика','Экранные форматы']],['Контент для маркетплейсов','Показать продукт понятно, последовательно и выразительно',['Предметная съёмка','Инфографика','Дизайн карточек']]];
-const projects=[[summitCaseTitle,tvRadioServiceTitle]];
+// Real portfolio materials only. Dates refer to publications unless the project year is confirmed.
+const projects=[
+  {
+    "id": "summit",
+    "title": "Блокчейн-саммит на Роза Хуторе",
+    "service": "Реклама на телевидении и радио",
+    "summary": "1 000 ожидали · 2 000 гостей",
+    "sourceNote": "По данным агентства",
+    "text": "Реклама на телевидении и радио",
+    "summit": true
+  },
+  {
+    "id": "post-bank",
+    "title": "Почта Банк",
+    "service": "Световая вывеска",
+    "summary": "Фасадная вывеска и монтаж",
+    "sourceNote": "Пример из предоставленных материалов",
+    "text": "Пример световой фасадной вывески с объёмными буквами. На фотографиях показаны готовое оформление, процесс монтажа и крупный ракурс букв.",
+    "images": [
+      {
+        "className": "tile-signage-bank",
+        "src": "assets/optimized/post-bank-source.webp",
+        "alt": "Готовая световая фасадная вывеска «ПОЧТА БАНК»",
+        "width": 805,
+        "height": 643,
+        "label": "Готовая вывеска"
+      },
+      {
+        "className": "",
+        "src": "assets/optimized/post-bank-installation-source.webp",
+        "alt": "Монтажник работает над объёмными буквами «ПОЧТА БАНК»",
+        "width": 782,
+        "height": 634,
+        "label": "Процесс монтажа"
+      },
+      {
+        "className": "",
+        "src": "assets/optimized/post-bank-detail-source.webp",
+        "alt": "Крупный ракурс световых объёмных букв «ПОЧТА БАНК»",
+        "width": 776,
+        "height": 643,
+        "label": "Крупный ракурс букв"
+      }
+    ]
+  },
+  {
+    "id": "hermes",
+    "title": "Hermès",
+    "service": "Световая вывеска",
+    "summary": "Подсвеченные буквы на фасаде",
+    "sourceNote": "Пример из предоставленных материалов",
+    "text": "Пример световой вывески Hermès. Три фотографии показывают подсвеченные буквы на фасаде: общий вид, боковой ракурс и крупный план.",
+    "images": [
+      {
+        "className": "tile-signage-hermes",
+        "src": "assets/optimized/hermes-source.webp",
+        "alt": "Крупный фронтальный ракурс световой вывески Hermès",
+        "width": 792,
+        "height": 631,
+        "label": "Световые буквы"
+      },
+      {
+        "className": "",
+        "src": "assets/optimized/hermes-facade-source.webp",
+        "alt": "Ночной общий вид фасада с подсвеченными буквами Hermès",
+        "width": 791,
+        "height": 640,
+        "label": "Общий вид фасада"
+      },
+      {
+        "className": "",
+        "src": "assets/optimized/hermes-side-source.webp",
+        "alt": "Боковой ракурс фасада и световых букв Hermès",
+        "width": 785,
+        "height": 619,
+        "label": "Боковой ракурс"
+      }
+    ]
+  },
+  {
+    "id": "khinkali-wine",
+    "title": "Есть хинкали • Пить вино",
+    "service": "Световая вывеска ресторана",
+    "summary": "Сочи · объёмные буквы на подложке",
+    "sourceNote": "Публикация от 14 декабря 2020 года",
+    "text": "Световая вывеска ресторана «Есть хинкали • Пить вино» в Сочи. В публикации от 14 декабря 2020 года описаны объёмные буквы на подложке с европейскими диодами.",
+    "facts": [
+      "Для этого исторического проекта в публикации указан гарантийный срок 5 лет"
+    ],
+    "notes": [
+      "На исходной фотографии сохранены водяные знаки HOTABYCH. «Хоттабыч» — прежнее название агентства"
+    ],
+    "images": [
+      {
+        "className": "tile-signage-restaurant",
+        "src": "assets/optimized/signage-source.webp",
+        "alt": "Световая вывеска «Есть хинкали • Пить вино» в Сочи; исходная публикация с водяными знаками HOTABYCH",
+        "width": 1271,
+        "height": 852,
+        "label": "Вывеска и исходная публикация"
+      }
+    ]
+  },
+  {
+    "id": "rasputin",
+    "title": "Распутин",
+    "service": "Световая вывеска",
+    "summary": "Объёмные буквы на фасаде",
+    "sourceNote": "Пример из предоставленных материалов",
+    "text": "Пример световой вывески «Распутин»: объёмные буквы над входом и готовое фасадное оформление.",
+    "notes": [
+      "На исходной фотографии сохранены водяные знаки HOTABYCH. «Хоттабыч» — прежнее название агентства"
+    ],
+    "images": [
+      {
+        "className": "tile-signage-rasputin",
+        "src": "assets/optimized/rasputin-source.webp",
+        "alt": "Фасад со световой вывеской «РАСПУТИН» и исходными водяными знаками HOTABYCH",
+        "width": 856,
+        "height": 635,
+        "label": "Готовая световая вывеска"
+      }
+    ]
+  },
+  {
+    "id": "beerburger",
+    "title": "Beerburger Station",
+    "service": "Дизайн буклета, офсетная печать и SMM",
+    "summary": "2018 · тираж 5 000 экземпляров",
+    "sourceNote": "Макеты и публикации агентства 2018 года",
+    "text": "Объединённый пример работы для Beerburger Station: дизайн буклета, офсетная печать и ведение аккаунта в соцсетях. Пользователь подтвердил, что макеты выполнены в 2018 году без использования искусственного интеллекта.",
+    "facts": [
+      "Дизайн буклета: обложка и развороты с меню",
+      "Офсетная печать: 5 пачек по 1 000 буклетов, всего 5 000 экземпляров. Публикация от 5 августа 2018 года",
+      "SMM: на представленных скриншотах аккаунта — 164 → 2 954 подписчика. Публикация от 13 августа 2018 года",
+      "По подписи SMM-публикации: месяц ведения Instagram и 565 просмотров профиля"
+    ],
+    "notes": [
+      "В подписи SMM-поста указано «2 700» привлечённых людей. Эти сведения отличаются от чисел на скриншотах; они сохранены как данные исторической публикации",
+      "Цены, телефон и предложения ресторана на макетах относятся к исходным материалам 2018 года"
+    ],
+    "images": [
+      {
+        "className": "tile-brochure-cover",
+        "src": "assets/optimized/brochure-beerburger-view-1.webp",
+        "alt": "Буклет Beerburger Station: обложка и разворот, работа 2018 года без ИИ",
+        "width": 821,
+        "height": 850,
+        "label": "Буклет · обложка и разворот"
+      },
+      {
+        "className": "tile-brochure-menu",
+        "src": "assets/optimized/brochure-beerburger-view-2.webp",
+        "alt": "Разворот меню буклета Beerburger Station",
+        "width": 857,
+        "height": 855,
+        "label": "Разворот меню"
+      },
+      {
+        "className": "tile-brochure-front",
+        "src": "assets/optimized/brochure-beerburger-view-3.webp",
+        "alt": "Обложка буклета Beerburger Station",
+        "width": 860,
+        "height": 859,
+        "label": "Обложка буклета"
+      },
+      {
+        "className": "tile-print-beerburger",
+        "src": "assets/optimized/print-beerburger-source.webp",
+        "alt": "Исходная публикация от 5 августа 2018 года об офсетной печати буклета Beerburger Station",
+        "width": 1274,
+        "height": 1075,
+        "label": "Офсетная печать · исходная публикация"
+      },
+      {
+        "className": "tile-smm-beerburger",
+        "src": "assets/optimized/smm-beerburger-source.webp",
+        "alt": "Исходная SMM-публикация Beerburger Station: скриншоты с 164 и 2 954 подписчиками",
+        "width": 1247,
+        "height": 851,
+        "label": "SMM · представленные скриншоты"
+      }
+    ]
+  },
+  {
+    "id": "corks",
+    "title": "CORKS",
+    "service": "Дизайн винной карты",
+    "summary": "Винная карта CORKS Wine Bar Kitchen",
+    "sourceNote": "Пример из предоставленных материалов",
+    "text": "Пример винной карты CORKS Wine Bar Kitchen. На изображении показаны обложки и внутренние страницы раздела WINE.",
+    "notes": [
+      "В исходном изображении сохранён логотип «Хоттабыч», прежнее название агентства"
+    ],
+    "images": [
+      {
+        "className": "tile-brochure-corks",
+        "src": "assets/optimized/brochure-corks-source.webp",
+        "alt": "Винная карта CORKS Wine Bar Kitchen с исходным логотипом «Хоттабыч»",
+        "width": 857,
+        "height": 1069,
+        "label": "Винная карта"
+      }
+    ]
+  },
+  {
+    "id": "led-installation",
+    "title": "Монтаж LED-экрана",
+    "service": "Установка экранного оборудования",
+    "summary": "Монтажная конструкция и готовый экран",
+    "sourceNote": "Фотографии из предоставленных материалов",
+    "text": "Пример монтажа LED-экрана. На двух фотографиях показаны монтажная металлическая конструкция и готовый большой экран.",
+    "images": [
+      {
+        "className": "tile-led-mount",
+        "src": "assets/optimized/led-installation-source.webp",
+        "alt": "Монтажная металлическая конструкция большого LED-экрана",
+        "width": 793,
+        "height": 821,
+        "label": "Монтажная конструкция"
+      },
+      {
+        "className": "tile-led-ready",
+        "src": "assets/optimized/led-completed-source.webp",
+        "alt": "Готовый установленный LED-экран из предоставленных материалов",
+        "width": 791,
+        "height": 835,
+        "label": "Готовый экран"
+      }
+    ]
+  }
+];
+function appendRealProjectDetail(box,project){
+  if(project.notes){
+    project.notes.forEach(text=>{const note=document.createElement('p');note.className='project-detail-note';note.textContent=text;box.append(note)});
+  }
+  const gallery=document.createElement('div');gallery.className='service-case-gallery project-case-gallery';
+  project.images.forEach(photo=>{
+    const figure=document.createElement('figure');
+    const image=document.createElement('div');image.className='service-case-image '+photo.className;
+    const crop=document.createElement('span');crop.className='tile-source-crop';
+    const picture=document.createElement('img');picture.src=photo.src;picture.alt=photo.alt;picture.width=photo.width;picture.height=photo.height;picture.loading='lazy';picture.decoding='async';
+    const caption=document.createElement('figcaption');const name=document.createElement('strong');name.textContent=photo.label;caption.append(name);
+    crop.append(picture);image.append(crop);figure.append(image,caption);gallery.append(figure);
+  });
+  box.append(gallery);
+}
+
 const detail=document.querySelector('#detail');
 function showDetail(title,text,items=[],kind='Направление'){
   document.querySelector('#detail-title').textContent=title;
@@ -262,7 +509,7 @@ function showDetail(title,text,items=[],kind='Направление'){
     const intro=document.createElement('p');intro.textContent='Голографические проекции для сцен, презентаций и мероприятий';
     const figure=document.createElement('figure');figure.className='service-hologram-example';
     const crop=document.createElement('div');crop.className='service-hologram-photo';
-    const image=document.createElement('img');image.src='assets/holographic-projection-user.png';image.alt='Сценическое выступление: пример голографической проекции';image.width=1273;image.height=868;image.loading='lazy';
+    const image=document.createElement('img');image.decoding='async';image.src='assets/optimized/holographic-projection-user.webp';image.alt='Сценическое выступление: пример голографической проекции';image.width=1273;image.height=868;image.loading='lazy';
     const caption=document.createElement('figcaption');caption.textContent='Пример голографической проекции · иллюстрация формата из предоставленных материалов';
     crop.append(image);figure.append(crop,caption);box.append(intro,figure);
   }
@@ -307,31 +554,31 @@ function showDetail(title,text,items=[],kind='Направление'){
     if(title===smmServiceTitle)gallery.classList.add('smm-case-gallery');
     if(title===printServiceTitle)gallery.classList.add('print-case-gallery');
     const cases=title===ledServiceTitle?[
-      ['tile-led-mount','assets/led-installation-source.png','Монтажная конструкция LED-экрана',793,821,'Монтаж LED-экрана',''],
-      ['tile-led-ready','assets/led-completed-source.png','Установленный LED-экран',791,835,'Установленный экран','']
+      ['tile-led-mount','assets/optimized/led-installation-source.webp','Монтажная конструкция LED-экрана',793,821,'Монтаж LED-экрана',''],
+      ['tile-led-ready','assets/optimized/led-completed-source.webp','Установленный LED-экран',791,835,'Установленный экран','']
     ]:title===brochureServiceTitle?[
-      ['tile-brochure-cover','assets/brochure-beerburger-view-1.png','Буклет Beerburger Station: обложка и разворот',821,850,'Beerburger Station','Работа 2018 года, выполнена без использования искусственного интеллекта'],
-      ['tile-brochure-menu','assets/brochure-beerburger-view-2.png','Буклет Beerburger Station: разворот меню',857,855,'Разворот меню',''],
-      ['tile-brochure-front','assets/brochure-beerburger-view-3.png','Буклет Beerburger Station: обложка',860,859,'Обложка буклета',''],
-      ['tile-brochure-corks','assets/brochure-corks-source.png','CORKS: винная карта, с логотипом Хоттабыч в исходном изображении',857,1069,'CORKS · Винная карта','']
+      ['tile-brochure-cover','assets/optimized/brochure-beerburger-view-1.webp','Буклет Beerburger Station: обложка и разворот',821,850,'Beerburger Station','Работа 2018 года, выполнена без использования искусственного интеллекта'],
+      ['tile-brochure-menu','assets/optimized/brochure-beerburger-view-2.webp','Буклет Beerburger Station: разворот меню',857,855,'Разворот меню',''],
+      ['tile-brochure-front','assets/optimized/brochure-beerburger-view-3.webp','Буклет Beerburger Station: обложка',860,859,'Обложка буклета',''],
+      ['tile-brochure-corks','assets/optimized/brochure-corks-source.webp','CORKS: винная карта, с логотипом Хоттабыч в исходном изображении',857,1069,'CORKS · Винная карта','']
     ]:title===slimServiceTitle?[
-      ['tile-slim-frame','assets/slim-frame-source.png','Настенная световая панель: фреймлайт из предоставленных материалов',858,482,'Фреймлайт',''],
-      ['tile-slim-crystal','assets/slim-crystal-source.png','Настенная световая панель: кристалайт из предоставленных материалов',846,479,'Кристалайт','']
+      ['tile-slim-frame','assets/optimized/slim-frame-source.webp','Настенная световая панель: фреймлайт из предоставленных материалов',858,482,'Фреймлайт',''],
+      ['tile-slim-crystal','assets/optimized/slim-crystal-source.webp','Настенная световая панель: кристалайт из предоставленных материалов',846,479,'Кристалайт','']
     ]:title===smmServiceTitle?[
-      ['tile-smm-beerburger','assets/smm-beerburger-source.png','Beerburger Station: представленные скриншоты с 164 и 2 954 подписчиками',1247,851,'Beerburger Station · пример продвижения, 2018 год','На представленных скриншотах: 164 → 2 954 подписчика. По публикации агентства — месяц работы']
+      ['tile-smm-beerburger','assets/optimized/smm-beerburger-source.webp','Beerburger Station: представленные скриншоты с 164 и 2 954 подписчиками',1247,851,'Beerburger Station · пример продвижения, 2018 год','На представленных скриншотах: 164 → 2 954 подписчика. По публикации агентства — месяц работы']
     ]:title===printServiceTitle?[
-      ['tile-print-beerburger','assets/print-beerburger-source.png','Исторический пример офсетного буклета Beerburger Station',1274,1075,'Beerburger Station · офсетная печать, 2018 год','Офсетная печать · 5 000 экземпляров. По публикации агентства от 5 августа 2018 года']
+      ['tile-print-beerburger','assets/optimized/print-beerburger-source.webp','Исторический пример офсетного буклета Beerburger Station',1274,1075,'Beerburger Station · офсетная печать, 2018 год','Офсетная печать · 5 000 экземпляров. По публикации агентства от 5 августа 2018 года']
     ]:[
-      ['tile-signage-bank','assets/post-bank-source.png','Световая вывеска «ПОЧТА БАНК»',805,643,'Почта Банк',''],
-      ['tile-signage-restaurant','assets/signage-source.png','Световая вывеска ресторана «Есть хинкали • Пить вино» с водяными знаками HOTABYCH',1271,852,'Есть хинкали • Пить вино','Сочи. Световые объёмные буквы на подложке с европейскими диодами. В публикации о проекте указана гарантия 5 лет'],
-      ['tile-signage-hermes','assets/hermes-source.png','Световая вывеска Hermès',792,631,'Hermès','Световая вывеска'],
-      ['tile-signage-rasputin','assets/rasputin-source.png','Световая вывеска «РАСПУТИН» с водяными знаками HOTABYCH',856,635,'Распутин','Световая вывеска']
+      ['tile-signage-bank','assets/optimized/post-bank-source.webp','Световая вывеска «ПОЧТА БАНК»',805,643,'Почта Банк',''],
+      ['tile-signage-restaurant','assets/optimized/signage-source.webp','Световая вывеска ресторана «Есть хинкали • Пить вино» с водяными знаками HOTABYCH',1271,852,'Есть хинкали • Пить вино','Сочи. Световые объёмные буквы на подложке с европейскими диодами. В публикации о проекте указана гарантия 5 лет'],
+      ['tile-signage-hermes','assets/optimized/hermes-source.webp','Световая вывеска Hermès',792,631,'Hermès','Световая вывеска'],
+      ['tile-signage-rasputin','assets/optimized/rasputin-source.webp','Световая вывеска «РАСПУТИН» с водяными знаками HOTABYCH',856,635,'Распутин','Световая вывеска']
     ];
     cases.forEach(([className,src,alt,width,height,title,description])=>{
       const figure=document.createElement('figure');
       const image=document.createElement('div');image.className='service-case-image '+className;
       const crop=document.createElement('span');crop.className='tile-source-crop';
-      const picture=document.createElement('img');picture.src=src;picture.alt=alt;picture.width=width;picture.height=height;
+      const picture=document.createElement('img');picture.decoding='async';picture.src=src;picture.alt=alt;picture.width=width;picture.height=height;picture.loading='lazy';
       crop.append(picture);image.append(crop);
       const caption=document.createElement('figcaption');
       const name=document.createElement('strong');name.textContent=title;caption.append(name);
@@ -340,6 +587,7 @@ function showDetail(title,text,items=[],kind='Направление'){
     });
     box.append(gallery);
   }
+  if(kind==='Кейс'){const project=projects.find(project=>project.title===title);if(project&&!project.summit)appendRealProjectDetail(box,project)}
   if(title===marketplaceServiceTitle){
     const note=document.createElement('p');
     note.textContent='Включены промежуточные правки и 3 небольшие финальные корректировки';
@@ -375,16 +623,16 @@ const servicePhotos={
   'Наружная реклама и вывески':['assets/outdoor-sochi-airport.jpg','Рекламная конструкция у аэропорта Сочи',1323,993],
   'Видеоэкраны и динамическая реклама':['assets/service-selected-09-screens.jpg','Архивная иллюстрация рекламного LED-экрана на Эстонской улице, 39, Сочи',772,579],
   [robotServiceTitle]:['assets/bellabot-real-restaurant.jpg','Сервисный робот BellaBot',1208,809],
-  [ledServiceTitle]:['assets/led-installation-source.png','Монтажная конструкция LED-экрана',793,821],
-  'МАФ и благоустройство':['assets/service-selected-07-maf.jpg','Скамейки в парке Сосенки, Москва: тематическая иллюстрация благоустройства',3140,2096],
-  'Регистрация товарного знака':['assets/trademark-rospatent-user.png','Роспатент — Федеральная служба по интеллектуальной собственности: изображение предоставлено пользователем',1200,800]
+  [ledServiceTitle]:['assets/optimized/led-installation-source.webp','Монтажная конструкция LED-экрана',793,821],
+  'МАФ и благоустройство':['assets/optimized/service-selected-07-maf-1570.webp','Скамейки в парке Сосенки, Москва: тематическая иллюстрация благоустройства',3140,2096],
+  'Регистрация товарного знака':['assets/optimized/trademark-rospatent-user.webp','Роспатент — Федеральная служба по интеллектуальной собственности: изображение предоставлено пользователем',1200,800]
 };
 const screenshotCards={
-  [marketplaceServiceTitle]:['tile-marketplace','assets/marketplace-source.png','Пример товарной инфографики на экране телефона',1285,924],
-  [signageServiceTitle]:['tile-signage-bank','assets/post-bank-source.png','Световая вывеска «ПОЧТА БАНК»',805,643],
-  [brochureServiceTitle]:['tile-brochure-cover','assets/brochure-beerburger-view-1.png','Буклет Beerburger Station: обложка и разворот',821,850],
-  [slimServiceTitle]:['tile-slim-frame','assets/slim-frame-source.png','Настенная световая SLIM-панель',858,482],
-  [smmServiceTitle]:['tile-smm-beerburger','assets/smm-beerburger-source.png','Beerburger Station: пример продвижения в соцсетях, 2018 год',1247,851]
+  [marketplaceServiceTitle]:['tile-marketplace','assets/optimized/marketplace-source.webp','Пример товарной инфографики на экране телефона',1285,924],
+  [signageServiceTitle]:['tile-signage-bank','assets/optimized/post-bank-source.webp','Световая вывеска «ПОЧТА БАНК»',805,643],
+  [brochureServiceTitle]:['tile-brochure-cover','assets/optimized/brochure-beerburger-view-1.webp','Буклет Beerburger Station: обложка и разворот',821,850],
+  [slimServiceTitle]:['tile-slim-frame','assets/optimized/slim-frame-source.webp','Настенная световая SLIM-панель',858,482],
+  [smmServiceTitle]:['tile-smm-beerburger','assets/optimized/smm-beerburger-source.webp','Beerburger Station: пример продвижения в соцсетях, 2018 год',1247,851]
 };
 const serviceCardIds={
   [mediaServiceTitle]:'media-card',
@@ -402,7 +650,7 @@ const serviceCardIds={
   'Видеоэкраны и динамическая реклама':'screen-placement-card'
 };
 const spriteColumns=[[2,270],[274,531],[535,816],[821,1097],[1102,1381],[1386,1645],[1650,1914]];
-services.forEach(x=>{
+services.forEach((x,index)=>{
   const frame=serviceImageFrames[x[0]],tile=makeTile(x,frame??0),img=tile.querySelector('.tile-image');
   if(frame!==undefined){
     const [left,right]=spriteColumns[frame%7],top=frame<7?2:412,width=right-left,height=frame<7?406:407;
@@ -413,40 +661,39 @@ services.forEach(x=>{
   const photo=servicePhotos[x[0]];
   if(photo){
     img.classList.add('tile-photo');img.removeAttribute('aria-hidden');
-    const picture=document.createElement('img');
+    const picture=document.createElement('img');picture.decoding='async';
     [picture.src,picture.alt,picture.width,picture.height]=photo;
+    if(x[0]==='МАФ и благоустройство'){
+      picture.srcset='assets/optimized/service-selected-07-maf-785.webp 785w, assets/optimized/service-selected-07-maf-1570.webp 1570w';
+      picture.sizes='(max-width: 700px) calc((90vw - 16px) / 2), (min-width: 1600px) 359px, calc((92.6vw - 48px) / 4)';
+    }
     picture.loading='lazy';img.append(picture);
   }
   const screenshot=screenshotCards[x[0]];
   if(screenshot){
     img.classList.add(screenshot[0]);img.removeAttribute('aria-hidden');
     const crop=document.createElement('span');crop.className='tile-source-crop';
-    const picture=document.createElement('img');
+    const picture=document.createElement('img');picture.decoding='async';
     [picture.src,picture.alt,picture.width,picture.height]=screenshot.slice(1);
     picture.loading='lazy';crop.append(picture);img.append(crop);
   }
   if(x[0]===mediaServiceTitle){
     img.classList.add('tile-media');img.removeAttribute('aria-hidden');
-    const logo=document.createElement('img');logo.className='tile-media-logo';logo.src='assets/the-village-header.png';logo.alt='The Village+ | Юг';logo.loading='lazy';logo.width=697;logo.height=184;
+    const logo=document.createElement('img');logo.decoding='async';logo.className='tile-media-logo';logo.src='assets/the-village-header.png';logo.alt='The Village+ | Юг';logo.loading='lazy';logo.width=697;logo.height=184;
     const sample=document.createElement('div');sample.className='tile-media-sample';
-    const picture=document.createElement('img');picture.src='assets/the-village-page-branding.png';picture.alt='Пример брендированной страницы онлайн-медиа The Village из презентации';picture.loading='lazy';picture.width=776;picture.height=411;
+    const picture=document.createElement('img');picture.decoding='async';picture.src='assets/the-village-page-branding.png';picture.alt='Пример брендированной страницы онлайн-медиа The Village из презентации';picture.loading='lazy';picture.width=776;picture.height=411;
     sample.append(picture);img.append(logo,sample);
   }
   const cardId=serviceCardIds[x[0]];
   if(cardId)labelDialogCard(tile.querySelector('button'),tile.querySelector('h3'),cardId);
-  if(x[0]===marketplaceServiceTitle){
-    const badges=document.createElement('div');badges.className='service-card-badges';
-    ['Более 8 лет опыта дизайнеров','Более 795 выполненных работ'].forEach(text=>{const badge=document.createElement('span');badge.textContent=text;badges.append(badge)});
-    tile.append(badges);
-  }
   document.querySelector('.service-grid').append(tile);
 });
 function addCampaignImage(image){
   image.classList.add('campaign-image');image.removeAttribute('aria-hidden');image.style.backgroundImage='none';
-  const picture=document.createElement('img');picture.src='assets/service-selected-05-events.jpg';picture.alt='Тематическая иллюстрация конференции, не фотография блокчейн-саммита';picture.width=1400;picture.height=1000;picture.loading='lazy';
+  const picture=document.createElement('img');picture.decoding='async';picture.src='assets/service-selected-05-events.jpg';picture.alt='Тематическая иллюстрация конференции, не фотография блокчейн-саммита';picture.width=1400;picture.height=1000;picture.loading='lazy';
   const badges=document.createElement('div');badges.className='campaign-channel-badges';
   [['assets/tnt-logo-official.png','ТНТ — телеканал рекламной кампании',794,261],['assets/ctc-logo.svg','СТС — телеканал рекламной кампании',755,279]].forEach(([src,alt,width,height])=>{
-    const logo=document.createElement('img');logo.className='campaign-channel-logo';logo.src=src;logo.alt=alt;logo.width=width;logo.height=height;logo.loading='lazy';badges.append(logo);
+    const logo=document.createElement('img');logo.decoding='async';logo.className='campaign-channel-logo';logo.src=src;logo.alt=alt;logo.width=width;logo.height=height;logo.loading='lazy';badges.append(logo);
   });
   image.append(picture,badges);
 }
@@ -459,18 +706,23 @@ solutions.forEach((x,i)=>{
   if(x[0]===promotionSolutionTitle){labelDialogCard(tile.querySelector('button'),tile.querySelector('h3'),'solution-card-'+i);addCampaignImage(tile.querySelector('.tile-image'));addCampaignCaption(tile.querySelector('button'),true)}
   document.querySelector('.solution-grid').append(tile);
 });
-projects.forEach(x=>{
+projects.forEach(project=>{
   const button=document.createElement('button');button.className='project-card';
-  const image=document.createElement('div');image.className='project-picture';addCampaignImage(image);
+  const image=document.createElement('div');image.className='project-picture';
+  if(project.summit){addCampaignImage(image)}else{
+    const photo=project.images[0];image.classList.add('project-source-picture',photo.className);image.style.backgroundImage='none';
+    const crop=document.createElement('span');crop.className='tile-source-crop';
+    const picture=document.createElement('img');picture.src=photo.src;picture.alt=photo.alt;picture.width=photo.width;picture.height=photo.height;picture.loading='lazy';picture.decoding='async';crop.append(picture);image.append(crop);
+  }
   const copy=document.createElement('div');copy.className='project-copy';
-  const heading=document.createElement('h3');heading.textContent=x[0];
-  const service=document.createElement('p');service.textContent=x[1];
-  const result=document.createElement('p');result.className='project-result';result.textContent='1 000 ожидали · 2 000 гостей';
-  const source=document.createElement('p');source.className='project-source-note';source.textContent='По данным агентства';
+  const heading=document.createElement('h3');heading.textContent=project.title;
+  const service=document.createElement('p');service.textContent=project.service;
+  const summary=document.createElement('p');summary.className=project.summit?'project-result':'project-summary';summary.textContent=project.summary;
+  const source=document.createElement('p');source.className='project-source-note';source.textContent=project.sourceNote;
   const open=document.createElement('span');open.className='project-open';open.textContent='Подробнее о кейсе →';
-  copy.append(heading,service,result,source);addCampaignCaption(copy);copy.append(open);
-  button.append(image,copy);labelDialogCard(button,heading,'summit-project-card');
-  button.addEventListener('click',()=>showDetail(x[0],x[1],[],'Кейс'));
+  copy.append(heading,service,summary,source);if(project.summit)addCampaignCaption(copy);copy.append(open);
+  button.append(image,copy);labelDialogCard(button,heading,project.id+'-project-card');
+  button.addEventListener('click',()=>showDetail(project.title,project.text,project.facts??[],'Кейс'));
   document.querySelector('.project-grid').append(button);
 });
 const about=()=>showDetail('RA XOTT','Рекламное агентство полного цикла из Сочи Рабочая структура объединяет брендинг, производство, размещение рекламы, digital, контент, события и мультимедиа',['Основательница - Любовь Безус','Состав команды и партнёров уточняется под проект','Личный проект основательницы - bezuslove']);document.querySelector('#about-open').addEventListener('click',about);
